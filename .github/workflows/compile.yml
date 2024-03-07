@@ -1,0 +1,9 @@
+name: Build LaTeX documents
+on:
+  - push
+permissions:
+  contents: write
+jobs:
+  build:
+    name: Build LaTeX documents
+    uses: istqborg/istqb_product_base/.github/workflows/compile.yml@main
