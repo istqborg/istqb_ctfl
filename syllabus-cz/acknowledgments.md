@@ -14,7 +14,7 @@ ISTQB® Working Group Foundation Level (verze 2007): Thomas Müller (předseda),
 
 ISTQB® Working Group Foundation Level (verze 2005): Thomas Müller (předseda), Rex Black, Sigrid Eldh, Dorothy Graham, Klaus Olsen, Maaret Pyhäjärvi, Geoff Thompson a Erik van Veendendal. Klíčový tým děkuje týmu revidujících a všem lokálním výborům za návrhy.
 
-# Poděkování (CaSTB) {-}
+# Poděkování (CaSQB) {-}
 
 Překlad do českého jazyka, verze v4.0: David Janota, Petr Neugebauer a Lukáš Piška (překlad), Miroslav Renda a Pavel Herout (revize).
 

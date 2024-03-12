@@ -10,7 +10,7 @@
 | ISTQB® CTFL 2018 CZ 1.0.0 | 4.2.2019 | Oficiální vydání 1.0.0. |
 | ISTQB® CTFL 2018 CZ Beta | 9.1.2019 | Beta verze pro členy a partnery CaSTB. |
 
-# Historie změn (anglický originál)
+# Historie změn (anglický originál) {- .revision-history}
 
 | **Verze** | **Datum** | **Poznámka** |
 | --- | --- | --- |

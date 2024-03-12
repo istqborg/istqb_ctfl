@@ -62,7 +62,7 @@ Na začátku každé kapitoly (těsně pod názvem kapitoly) je uveden seznam kl
 
 ## Certifikační zkouška základní úrovně
 
-Zkouška pro získání certifikátu základní úrovně je založena na těchto učebních osnovách a odpovědi na jednotlivé otázky při certifikační zkoušce mohou vyžadovat znalosti z různých kapitol. Všechny části těchto osnov mohou být předmětem certifikační zkoušky (kromě úvodu a příloh). Normy, knihy a jiné osnovy ISTQB® jsou uvedeny jako odkazy (viz kapitola 7), ale jejich obsah není součástí zkoušky s výjimkou toho, co je z nich přímo zahrnuto v těchto osnovách. Více informací lze nalézt v dokumentu Struktury a pravidla zkoušek základní úrovně v anglickém jazyce dostupné jako Foundation Level Examination Structures and Rules.
+Zkouška pro získání certifikátu základní úrovně je založena na těchto učebních osnovách a odpovědi na jednotlivé otázky při certifikační zkoušce mohou vyžadovat znalosti z různých kapitol. Všechny části těchto osnov mohou být předmětem certifikační zkoušky (kromě úvodu a příloh). Normy, knihy a jiné osnovy ISTQB® jsou uvedeny jako odkazy (viz reference na konci dokumentu), ale jejich obsah není součástí zkoušky s výjimkou toho, co je z nich přímo zahrnuto v těchto osnovách. Více informací lze nalézt v dokumentu Struktury a pravidla zkoušek základní úrovně v anglickém jazyce dostupné jako Foundation Level Examination Structures and Rules.
 
 ## Akreditace
 
