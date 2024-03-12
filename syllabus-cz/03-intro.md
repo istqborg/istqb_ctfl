@@ -1,5 +1,4 @@
-#	Statické testování – 80 minut
-{#static-testing}
+# Statické testování – 80 minut {#static-testing}
 
 #### Klíčová slova
 

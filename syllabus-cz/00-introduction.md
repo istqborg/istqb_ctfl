@@ -52,7 +52,7 @@ FL-BO14 Efektivně reportovat o postupu a kvalitě testování.
 
 ## Přezkoumatelné studijní cíle a kognitivní úrovně znalostí
 
-Studijní cíle jsou odvozeny od profesních cílů a jsou použity k vytváření certifikačních zkoušek. Obecně lze říct, že veškerý obsah kapitol 1−6 v těchto osnovách je přezkoumatelný na úrovni K1. To znamená, že kandidát může být požádán, aby určil, zapamatoval si nebo si vybavil klíčové slovo nebo koncept z některé z šesti kapitol těchto osnov. Úrovně znalostí konkrétních studijních cílů jsou uvedeny na začátku každé kapitoly a jsou klasifikovány takto:
+Studijní cíle jsou odvozeny od profesních cílů a jsou použity k vytváření certifikačních zkoušek. Obecně lze říct, že veškerý obsah kapitol 1–6 v těchto osnovách je přezkoumatelný na úrovni K1. To znamená, že kandidát může být požádán, aby určil, zapamatoval si nebo si vybavil klíčové slovo nebo koncept z některé z šesti kapitol těchto osnov. Úrovně znalostí konkrétních studijních cílů jsou uvedeny na začátku každé kapitoly a jsou klasifikovány takto:
 
 * K1: Zapamatovat si
 * K2: Pochopit
