@@ -55,7 +55,8 @@ questions:
     learning-objective: 1.4.1
     k-level: K2
     number-of-points: 1
-    question: You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality
+    question: |
+      You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality
       Which of the following activities is a part of test analysis?
     answers: 
      a: Estimating that testing the integration with the payment service will take 8 person-days
