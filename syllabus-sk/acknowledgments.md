@@ -26,4 +26,4 @@ Preklad do slovenského jazyka, verzia 2011: Róbert Dankanin, Marek Majerník, 
 
 Preklad do slovenského jazyka, verzia 2007: Daniela Čuvarská, Róbert Dankanin, Karol Frühauf, Marek Majerník, Ľuboš Práznovský (preklad), Roman Jurkech (revízie).
 
-Hoci bolo snahou prekladateľov docieliť čo najvernejší preklad pôvodného anglického vydania, priestor pre zdokonaľovanie v takom komplexnom texte určite je a stále bude. Postrehy a podnety čitateľov preto radi uvítame e-mailom na adrese translation@castb.org.
+Hoci bolo snahou prekladateľov docieliť čo najvernejší preklad pôvodného anglického vydania, priestor pre zdokonaľovanie v takom komplexnom texte určite je a stále bude. Postrehy a podnety čitateľov preto radi uvítame e-mailom na adrese [translation@castb.org](mailto:translation@castb.org).

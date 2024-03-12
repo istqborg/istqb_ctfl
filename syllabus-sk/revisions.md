@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | ISTQB® CTFL SK 4.0.0 Beta | 15. 3. 2024 | Certifikovaný tester základnej úrovne – slovenský preklad – Beta verzia. |
 | ISTQB® CTFL SK 2018 v3.1 | 6. 4. 2020 | Nová verzia podľa ISTQB® CTFL v3.1. Opravy preklepov a formátovania. |
-| ISTQB® CTFL SK 2018 v3.1 Beta 1 | 19. 2. 2020 | Aktualizácia verzie 2018 podľa ISTQB® CTFL verzie 3.1. Prispôsobenie verzovania pôvodných ISTQB® materiálov. |
+| ISTQB® CTFL SK 2018 v3.1 Beta 1 | 19. 2. 2020 | Aktualizácia verzie 2018 podľa ISTQB® CTFL verzie 3.1. % Prispôsobenie verzovania pôvodných ISTQB® materiálov. |
 | ISTQB® CTFL SK 2018 v2.1 Beta 1 | 3. 2. 2020 | Nový slovenský preklad verzie 2018 s grafickými úpravami. |
 | ISTQB® CTFL SK 2018 v1.2 Alfa 2 | 30. 1. 2020 | Nový slovenský preklad verzie 2018 s jazykovými korekciami. |
 | ISTQB® CTFL SK 2018 v1.1 Alfa 1 | 12. 1. 2020 | Nový slovenský preklad verzie 2018. |
@@ -14,7 +14,7 @@
 | ISTQB® CTFL SK 2007 Beta 2 | 10. 3. 2008 | Certifikovaný tester základnej úrovne – slovenský preklad – Beta 2. |
 | ISTQB® CTFL SK 2007 Beta 1 | 1. 2. 2008 | Certifikovaný tester základnej úrovne – slovenský preklad – Beta 1. |
 
-# História zmien (anglická verzia)
+# História zmien (anglická verzia) {- .revision-history}
 
 | **Verzia** | **Dátum** | **Poznámka** |
 | --- | --- | --- |
