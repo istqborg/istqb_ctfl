@@ -8,9 +8,9 @@ Testovanie softvéru je sada činností, ktorých cieľom je odhaľovanie defekt
 
 Testovanie môže byť dynamické alebo statické. Dynamické testovanie vyžaduje spustenie testovaného softvéru, zatiaľ čo statické testovanie spustenie nevyžaduje. Statické testovanie zahŕňa revízie (pozri <#section:static-testing>) a statickú analýzu. Dynamické testovanie používa rôzne techniky testovania a prístupy k testovaniu s cieľom definovať testovacie prípady (pozri <#section:organizational-test-strategy-in-a-value-driven-organization>).
 
-Testovanie nie je len technická činnosť. Rovnako je potrebné ho riadne plánovať, riadiť, odhadovať, monitorovať a kontrolovať (pozri <#section:testPpocesses-strategy-in-a-value-driven-organization>).
+Testovanie nie je len technická činnosť. Rovnako je potrebné ho riadne plánovať, riadiť, odhadovať, monitorovať a kontrolovať (pozri <#section:test-processes-strategy-in-a-value-driven-organization>).
 
-Testeri síce používajú pri testovaní nástroje (pozri <#section:testTools>), ale je dôležité si uvedomiť, že testovanie je hlavne intelektuálna činnosť. Pri nej je potrebné, aby testeri mali špecializované znalosti, používali analytické zručnosti a aplikovali kritické a systémové myslenie ([@myers2011art],[@roman2018thinking]).
+Testeri síce používajú pri testovaní nástroje (pozri <#section:test-tools>), ale je dôležité si uvedomiť, že testovanie je hlavne intelektuálna činnosť. Pri nej je potrebné, aby testeri mali špecializované znalosti, používali analytické zručnosti a aplikovali kritické a systémové myslenie ([@myers2011art],[@roman2018thinking]).
 
 Testeři sice používají při testování nástroje (viz), ale je důležité si uvědomit, že testování je hlavně intelektuální činnost. Při ní je potřebné, aby testeři měli specializované znalosti, používali analytické dovednosti a aplikovali kritické a systémové myšlení ([@myers2011art],[@roman2018thinking]).
 
