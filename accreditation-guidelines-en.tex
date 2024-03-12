@@ -1,0 +1,29 @@
+\documentclass{istqb}
+\usepackage{markdown}
+\markdownSetup{
+  import = {
+    istqb/syllabus = metadata
+  }
+}
+
+% Metadata
+\markdownInput[snippet=metadata]{accreditation-guidelines-en/metadata.yml}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright
+\markdownInput{accreditation-guidelines-en/copyright.md}
+
+% Revision History
+\markdownInput{accreditation-guidelines-en/revisions.md}
+
+% Table of Contents
+\istqbtableofcontents
+
+% Document Content
+\markdownInput{accreditation-guidelines-en/accreditation-guidelines.md}
+
+\end{document}
