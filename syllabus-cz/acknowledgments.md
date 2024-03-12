@@ -1,0 +1,29 @@
+# Poděkování (ISTQB®)
+
+Tento dokument byl formálně vydán Valným shromážděním ISTQB® dne 21.4.2023. Byl sepsán společným týmem pracovních skupin ISTQB® Foundation Level a Agile Working Groups ve složení: Laura Albert, Renzo Cerquozzi (místopředseda), Wim Decoutere, Klaudia Dussa-Zieger, Chintaka Indikadahena, Arnika Hryszko, Martin Klonk, Kenji Onishi, Michaël Pilaeten (místopředseda), Meile Posthuma, Gandhinee Rajkomar, Stuart Reid, Eric Riou du Cosquer (místopředseda), Jean-François Riverin, Adam Roman, Lucjan Stapp, Stephanie Ulrich (místopředsedkyně), Eshraka Zakaria. Tým děkuje Stuartu Reidovi, Patricii McQuaidové a Leanne Howardové za technickou revizi a reviznímu týmu a lokálním výborům za jejich návrhy a příspěvky.
+
+Na revizi, přípomínkování a hlasování o těchto učebních osnovách se podíleli tito lidé: Adam Roman, Adam Scierski, Ágota Horváth, Ainsley Rood, Ale Rebon Portillo, Alessandro Collino, Alexander Alexandrov, Amanda Logue, Ana Ochoa, André Baumann, André Verschelling, Andreas Spillner, Anna Miazek, Armin Born, Arnd Pehl, Arne Becher, Attila Gyúri, Attila Kovács, Beata Karpinska, Benjamin Timmermans, Blair Mo, Carsten Weise, Chinthaka Indikadahena, Chris Van Bael, Ciaran O'Leary, Claude Zhang, Cristina Sobrero, Dandan Zheng, Dani Almog, Daniel Säther, Daniel van der Zwan, Danilo Magli, Darvay Tamás Béla, Dawn Haynes, Dena Pauletti, Dénes Medzihradszky, Doris Dötzer, Dot Graham, Edward Weller, Erhardt Wunderlich, Eric Riou Du Cosquer, Florian Fie Fran O'Hara, François Vaillancourt, Frans Dijkman, Gabriele Haller, Gary Mogyorodi, Georg Sehl, Géza Bujdosó, Giancarlo Tomasig, Giorgio Pisani, Gustavo Marquez Sosa, Helmut Pichler, Hongbao Zhai, Horst Pohljottermans, Ignacio, Ignaci , Ingvar Nordström, Iosif Itkin, Jamie Mitchell, Jan Giesen, Jean-Francois Riverin, Joanna Kazun, Joanne Tremblay, Joëlle Genois, Johan Klintin, John Kurowski, Jörn Munzel, Judy McKay, Jürgen Beniermann, Karol Frühauf, Kevin Katalin , Klaudia Dussa-Zieger, Klaus Erlenbach, Klaus Olsen, Krisztián Miskó, Laura Albert, Liang Ren, Lijuan Wang, Lloyd Roden, Lucjan Stapp, Mahmoud Khalaili, Marek Majernik, Maria Clara Choucair, Mark Rutz, Markus Niehammer, Martin Klonk, Márton Siska, Matthew Gregg, Matthias Hamburg, Mattijs Kemmink, Maud Schlich, May Abu-Sbeit, Meile Posthuma, Mette Bruhn-Pedersen, Michal Tal, Michel Boies, Mike Smith, Miroslav Renda, Mohsen Ekssir, Monika Stocklein Olsen, Murian Song, Nicola De Rosa, Nikita Kalyani, Nishan Portoyan, Nitzan Goldenberg, Ole Chr. Hansen, Patricia McQuaid, Patricia Osorio, Paul Weymouth, Pawel Kwasik, Peter Zimmerer, Petr Neugebauer, Piet de Roo, Radoslaw Smilgin, Ralf Bongard, Ralf Reissing, Randall Rice , Rik Marselis, Rogier Ammerlaan, Sabine Gschwandtner, Sabine Uhde, Salinda Wickramasinghe, Salvatore Reale, Sammy Kolluru, Samuel Ouko, Stephanie Ulrich, Stuart Reid, Surabhi Bellani, Szilard Szell, Tamás Gergely, Par Tatiana Tahidu Thahideva, Mustafa, Thomas Eisbrenner, Thomas Harms, Thomas Heller, Tobias Letzkus, Tomas Rosenqvist, Werner Lieblang, Yaron Tsubery, Zhenlei Zuo a Zsolt Hargitai.
+
+ISTQB® Working Group Foundation Level (verze 2018): Klaus Olsen (předseda), Tauhida Parveen (místopředseda), Rex Black (projektový manažer), Dani Almog, Debra Friedenberg,Rashed Karim, Johan Klintin, Vipul Kocher, Corne Kruger, Sunny Kwon, Judy McKay, Thomas Müller, Igal Levi, Ebbe Munk, Kenji Onishi, Meile Posthuma, Eric Riou du Cosquer, Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms, Stephanie Ulrich, Marie Walsh, Eshraka Zakaria, a Stevan Zivanovic. Tým děkuje týmu revidujících a všem lokálním výborům za návrhy k současným učebním osnovám.
+
+ISTQB® Working Group Foundation Level (verze 2011): Thomas Müller (předseda), Debra Friedenberg. Klíčový tým děkuje týmu revidujících (Dan Almog, Armin Beer, Rex Black, Julie Gardiner, Judy McKay, Tuula Pääkkönen, Eric Riou du Cosquer, Hans Schaefer, Stephanie Ulrich, Erik van Veenendaal) a všem lokálním výborům za návrhy k současným učebním osnovám.
+
+ISTQB® Working Group Foundation Level (verze 2010): Thomas Müller (předseda), Rahul Verma, Martin Klonk a Armin Beer. Klíčový tým děkuje týmu revidujících (Rex Black, Mette Bruhn-Pederson, Debra Friedenberg, Klaus Olsen, Tuula Pääkönen, Meile Posthuma, Hans Schaefer, Stephanie Ulrich, Pete Williams, Erik van Veendendaal) a všem lokálním výborům za jejich připomínky.
+
+ISTQB® Working Group Foundation Level (verze 2007): Thomas Müller (předseda), Dorothy Graham, Debra Friedenberg a Erik van Veendendaal. Klíčový tým děkuje týmu revidujících (Hans Schaefer, Stephanie Ulrich, Meile Posthuma, Anders Pettersson a Wonil Kwon) a všem lokálním výborům za návrhy.
+
+ISTQB® Working Group Foundation Level (verze 2005): Thomas Müller (předseda), Rex Black, Sigrid Eldh, Dorothy Graham, Klaus Olsen, Maaret Pyhäjärvi, Geoff Thompson a Erik van Veendendal. Klíčový tým děkuje týmu revidujících a všem lokálním výborům za návrhy.
+
+# Poděkování (CaSTB) {-}
+
+Překlad do českého jazyka, verze v4.0: David Janota, Petr Neugebauer a Lukáš Piška (překlad), Miroslav Renda a Pavel Herout (revize).
+
+Překlad do českého jazyka, verze 2018 v3.1: David Janota, Petr Neugebauer a Miroslav Renda.
+
+Překlad do českého jazyka, verze 2018 v1.0: David Janota, Petr Neugebauer a Miroslav Renda (překlad) a Karol Frühauf, Pavel Herout, Tereza Kuco, Martin Malaník, Lukáš Piška a Jana Zientková (revize).
+
+Překlad do českého jazyka, verze 2011: David Janota, Petr Neugebauer, Jana Podpěrová, Gabor Puhalla, Lukáš Piška, Miroslav Renda a Jana Zientková.
+
+Překlad do českého jazyka, verze 2007: Alexandra Alvarová, Róbert Dankanin, Petr Neugebauer, Jana Podpěrová, Jana Zientková.
+
+Byť bylo snahou překladatelů docílit co nejvěrnějšího překladu původního anglického vydání, prostor pro zdokonalování v tak komplexním textu jistě je a stále bude. Postřehy a podněty čtenářů proto rádi uvítáme e-mailem na adrese [translation@castb.org](mailto:translation@castb.org).
