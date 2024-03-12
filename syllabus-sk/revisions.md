@@ -1,4 +1,4 @@
-# História zmien (slovenská verzia) {.revision-history}
+# História zmien (slovenská verzia)  {- .revision-history}
 
 | **Verzia** | **Dátum** | **Poznámka** |
 | --- | --- | --- |

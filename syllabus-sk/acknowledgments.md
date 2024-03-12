@@ -1,4 +1,4 @@
-# Poďakovanie (ISTQB®)
+# Poďakovanie (ISTQB®)  {-}
 
 Tento dokument bol formálne vydaný Valným zhromaždením ISTQB® dňa 21. 4. 2023. Bol spísaný spoločným tímom pracovných skupín ISTQB® Foundation Level a Agile Working Groups v zložení: Laura Albert, Renzo Cerquozzi (podpredseda), Wim Decoutere, Klaudia Dussa-Zieger, Chintaka Indikadahena, Arnika Hryszko, Martin Klonk, Kenji Onishi, Michaël Pilaeten (predseda), Meile Posthuma, Gandhinee Rajkomar, Gandhinee Rajkomar, Stuart Reid, Eric Riou du Cosquer (predseda), Jean-François Riverin, Adam Roman, Lucjan Stapp, Stephanie Ulrich (podpredsedníčka), Eshraka Zakaria. Tím ďakuje Stuartovi Reidovi, Patrícii McQuaidovej a Leanne Howardovej za technickú revíziu a revíznemu tímu a členským výborom za ich návrhy a príspevky.
 

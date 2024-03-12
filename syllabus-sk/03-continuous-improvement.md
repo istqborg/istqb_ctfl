@@ -30,7 +30,7 @@ Niektoré defekty v kóde je možné odhaliť pomocou statickej analýzy oveľa 
 ### Rozdíly mezi statickým a dynamickým testováním
 
 Statické a dynamické testovacie postupy sa vzájomne dopĺňajú. Majú podobné ciele (napr. odhaľovanie defektov  
-v pracovných produktoch, pozri kapitolu 1.1.1), ale existujú medzi nimi aj určité rozdiely, napríklad:
+v pracovných produktoch, pozri <#section:typical-testing-objectives>), ale existujú medzi nimi aj určité rozdiely, napríklad:
 
 * Ako statické, tak aj dynamické testovanie (vrátane analýzy zlyhania) môže viesť k odhaleniu defektu, avšak existujú niektoré typy defektov, ktoré možno nájsť buď len statickým alebo iba dynamickým testovaním.
 * Statické testovanie nájde defekty priamo, zatiaľ čo dynamické testovanie hľadá zlyhanie, z ktorých sú príslušné defekty určené následnou analýzou.

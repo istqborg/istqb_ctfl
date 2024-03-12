@@ -203,7 +203,7 @@ Správne používateľské scenáre by mali byť tzv. INVEST: nezávislé (Indep
 
 ### Akceptačné kritériá {#acceptance-criteria}
 
-Akceptačné kritériá pre používateľský scenár sú podmienky, ktoré musí jeho implementácia spĺňať, aby bola akceptovaná zainteresovanými stranami. Z tohto hľadiska je možné na ne pozerať ako na testovacie podmienky, ktoré by mali testy preveriť. Akceptačné kritériá sú zvyčajne výsledkom konverzácie (pozri kapitolu 4.5.1).
+Akceptačné kritériá pre používateľský scenár sú podmienky, ktoré musí jeho implementácia spĺňať, aby bola akceptovaná zainteresovanými stranami. Z tohto hľadiska je možné na ne pozerať ako na testovacie podmienky, ktoré by mali testy preveriť. Akceptačné kritériá sú zvyčajne výsledkom konverzácie (pozri <#section:co-writing-user-scenarios>).
 
 Akceptačné kritériá sa používajú na:
 

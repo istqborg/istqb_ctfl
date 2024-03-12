@@ -65,7 +65,7 @@ Akonáhle sú testovacie prípady a testovacie procedúry vytvorené a zostaven�
 
 Pri stanovení priorít testovacích prípadov je možné zohľadniť rôzne faktory. Najčastejšie používané stratégie prioritizácie testovacích prípadov sú nasledujúce:
 
-* **Prioritizácia na základe rizík**, kedy poradie vykonávania testov vychádza z výsledkov analýzy rizík (pozri kapitolu 5.2.3). Najprv sa vykonajú testovacie prípady pokrývajúce najdôležitejšie riziká.
+* **Prioritizácia na základe rizík**, kedy poradie vykonávania testov vychádza z výsledkov analýzy rizík (pozri <#section:product-risks-analysis>). Najprv sa vykonajú testovacie prípady pokrývajúce najdôležitejšie riziká.
 * **Prioritizácia na základe pokrytia**, kedy je poradie vykonávania testov založené na určitom pokrytí (napr. pokrytie príkazov). Testovacie prípady dosahujúce najvyššie pokrytie sú vykonávané ako prvé. V inom variante (nazývanom prioritizácia dodatočného pokrytia) sa najprv vykoná testovací prípad s najvyšším pokrytím. Každý nasledujúci testovací prípad je ten, ktorý dosiahne najvyššie pokrytie dodatočnej fukcionality.
 * **Prioritizácia na základe požiadaviek**, kedy poradie vykonávania testov vychádza z priorít požiadaviek trasovateľných späť k zodpovedajúcim testovacím prípadom. Priority požiadaviek definujú zainteresované strany, testovacie prípady súvisiace s najdôležitejšími požiadavkami sú vykonávané ako prvé.
 
