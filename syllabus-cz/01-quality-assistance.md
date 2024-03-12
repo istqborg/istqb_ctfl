@@ -140,16 +140,16 @@ Tyto faktory budou mít dopad na mnoho aspektů souvisejících s testováním v
 
 ### Testware
 
-Testware je definován jako výstupní pracovní produkt z testovacích činností popsaných v [kapitola 1.4.1](#section:{#test-activities-and-tasks}). V tom, jak různé organizace vytvářejí, pojmenovávají, organizují a spravují takové pracovní produkty, existují nicméně značné rozdíly. Pro podporu konzistence a integrity testwaru je důležité zajištění dobrého konfiguračního managementu (viz <#section:configuration-management>).
+Testware je definován jako výstupní pracovní produkt z testovacích činností popsaných v kapitole <#section:test-activities-and-tasks>. V tom, jak různé organizace vytvářejí, pojmenovávají, organizují a spravují takové pracovní produkty, existují nicméně značné rozdíly. Pro podporu konzistence a integrity testwaru je důležité zajištění dobrého konfiguračního managementu (viz <#section:configuration-management>).
 
 Následující seznam uvádí některé (ale ne všechny) takové typické výstupní pracovní produkty (testware):
 
 * **Pracovní produkty z plánování testování** : plán testování, harmonogram testování, registr rizik a vstupní a výstupní kritéria (viz <#section:planning-testing>). Registr rizik je seznam rizik spolu s jejich pravděpodobností, dopadem a informacemi o jejich možném zmírnění (risk mitigation), viz <#section:risk-management>. Harmonogram testování, registr rizik, vstupní a výstupní kritéria jsou často součást plánu testování.
-* **Pracovní produkty z monitoringu a řízení testování** : reporty o postupu prací při testování (viz kapitola 5.3.2), pokyny a nezbytná nápravná opatření (viz <#section:monitoring-management-completion-of-testing>) a informace o rizicích (viz kapitola 5.2).
-* **Pracovní produkty z testovací analýzy** : (prioritizované) testovací podmínky (např. akceptační kritéria, viz kapitola 4.5.2) a reporty o defektech v testovací bázi (pokud už nebyly opraveny).
+* **Pracovní produkty z monitoringu a řízení testování** : reporty o postupu prací při testování (viz <#section:purpose-content-target-of-test-reports>), pokyny a nezbytná nápravná opatření (viz <#section:monitoring-management-completion-of-testing>) a informace o rizicích (viz <#section:risk-management>).
+* **Pracovní produkty z testovací analýzy** : (prioritizované) testovací podmínky (např. akceptační kritéria, viz <#section:acceptance-criteria>) a reporty o defektech v testovací bázi (pokud už nebyly opraveny).
 * **Pracovní produkty z návrhu testů** : (prioritizované) testovací případy, testovací listiny, položky pokrytí, požadavky na testovací data a požadavky na testovací prostředí.
 * **Pracovní produkty z implementace testování** : testovací procedury, automatizované testovací skripty, testovací sady, testovací data, harmonogram provedení testů a prvky testovacího prostředí. Mezi příklady položek testovacího prostředí patří stuby, ovladače, simulátory a virtualizace služeb.
-* **Pracovní produkty z provedení testů** : protokoly z testování (test logs) a reporty o defektech (viz kapitola 5.5).
+* **Pracovní produkty z provedení testů** : protokoly z testování (test logs) a reporty o defektech (viz <#section:defects-management>).
 
 * **Pracovní produkty z dokončení testování** : souhrnný report z testování (viz <#section:purpose-content-target-of-test-reports>), akční body pro zlepšení budoucích projektů nebo iterací, zdokumentované získané poznatky (lessons learned) a změnové požadavky (např. jako položky produktového backlogu).
 
@@ -178,7 +178,7 @@ Obě role mohou být vykonávány v různých obdobích různými lidmi, napří
 
 Dovednost je schopnost dělat něco dobře a vychází z něčích znalostí, praxe a schopností. Aby mohli testeři dobře vykonávat svou práci, potřebují mít určité základní dovednosti, mimo jiné by měli být dobrými týmovými hráči a měli by být schopni pracovat v různých úrovních nezávislosti testování.
 
-#### Obecné dovednosti potřebné pro testování {#general-skills-needed-for-testing}
+### Obecné dovednosti potřebné pro testování {#general-skills-needed-for-testing}
 
 Následující dovednosti jsou sice obecné, ale pro testery obzvláště důležité:
 
