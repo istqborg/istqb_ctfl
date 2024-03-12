@@ -36,7 +36,7 @@ Ciele testovania sa môžu líšiť v závislosti od kontextu, ktorý zahŕňa f
 
 Testovanie a ladenie (debugging) sú samostatné činnosti. Testovanie môže vyvolať zlyhania, ktoré sú spôsobené defektmi v softvéri (dynamické testovanie), alebo môže priamo odhaliť defekty v testovanom objekte (statické testovanie).
 
-Zatiaľ čo dynamické testovanie (pozri kapitolu 4) sa snaží vyvolať zlyhanie, ladenie sa zaoberá hľadaním príčin takých zlyhaní (t.j. defektov), ich analýzou a ich odstránením. Typický proces ladenia v tomto prípade zahŕňa:
+Zatiaľ čo dynamické testovanie (pozri <#section:organizational-test-strategy-in-a-value-driven-organization>) sa snaží vyvolať zlyhanie, ladenie sa zaoberá hľadaním príčin takých zlyhaní (t.j. defektov), ich analýzou a ich odstránením. Typický proces ladenia v tomto prípade zahŕňa:
 
 * reprodukovanie zlyhania,
 * diagnostika (nájdenie koreňovej príčiny),
@@ -151,13 +151,14 @@ Testvér je definovaný ako výstupný pracovný produkt z testovacích činnost
 
 Nasledujúci zoznam uvádza niektoré (ale nie všetky) také typické výstupné pracovné produkty (testvér):
 
-* **Pracovné produkty z plánovania testovania:** plán testovania, harmonogram testovania, register rizík a vstupné a výstupné kritériá (pozri kapitolu 5.1). Register rizík je zoznam rizík spolu s ich pravdepodobnosťou, dopadom a informáciami o ich možnom zmiernení (risk mitigation), pozri kapitolu 5.2. Harmonogram testovania, register rizík, vstupné a výstupné kritériá sú často súčasťou plánu testovania.
-* **Pracovné produkty z monitorovania a riadenia testovania:** správy o postupe testovania (pozri kapitolu 5.3.2), pokyny a nevyhnutné nápravné opatrenia (pozri kapitolu 5.3) a informácie o rizikách (pozri kapitolu 5.2).
-* **Pracovné produkty z testovacej analýzy:** (prioritizované) testovacie podmienky (napr. akceptačné kritériá, pozri kapitolu 4.5.2) a defekty v testovacej báze (pokiaľ ešte neboli opravené).
+* **Pracovné produkty z plánovania testovania:** plán testovania, harmonogram testovania, register rizík a vstupné a výstupné kritériá (pozri <#section:planning-testing>). Register rizík je zoznam rizík spolu s ich pravdepodobnosťou, dopadom a informáciami o ich možnom zmiernení (risk mitigation), pozri kapitolu <#section:risk-management>. Harmonogram testovania, register rizík, vstupné a výstupné kritériá sú často súčasťou plánu testovania.
+* **Pracovné produkty z monitorovania a riadenia testovania:** správy o postupe testovania (pozri <#section:purpose-content-target-of-test-reports>), pokyny a nevyhnutné nápravné opatrenia (pozri <#section:monitoring-management-completion-of-testing>) a informácie o rizikách (pozri <#section:risk-management>).
+* **Pracovné produkty z testovacej analýzy:** (prioritizované) testovacie podmienky (napr. akceptačné kritériá, pozri <#section:acceptance-criteria>) a defekty v testovacej báze (pokiaľ ešte neboli opravené).
 * **Pracovné produkty z návrhu testov:** (prioritizované) testovacie prípady, testovacie listiny, položky pokrytia, požiadavky na testovacie dáta a požiadavky na testovacie prostredie.
 * **Pracovné produkty z implementácie testovania:** testovacie procedúry, automatizované testovacie skripty, testovacie sady, testovacie dáta, harmonogram prevedenia testov a prvky testovacieho prostredia. Medzi príklady položiek testovacieho prostredia patria nástavce, ovládače, simulátory a virtualizácia služieb.
-* **Pracovné produkty z vykonania testov:** protokoly testov (test logs) a reporty defektov (pozri kapitolu 5.5).
-* **Pracovné produkty z dokončenia testovania:** správa o dokončení testovania (pozri kapitolu 5.3.2), akčné body pre zlepšenie budúcich projektov alebo iterácií, zdokumentované získané poznatky (lessons learned) a zmenové požiadavky (napr. ako položky produktového backlogu).
+* **Pracovné produkty z vykonania testov:** protokoly testov (test logs) a reporty defektov (pozri <#section:defects-management>).
+* **Pracovné produkty z dokončenia testovania:** správa o dokončení testovania (pozri <#section:purpose-content-target-of-test-reports>), akčné body pre zlepšenie budúcich projektov alebo iterácií, zdokumentované získané poznatky (lessons learned) a zmenové požiadavky (napr. ako položky produktového backlogu).
+
 
 ### Sledovateľnosť medzi testovacou bázou a pracovnými produktmi z testovania
 
