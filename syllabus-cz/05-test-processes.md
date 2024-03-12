@@ -1,6 +1,6 @@
 ## Plánování testování {#planning-testing}
 
-###  Účel a obsah plánu testování
+### Účel a obsah plánu testování
 
 Plán testování popisuje cíle, zdroje a procesy testování v rámci projektu. Plán testování:
 

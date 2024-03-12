@@ -69,7 +69,7 @@ DevOps má také některá rizika a nevýhody:
 * Automatizované testy vyžadují dodatečné investice a může být obtížné je vytvořit a udržovat.
 * Přestože DevOps předpokládá vyšší rozsah automatizovaného testování, nelze opomíjet ani manuální testování, a to zejména z pohledu koncového uživatele.
 
-###  Přístup shift-left {#shift-left-approach}
+### Přístup shift-left {#shift-left-approach}
 
 Princip včasného testování (viz <#section:testing-principles>) je někdy označován jako shift-left (posun doleva ve smyslu časové osy), kdy je testování prováděno v dřívějších fázích SDLC. Shift-left doporučuje začít s testováním dříve (např. nečekat na implementaci kódu nebo na integraci komponent), ale neznamená to, že by testování v pozdějších fázích mělo být zanedbáváno.
 

@@ -1,4 +1,4 @@
-# Historie změn (česká verze) {.revision-history}
+# Historie změn (česká verze) {- .revision-history}
 
 | **Verze** | **Datum** | **Poznámka** |
 | --- | --- | --- |
