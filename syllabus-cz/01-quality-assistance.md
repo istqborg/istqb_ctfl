@@ -7,9 +7,9 @@ Další běžnou mylnou představou o testování je, že testování se zaměř
 
 Testování může být dynamické nebo statické. Dynamické testování vyžaduje spuštění testovaného softwaru, zatímco statické testování spuštění nevyžaduje. Statické testování zahrnuje revize (viz <#section:static-testing>) a statickou analýzu. Dynamické testování používá různé techniky testování a přístupy k testování s cílem definovat testovací případy (viz <#section:organizational-test-strategy-in-a-value-driven-organization>).
 
-Testování není jen technická činnost. Rovněž je třeba jej řádně plánovat, řídit, odhadovat, monitorovat a kontrolovat (viz <#section:testPpocesses-strategy-in-a-value-driven-organization>).
+Testování není jen technická činnost. Rovněž je třeba jej řádně plánovat, řídit, odhadovat, monitorovat a kontrolovat (viz <#section:test-processes-strategy-in-a-value-driven-organization>).
 
-Testeři sice používají při testování nástroje (viz <#section:testTools>), ale je důležité si uvědomit, že testování je hlavně intelektuální činnost. Při ní je potřebné, aby testeři měli specializované znalosti, používali analytické dovednosti a aplikovali kritické a systémové myšlení ([@myers2011art],[@roman2018thinking]).
+Testeři sice používají při testování nástroje (viz <#section:test-tools>), ale je důležité si uvědomit, že testování je hlavně intelektuální činnost. Při ní je potřebné, aby testeři měli specializované znalosti, používali analytické dovednosti a aplikovali kritické a systémové myšlení ([@myers2011art],[@roman2018thinking]).
 
 Další informace o konceptech testování softwaru lze nalézt v normě ČSN ISO/IEC/IEEE 29119-1 [@ISO29119-1].
 
@@ -155,7 +155,7 @@ Následující seznam uvádí některé (ale ne všechny) takové typické výst
 
 ### Trasovatelnost mezi testovací bází a pracovními produkty z testování
 
-Aby bylo možné efektivně monitorovat a řídit testování, je důležité vytvořit a následně udržovat v průběhu celého procesu testování trasovatelnost mezi každou položkou testovací báze, výstupními pracovními produkty vztaženým k této položce (testwarem − např. testovací podmínky, rizika nebo testovací případy), výsledky testů a nalezenými defekty.
+Aby bylo možné efektivně monitorovat a řídit testování, je důležité vytvořit a následně udržovat v průběhu celého procesu testování trasovatelnost mezi každou položkou testovací báze, výstupními pracovními produkty vztaženým k této položce (testwarem – např. testovací podmínky, rizika nebo testovací případy), výsledky testů a nalezenými defekty.
 
 Přesná trasovatelnost umožňuje vyhodnocovat pokrytí, takže je velmi užitečné, pokud jsou v testovací bázi pro toto pokrytí definována jeho měřitelná kritéria. Kritéria pokrytí mohou představovat jeden z klíčových ukazatelů výkonnosti (KPI – key performance indicator) pro řízení testovacích činností, která ukazují na míru dosažení cílů testování (viz <#section:typical-testing-objectives>). Například:
 
