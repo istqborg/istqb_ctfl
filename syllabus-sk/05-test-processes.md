@@ -147,8 +147,7 @@ Produktové riziká, ak sa vyskytnú, môžu mať rôzne negatívne dôsledky, n
 
 ### Analýza produktových rizík {#product-risks-analysis}
 
- hľadiska testovania je cieľom analýzy produktových rizík poskytnúť povedomie o produktových rizikách so zámerom nasmerovať testovacie úsilie tak, aby došlo k minimalizácii miery zostávajúcich rizík. V ideálnom prípade začína analýza produktových rizík v ranej fáze SDLC. Analýza produktových rizík sa skladá z identifikácie  
-a ohodnotenie rizík.
+ hľadiska testovania je cieľom analýzy produktových rizík poskytnúť povedomie o produktových rizikách so zámerom nasmerovať testovacie úsilie tak, aby došlo k minimalizácii miery zostávajúcich rizík. V ideálnom prípade začína analýza produktových rizík v ranej fáze SDLC. Analýza produktových rizík sa skladá z identifikácie a ohodnotenie rizík.
 
 **Identifikácia rizík** spočíva vo vytvorení komplexného zoznamu rizík. Zainteresované strany môžu identifikovať riziká pomocou rôznych techník a nástrojov, napr. brainstormingu, workshopov, rozhovorov alebo diagramov príčin a následkov.
 
@@ -210,8 +209,7 @@ Medzi typické testovacie metriky patria:
 
 ### Účel, obsah a cieľové skupiny správ z testovania {#purpose-content-target-of-test-reports}
 
-Cieľom podávania správ o testovaní je zhrnutie a komunikácia informácií z testovania počas jeho priebehu a po ňom. Správy o postupe testovania podporujú priebežné riadenie testovania. Musia poskytovať dostatok informácií na vykonanie zmien v harmonograme testovania, zdrojoch alebo plánu testovania, ak sú tieto zmeny potrebné  
-z dôvodu odchýlky od plánu alebo zmeny okolností. Správy o dokončení testovania sumarizujú určitú fázu testovania (napr. úroveň testovania, testovací cyklus, iteráciu) a môžu poskytnúť informácie pre následné testovanie.
+Cieľom podávania správ o testovaní je zhrnutie a komunikácia informácií z testovania počas jeho priebehu a po ňom. Správy o postupe testovania podporujú priebežné riadenie testovania. Musia poskytovať dostatok informácií na vykonanie zmien v harmonograme testovania, zdrojoch alebo plánu testovania, ak sú tieto zmeny potrebné z dôvodu odchýlky od plánu alebo zmeny okolností. Správy o dokončení testovania sumarizujú určitú fázu testovania (napr. úroveň testovania, testovací cyklus, iteráciu) a môžu poskytnúť informácie pre následné testovanie.
 
 Počas monitorovania a riadenia testovania vytvára testovací tím správy o postupe testovania s cieľom poskytovať zainteresovaným stranám informácie. Správy o postupe testovania sú obvykle generované pravidelne (napr. denne, týždenne atď.) a obsahujú:
 
@@ -232,8 +230,7 @@ Správa o dokončení testovania sa pripravuje v priebehu fázy dokončenia test
 * neošetrené riziká, nevyriešené defekty,
 * získané skúsenosti (lessons learned), ktoré sú relevantné pre testovanie.
 
-Rôzne cieľové skupiny potrebujú v týchto správach rôzne informácie a ovplyvňujú tým mieru formálnosti a frekvenciu podávania správ. Podávanie správ o postupe prác pri testovaní ostatným členom rovnakého tímu je väčšinou časté  
-a neformálne, zatiaľ čo podávanie správ o dokončení testovania z ukončeného projektu sa vykonáva typicky iba raz, a to podľa definovanej šablóny.
+Rôzne cieľové skupiny potrebujú v týchto správach rôzne informácie a ovplyvňujú tým mieru formálnosti a frekvenciu podávania správ. Podávanie správ o postupe prác pri testovaní ostatným členom rovnakého tímu je väčšinou časté a neformálne, zatiaľ čo podávanie správ o dokončení testovania z ukončeného projektu sa vykonáva typicky iba raz, a to podľa definovanej šablóny.
 
 V norme ISO/IEC/IEEE 29119-3 [@ISO29119-3] možno nájsť šablóny a príklady správ o postupe testovania (nazývané správy o stave testovania) a správ o dokončení testovania.
 
@@ -267,14 +264,11 @@ Kontinuálna integrácia, kontinuálne dodávanie, kontinuálne nasadzovanie a s
 
 ## Manažment defektov {#defects-management}
 
-Vzhľadom na to, že jedným z hlavných cieľov testovania je nájdenie defektov, je zavedenie procesu manažmentu defektov nevyhnutné. Tento proces musia dodržiavať všetky zainteresované strany a zahŕňa minimálne definíciu pracovného postupu (workflow) pre spracovanie jednotlivých anomálií od ich odhalenia až po ich uzavretie  
-a pravidlá pre ich klasifikáciu. Pracovný postup obvykle zahŕňa činnosti, ktorých cieľom je zaznamenávať nahlásené anomálie, analyzovať ich a klasifikovať, rozhodnúť o vhodnej reakcii (typicky opraviť alebo ponechať)  
-a uzavretie reportu o defekte. Anomálie môžu byť hlásené v ktorejkoľvek fáze SDLC a ich forma často závisí od použitého SDLC.
+Vzhľadom na to, že jedným z hlavných cieľov testovania je nájdenie defektov, je zavedenie procesu manažmentu defektov nevyhnutné. Tento proces musia dodržiavať všetky zainteresované strany a zahŕňa minimálne definíciu pracovného postupu (workflow) pre spracovanie jednotlivých anomálií od ich odhalenia až po ich uzavretie a pravidlá pre ich klasifikáciu. Pracovný postup obvykle zahŕňa činnosti, ktorých cieľom je zaznamenávať nahlásené anomálie, analyzovať ich a klasifikovať, rozhodnúť o vhodnej reakcii (typicky opraviť alebo ponechať) a uzavretie reportu o defekte. Anomálie môžu byť hlásené v ktorejkoľvek fáze SDLC a ich forma často závisí od použitého SDLC.
 
 Podobným spôsobom je vhodné riešiť aj defekty zistené statickým testovaním (najmä statickou analýzou).
 
-Platí, že nie všetky nahlásené anomálie musia byť nutne skutočné defekty (napr. falošne pozitívne výsledky testov alebo zmenové požiadavky). Toto vyhodnotenie je vykonávané v rámci spracovania reportu o defekte. Reporty  
-o defekte majú obvykle nasledujúce ciele:
+Platí, že nie všetky nahlásené anomálie musia byť nutne skutočné defekty (napr. falošne pozitívne výsledky testov alebo zmenové požiadavky). Toto vyhodnotenie je vykonávané v rámci spracovania reportu o defekte. Reporty o defekte majú obvykle nasledujúce ciele:
 
 * Poskytovať osobám zodpovedným za spracovanie a riešenie hlásených defektov dostatočné informácie pre vyriešenie problému.
 * Poskytovať spôsob sledovania kvality pracovného produktu.
@@ -294,5 +288,4 @@ Report o defekte zaznamenaná počas dynamického testovania obvykle obsahuje:
 * stav defektu (napr. otvorený, odložený, duplicitný, čakajúci na opravu, čakajúci na konfirmačné testovanie, znovu otvorený, uzavretý, zamietnutý),
 * odkazy (napr. na testovací prípad).
 
-Niektoré z týchto informácií môžu byť automaticky vkladané nástrojom pre manažment defektov (napr. identifikátor, dátum, autor a počiatočný stav). Šablóny dokumentov pre report o defekte a príklady reportov  
-o defekte možno nájsť v norme STN ISO/IEC/IEEE 29119-3 [@ISO29119-3] (norma však používa termín správa o incidente).
+Niektoré z týchto informácií môžu byť automaticky vkladané nástrojom pre manažment defektov (napr. identifikátor, dátum, autor a počiatočný stav). Šablóny dokumentov pre report o defekte a príklady reportov o defekte možno nájsť v norme STN ISO/IEC/IEEE 29119-3 [@ISO29119-3] (norma však používa termín správa o incidente).

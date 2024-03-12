@@ -54,7 +54,7 @@ Testovanie ako jeden zo spôsobov riadenia kvality pomáha pri dosiahnutí dohod
 
 Testovanie poskytuje nákladovo efektívny spôsob detekcie defektov. Tieto defekty je možné odstrániť (ladením, teda aktivitou, ktorá nespadá pod oblasť testovania), takže testovanie vlastne nepriamo prispieva ku kvalitnejším testovaným objektom.
 
-Testovanie poskytuje prostriedky na priame hodnotenie kvality testovaného objektu v rôznych fázach SDLC. Tieto hodnotenia sa používajú ako súčasť širších aktivít manažmentu projektov a prispievajú tak k rozhodnutiu o prechode do ďalšej fázy SDLC, napríklad k rozhodnutiu o vydaní.  
+Testovanie poskytuje prostriedky na priame hodnotenie kvality testovaného objektu v rôznych fázach SDLC. Tieto hodnotenia sa používajú ako súčasť širších aktivít manažmentu projektov a prispievajú tak k rozhodnutiu o prechode do ďalšej fázy SDLC, napríklad k rozhodnutiu o vydaní. 
 
 Testeri sú zárukou toho, že ich pochopenie potrieb používateľov je zohľadnené v priebehu celého životného cyklu vývoja. Alternatívou k využitiu testerov je zapojenie reprezentatívnej skupiny používateľov do projektu, čo ale obvykle nie je možné kvôli vysokým nákladom a nedostatočnej dostupnosti vhodných používateľov.
 

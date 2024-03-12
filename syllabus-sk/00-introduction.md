@@ -116,7 +116,7 @@ Nasledujúca tabuľka uvádza zoznam skratiek použitých v týchto osnovách, z
 | ATDD | acceptance test driven development | vývoj riadený akceptačnými testami |
 | BDD | behavior driven development | vývoj riadený správaním |
 | DDD | domain driven development | vývoj riadený doménou |
-| XP | extreme programming | Extrémne programovanie  |
+| XP | extreme programming | Extrémne programovanie |
 | FDD | feature driven development | vývoj riadený funkcionalitou (FDD - Feature-driven development) |
 | TDD | test driven development | vývoj riadený testami |
 | CI | continuous integration | priebežná integrácia |

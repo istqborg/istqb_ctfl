@@ -1,10 +1,8 @@
 ## Testovanie v kontexte životného cyklu vývoja softvéru {#testing-in-context-of-software-development-life-cycle}
 
-Model životného cyklu vývoja softvéru (SDLC) je zovšeobecnený proces vývoja softvéru. Určuje, ako spolu logicky  
-I chronologicky súvisia rôzne fázy vývoja a typy činností vykonávaných v rámci tohto procesu. Medzi kategórie modelov SDLC patria sekvenčné modely vývoja (napr. vodopádový model, V-model), iteratívne modely vývoja (napr. špirálový model, prototypovanie) a inkrementálne vývojové modely (napr. Rational Unified Process).
+Model životného cyklu vývoja softvéru (SDLC) je zovšeobecnený proces vývoja softvéru. Určuje, ako spolu logicky I chronologicky súvisia rôzne fázy vývoja a typy činností vykonávaných v rámci tohto procesu. Medzi kategórie modelov SDLC patria sekvenčné modely vývoja (napr. vodopádový model, V-model), iteratívne modely vývoja (napr. špirálový model, prototypovanie) a inkrementálne vývojové modely (napr. Rational Unified Process).
 
-Niektoré činnosti v rámci procesov vývoja softvéru je možné tiež popísať podrobnejšími metódami vývoja softvéru  
-a agilnými postupmi. Medzi takéto metódy patrí vývoj riadený akceptačnými testami (ATDD – acceptance test-driven development), vývoj riadený správaním (BDD – behavior-driven development), návrh riadený doménou (DDD – domain-driven design), extrémne programovanie (XP – extreme programming), vývoj riadený funkcionalitou (FDD - feature-driven development), Kanban, Lean IT, Scrum a vývoj riadený testovaním (TDD – test-driven development).
+Niektoré činnosti v rámci procesov vývoja softvéru je možné tiež popísať podrobnejšími metódami vývoja softvéru a agilnými postupmi. Medzi takéto metódy patrí vývoj riadený akceptačnými testami (ATDD – acceptance test-driven development), vývoj riadený správaním (BDD – behavior-driven development), návrh riadený doménou (DDD – domain-driven design), extrémne programovanie (XP – extreme programming), vývoj riadený funkcionalitou (FDD - feature-driven development), Kanban, Lean IT, Scrum a vývoj riadený testovaním (TDD – test-driven development).
 
 ### Vplyv životného cyklu vývoja softvéru na testovanie
 
@@ -19,8 +17,7 @@ Aby bolo testovanie úspešné, musí byť prispôsobené SDLC. Voľba SDLC má 
 
 V sekvenčných modeloch vývoja sa testeri v počiatočných fázach obvykle zúčastňujú revízií požiadaviek, testovacej analýzy a návrhu testov. Keďže je spustiteľný kód obvykle vytvorený až v neskorších fázach SDLC, nemožno v týchto počiatočných fázach používať techniky dynamického testovania.
 
-V niektorých iteratívnych a inkrementálnych vývojových modeloch sa predpokladá, že výsledkom každej iterácie je funkčný prototyp alebo prírastok produktu. To znamená, že v každej iterácii môže byť vykonané statické  
-aj dynamické testovanie, a to vo všetkých úrovniach testovania. Časté dodávanie takýchto prírastkov vyžaduje rýchlu spätnú väzbu a rozsiahle regresné testovanie.
+V niektorých iteratívnych a inkrementálnych vývojových modeloch sa predpokladá, že výsledkom každej iterácie je funkčný prototyp alebo prírastok produktu. To znamená, že v každej iterácii môže byť vykonané statické aj dynamické testovanie, a to vo všetkých úrovniach testovania. Časté dodávanie takýchto prírastkov vyžaduje rýchlu spätnú väzbu a rozsiahle regresné testovanie.
 
 Agilný vývoj softvéru (s využitím iteratívnych a inkrementálnych modelov) predpokladá, že v priebehu projektu môže dôjsť k zmene. Preto je v agilných projektoch uprednostňovaná skôr stručnejšia dokumentácia pracovných produktov, a naopak rozsiahla automatizácia testov, ktorá uľahčuje regresné testovanie. Väčšina manuálnych testov sa často vykonáva pomocou testovacích techník založených na skúsenostiach (pozri <#section:experience-based-testing-techniques>), pri ktorých sa nevyžaduje vykonanie rozsiahlej testovacej analýzy a návrhu testov.
 
@@ -77,7 +74,7 @@ DevOps má aj niektoré riziká a nevýhody:
 * Automatizované testy vyžadujú dodatočné investície a môže byť ťažké ich vytvoriť a udržiavať.
 * Hoci DevOps predpokladá vyšší rozsah automatizovaného testovania, nemožno zabúdať ani na manuálne testovanie, a to najmä z pohľadu koncového užívateľa
 
-###  Prístup shift-left {#shift-left-approach}
+### Prístup shift-left {#shift-left-approach}
 
 Princíp včasného testovania (pozri <#section:testing-principles>) je niekedy označovaný ako shift-left (posun doľava v zmysle časovej osi), kde je testovanie vykonávané v skorších fázach SDLC. Shift-left odporúča začať s testovacími činnosťami skôr (napr. nečakať na implementáciu kódu alebo na integráciu komponentov), ​​ale neznamená to, že by testovanie v neskorších fázach malo byť zanedbávané.
 
@@ -183,8 +180,7 @@ Konfirmačné a/alebo regresné testovanie testovaného objektu je nutné použi
 
 ## Testovanie počas údržby
 
-Existujú rôzne druhy údržby s rôznymi cieľmi, napr. oprava, adaptácia na zmenu prostredia, zlepšenie výkonu alebo zlepšenie udržovateľnosti (pozri normu ISO/IEC 14764 [@ISO14764]). Údržba môže byť ako plánovaná, tak neplánovaná (hotfix). Pred vykonaním zmeny je možné taktiež vykonať analýzu dopadu, ktorá pomôže pri rozhodovaní, či by zmena mala byť vykonaná, a to na základe potenciálnych dôsledkov v iných oblastiach systému. Testovanie zmien systému, ktorý je už v produkcii zahŕňa vyhodnotenie úspešnosti implementácie zmeny, ako aj kontrolu možnej regresie  
-v nezmenených častiach systému (čo je obvykle väčšina systému).
+Existujú rôzne druhy údržby s rôznymi cieľmi, napr. oprava, adaptácia na zmenu prostredia, zlepšenie výkonu alebo zlepšenie udržovateľnosti (pozri normu ISO/IEC 14764 [@ISO14764]). Údržba môže byť ako plánovaná, tak neplánovaná (hotfix). Pred vykonaním zmeny je možné taktiež vykonať analýzu dopadu, ktorá pomôže pri rozhodovaní, či by zmena mala byť vykonaná, a to na základe potenciálnych dôsledkov v iných oblastiach systému. Testovanie zmien systému, ktorý je už v produkcii zahŕňa vyhodnotenie úspešnosti implementácie zmeny, ako aj kontrolu možnej regresie v nezmenených častiach systému (čo je obvykle väčšina systému).
 
 Rozsah testovania počas údržby závisí od týchto faktorov:
 

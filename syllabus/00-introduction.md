@@ -5,12 +5,12 @@ This syllabus outlines the scope of the \<module-name\> certification.
 
 Together with the \<module-code\> body of knowledge the syllabus forms the basis for the International Software Testing Qualification for \<module-name\> at the Advanced Level. The ISTQB® provides this syllabus as follows:
 
-1.  To Member Boards, to translate into their local language and to accredit training providers.  
+1. To Member Boards, to translate into their local language and to accredit training providers.  
 Member boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
-1.  To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
-1.  To training providers, to produce courseware and determine appropriate teaching methods.
-1.  To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
-1.  To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
+1. To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
+1. To training providers, to produce courseware and determine appropriate teaching methods.
+1. To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
+1. To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
 
 ## The \<module-name\> Certification
 

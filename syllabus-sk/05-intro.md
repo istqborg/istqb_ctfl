@@ -19,11 +19,11 @@ analýza rizík, identifikácia rizík, manažment defektov, manažment rizík, 
    2. (K2) Rozlišovať medzi projektovými a produktovými rizikami.
    3. (K2) Vysvetliť, ako môže analýza produktových rizík ovplyvniť hĺbku a rozsah testovania.
    4. (K2) Vysvetliť, aké opatrenia možno prijať v reakcii na analyzované produktové riziká.
-3.  Monitorovanie, riadenie a dokončenie testovania
+3. Monitorovanie, riadenie a dokončenie testovania
    1. (K1) Zapamätať si metriky používané pri testovaní.
    2. (K2) Zhrnúť účel a obsah správ z testovania a uvedomiť si, pre koho sú určené.
    3. (K2) Ilustrovať na príkladoch komunikáciu stavu testovania.
-4.  Konfiguračný manažment
+4. Konfiguračný manažment
    1. (K2) Zhrnúť, ako konfiguračný manažment prispieva k testovaniu.
-5.  Manažment defektov
+5. Manažment defektov
    1. (K3) Pripraviť report o defekte.

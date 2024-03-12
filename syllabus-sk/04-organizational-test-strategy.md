@@ -29,8 +29,7 @@ Pre jednoduché testované objekty môže byť aplikácia tejto techniky jednodu
 
 Trieda ekvivalencie, ktorá obsahuje platné hodnoty, sa nazýva platná trieda ekvivalencie. Trieda ekvivalencie, ktorá obsahuje neplatné hodnoty, sa nazýva neplatná trieda ekvivalencie. Definície platných a neplatných hodnôt sa môžu v jednotlivých tímoch a organizáciách líšiť. Napríklad platné hodnoty sa môžu interpretovať ako hodnoty, ktoré by mal testovací objekt spracovať, alebo ako hodnoty, pre ktoré špecifikácia definuje ich spracovanie. Neplatné hodnoty sa môžu interpretovať ako hodnoty, ktoré by mal testovací objekt ignorovať alebo odmietnuť, alebo ako hodnoty, pre ktoré nie je v špecifikácii testovacieho objektu definované žiadne spracovanie.
 
-V EP sú položkami pokrytia samotné triedy ekvivalencie. Na dosiahnutie 100 % pokrytia musia testovacie prípady pokrývať všetky identifikované triedy ekvivalencie (vrátane neplatných), a to použitím minimálne jednej hodnoty z každej triedy. Pokrytie sa meria ako pomer počtu tried otestovaných aspoň jedným testovacím prípadom  
-k celkovému počtu identifikovaných tried (obvykle vyjadrené v percentách).
+V EP sú položkami pokrytia samotné triedy ekvivalencie. Na dosiahnutie 100 % pokrytia musia testovacie prípady pokrývať všetky identifikované triedy ekvivalencie (vrátane neplatných), a to použitím minimálne jednej hodnoty z každej triedy. Pokrytie sa meria ako pomer počtu tried otestovaných aspoň jedným testovacím prípadom k celkovému počtu identifikovaných tried (obvykle vyjadrené v percentách).
 
 Mnohé testovacie objekty obsahujú viacero množín tried ekvivalencie (napr. testované objekty s viacerými vstupnými parametrami). V tomto prípade môže jeden testovací prípad pokrývať triedy z rôznych množín tried. Najjednoduchším kritériom pokrytia v takýchto prípadoch je tzv. pokrytie každej voľby (pozri [@ammann2016introduction]). Toto kritérium vyžaduje, aby testovacie prípady pokryli každú triedu z každej množiny tried aspoň raz a zároveň neberie do úvahy kombinácie tried.
 
@@ -40,20 +39,19 @@ Analýza hraničných hodnôt (BVA – boundary value analysis) je technika zalo
 
 BVA sa zameriava na hraničné hodnoty tried, pretože vývojári sa pri týchto hraničných hodnotách častejšie dopúšťajú chýb. Typické defekty zistené technikou BVA sa nachádzajú v tých oblastiach, kde sú implementované (skutočné) hranice nesprávne presunuté na pozície nad alebo pod ich špecifikovanými (predpokladanými) hodnotami, prípadne kde sú úplne vynechané.
 
-Tieto učebné osnovy sa zaoberajú dvoma variantmi: 2-hodnotová a 3-hodnotová BVA. Tieto dva varianty sa líšia  
-v počte položiek pokrytia na danej hranici, potrebných na dosiahnutie 100% pokrytia.
+Tieto učebné osnovy sa zaoberajú dvoma variantmi: 2-hodnotová a 3-hodnotová BVA. Tieto dva varianty sa líšia v počte položiek pokrytia na danej hranici, potrebných na dosiahnutie 100% pokrytia.
 
 V prípade 2-hodnotovej BVA [@craig2002systematic], [@myers2011art] existujú pre každú hranicu dve položky pokrytia: hraničná hodnota a jej najbližší sused patriaci do susednej triedy. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia (t.j. pre všetky identifikované hraničné hodnoty). Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt k celkovému počtu identifikovaných hraničných hodnôt (obvykle vyjadrené v percentách).
 
 V trojhodnotovom BVA [@vroon2013tmap], [@oregan2019concise] sú pre každú hraničnú hodnotu tri položky pokrytia: táto hraničná hodnota a obe jej susedné hodnoty. Preto v 3-hodnotovej BVA niektoré z položiek pokrytia nemusia byť hraničnými hodnotami. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia, t.j. pre identifikované hraničné hodnoty aj pre všetkých susedov. Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt a ich susedných hodnôt vydelený k celkovému počtu identifikovaných hraničných hodnôt a ich susedných hodnôt (obvykle vyjadrené v percentách).
 
-3-hodnotová BVA je „prísnejšia“ ako 2-hodnotová BVA, s jej pomocou je možné odhaliť defekty, ktoré by mohli byť  
-s použitím 2-hodnotové BVA prehliadnuté. napríklad, ak je podmienka "IF (x ≤ 10) ..." nesprávne implementovaná ako "IF (x = 10) ...", žiadny z testovacích prípadov vytvorených pomocou 2-hodnotovej BVA (x = 10, x = 11) nemôže túto chybnú implementáciu (a následný defekt) odhaliť. Testovací prípad x = 9 odvodený pomocou 3-hodnotovej BVA túto chybu pravdepodobne odhalí.
+3-hodnotová BVA je „prísnejšia“ ako 2-hodnotová BVA, s jej pomocou je možné odhaliť defekty, ktoré by mohli byť s použitím 2-hodnotové BVA prehliadnuté. napríklad, ak je podmienka "IF (x ≤ 10) ..." nesprávne implementovaná ako "IF (x = 10) ...", žiadny z testovacích prípadov vytvorených pomocou 2-hodnotovej BVA (x = 10, x = 11) nemôže túto chybnú implementáciu (a následný defekt) odhaliť. Testovací prípad x = 9 odvodený pomocou 3-hodnotovej BVA túto chybu pravdepodobne odhalí.
 
 ### Testovanie rozhodovacou tabuľkou
 Rozhodovacie tabuľky sa používajú na testovanie implementácie systémových požiadaviek, ktoré špecifikujú, ako rôzne kombinácie podmienok vedú k rôznym výsledkom. Predstavujú efektívny spôsob zaznamenávania zložitej logiky ako sú napríklad biznisové pravidlá.
 
-Pri vytváraní rozhodovacích tabuliek sa definujú podmienky a výsledné akcie systému, ktoré tvoria dve skupiny riadkov tabuľky. Každý stĺpec zodpovedá jednému pravidlu rozhodovania, ktoré definuje jedinečnú kombináciu podmienok vedúcich k vykonaniu akcií spojených s týmto pravidlom. V rozhodovacích tabuľkách s obmedzeným počtom vstupov sú všetky hodnoty podmienok a akcií (s výnimkou irelevantných alebo neuskutočniteľných hodnôt, pozri nižšie) zobrazujú ako logické hodnoty (pravda alebo nepravda).  
+Pri vytváraní rozhodovacích tabuliek sa definujú podmienky a výsledné akcie systému, ktoré tvoria dve skupiny riadkov tabuľky. Každý stĺpec zodpovedá jednému pravidlu rozhodovania, ktoré definuje jedinečnú kombináciu podmienok vedúcich k vykonaniu akcií spojených s týmto pravidlom. V rozhodovacích tabuľkách s obmedzeným počtom vstupov sú všetky hodnoty podmienok a akcií (s výnimkou irelevantných alebo neuskutočniteľných hodnôt, pozri nižšie) zobrazujú ako logické hodnoty (pravda alebo nepravda).
+
 Alternatívne, v rozhodovacích tabuľkách s rozšíreným počtom vstupov môžu niektoré (alebo všetky) podmienky a akcie tiež nadobúdať viac hodnôt (napr. rozsahy hodnôt, triedy ekvivalencie, diskrétne hodnoty).
 
 Zápis podmienok je nasledovný:
@@ -72,8 +70,7 @@ Môžu sa použiť aj iné zápisy.
 
 Úplná rozhodovacia tabuľka obsahuje taký počet stĺpcov, aby došlo k pokrytiu každej kombinácie podmienok. Tabuľku je možné zjednodušiť odstránením stĺpcov obsahujúcich neuskutočniteľnú kombináciu podmienok alebo tiež zlúčením stĺpcov, v ktorých niektoré podmienky neovplyvňujú výsledok, do jedného stĺpca. Popis týchto algoritmov je ale nad rámec týchto osnov.
 
-Pri rozhodovacích tabuľkách sú položkami pokrytia stĺpce obsahujúce uskutočniteľnú kombináciu podmienok. Na dosiahnutie 100% pokrytia touto technikou musia testovacie prípady pokryť všetky takéto stĺpce. Pokrytie sa meria ako pomer počtu pokrytých stĺpcov k celkovému počtu uskutočniteľných stĺpcov (zvyčajne vyjadrené  
-v percentách).
+Pri rozhodovacích tabuľkách sú položkami pokrytia stĺpce obsahujúce uskutočniteľnú kombináciu podmienok. Na dosiahnutie 100% pokrytia touto technikou musia testovacie prípady pokryť všetky takéto stĺpce. Pokrytie sa meria ako pomer počtu pokrytých stĺpcov k celkovému počtu uskutočniteľných stĺpcov (zvyčajne vyjadrené v percentách).
 
 Silnou stránkou testovania rozhodovacou tabuľkou je, že poskytuje systematický prístup na identifikáciu všetkých kombinácií podmienok, z ktorých by niektoré mohli byť inak prehliadnuté. Pomáha tiež nájsť prípadné medzery alebo rozpory v požiadavkách.
 
@@ -93,8 +90,7 @@ Pri **pokrytí všetkých stavov** sú položkami pokrytia príslušné stavy. A
 
 Pri **pokrytí platných prechodov** (nazývanom tiež pokrytie 0-switch) sú položkami pokrytia jednotlivé platné prechody. Na dosiahnutie 100 % pokrytia platných prechodov musia testovacie prípady pokryť všetky platné prechody. Pokrytie sa meria ako pomer počtu pokrytých platných prechodov k celkovému počtu platných prechodov (obvykle vyjadrené v percentách).
 
-Pri **pokrytí všetkých prechodov** sú položkami pokrytia všetky prechody v tabuľke prechodov stavov. Na dosiahnutie 100% pokrytia všetkých prechodov musia testovacie prípady preveriť všetky platné prechody a pokúsiť sa preveriť prechody neplatné (tzn. pokryť ako platné, tak neplatné prechody). Testovanie iba jedného neplatného prechodu  
-v jednom testovacom prípade pomáha vyhnúť sa maskovaniu chýb, t. j. situácii, keď jedna chyba bráni odhaleniu inej. Pokrytie sa meria ako pomer počtu platných a neplatných prechodov, ktoré boli alebo mali byť pokryté vykonanými testovacími prípadmi, k celkovému počtu všetkých platných a neplatných prechodov (obvykle vyjadrené v percentách).
+Pri **pokrytí všetkých prechodov** sú položkami pokrytia všetky prechody v tabuľke prechodov stavov. Na dosiahnutie 100% pokrytia všetkých prechodov musia testovacie prípady preveriť všetky platné prechody a pokúsiť sa preveriť prechody neplatné (tzn. pokryť ako platné, tak neplatné prechody). Testovanie iba jedného neplatného prechodu v jednom testovacom prípade pomáha vyhnúť sa maskovaniu chýb, t. j. situácii, keď jedna chyba bráni odhaleniu inej. Pokrytie sa meria ako pomer počtu platných a neplatných prechodov, ktoré boli alebo mali byť pokryté vykonanými testovacími prípadmi, k celkovému počtu všetkých platných a neplatných prechodov (obvykle vyjadrené v percentách).
 
 Kritérium pokrytia všetkých stavov je „slabšie“ ako kritérium pokrytia platných prechodov, pretože môže byť obvykle dosiahnuté bez vykonania všetkých prechodov. Najpoužívanejším kritériom pokrytia je ale pokrytie platných prechodov, ktoré by tiež malo byť minimálnou požiadavkou pre bezpečnostne kritický softvér.
 
@@ -111,8 +107,7 @@ Existujú prísnejšie techniky, ktoré sa používajú v niektorých prostredia
 
 ### Testovanie a pokrytie príkazov
 
-Pri testovaní príkazov sú položkami pokrytia spustiteľné príkazy. Cieľom je navrhovať také testovacie prípady, ktoré pokryjú príkazy v kóde, kým sa nedosiahne akceptovateľná úroveň pokrytia. Pokrytie sa meria ako pomer počtu spustiteľných príkazov pokrytých testami k celkovému počtu spustiteľných príkazov v kóde (obvykle vyjadrené  
-v percentách).
+Pri testovaní príkazov sú položkami pokrytia spustiteľné príkazy. Cieľom je navrhovať také testovacie prípady, ktoré pokryjú príkazy v kóde, kým sa nedosiahne akceptovateľná úroveň pokrytia. Pokrytie sa meria ako pomer počtu spustiteľných príkazov pokrytých testami k celkovému počtu spustiteľných príkazov v kóde (obvykle vyjadrené v percentách).
 
 Ak sa dosiahne 100 % pokrytie príkazov, zabezpečí sa, že všetky vykonateľné príkazy v kóde boli vykonané aspoň raz. To znamená, že bude spustený každý príkaz, ktorý môže spôsobiť zlyhanie indikujúce výskyt defektu. Opäť ale platí, že otestovanie príkazu pomocou testovacieho prípadu nemusí vždy odhaliť defekt, technika napríklad nemusí odhaliť defekty súvisiace s dátami (napr. delenie nulou, ktoré zlyhá iba pri nulovej hodnote deliteľa). Takisto 100% pokrytie príkazov nezaručuje, že všetka rozhodovacia logika bola otestovaná, pretože nemusí dôjsť k spusteniu všetkých vetiev v kóde (pozri <#section:branch-testing-and-coverage>).
 
@@ -152,23 +147,19 @@ Odhadovanie chýb je technika používaná na predvídanie výskytu chýb, defek
 
 Všeobecne platí, že chyby, defekty a zlyhania môžu súvisieť so vstupom (napr. nebol akceptovaný správny vstup, nesprávne alebo chýbajúce parametre), výstupom (napr. nesprávny formát alebo nesprávny výsledok), logikou (napr. chýbajúce prípady, nesprávny operátor), výpočtom (napr. nesprávny operand, nesprávny výpočet), rozhraniami (napr. nesúlad parametrov, nekompatibilné typy) alebo dátami (napr. nesprávna inicializácia, nesprávny typ).
 
-Známym metodickým prístupom k implementácii odhadovania chýb je útok na vady (fault attack). Táto technika vyžaduje, aby tester vytvoril alebo získal zoznam možných chýb, defektov a zlyhaní a navrhol testy, ktoré identifikujú chyby, odhalia defekty alebo spôsobia zlyhania. Tieto zoznamy je možné zostaviť na základe skúseností, údajov o defektoch  
-a zlyhaniach alebo na základe všeobecných znalostí o tom, prečo softvér zlyháva.
+Známym metodickým prístupom k implementácii odhadovania chýb je útok na vady (fault attack). Táto technika vyžaduje, aby tester vytvoril alebo získal zoznam možných chýb, defektov a zlyhaní a navrhol testy, ktoré identifikujú chyby, odhalia defekty alebo spôsobia zlyhania. Tieto zoznamy je možné zostaviť na základe skúseností, údajov o defektoch a zlyhaniach alebo na základe všeobecných znalostí o tom, prečo softvér zlyháva.
 
 Viac informácií o odhadovaní chýb a útokoch na vady nájdete v [@whittaker2003break], [@whittaker2009exploratory], [@andrews2006break].
 
 ### #### Prieskumné testovanie
 
-Pri prieskumnom testovaní sú testy súčasne navrhované, vykonávané a vyhodnocované, zatiaľ čo testeri získavajú znalosti o testovanom objekte. Testovanie sa (okrem iného) používa k získaniu ďalších informácií  
-o testovanom objekte, na jeho hlbšie preskúmanie pomocou cielených testov a na vytvorenie testov pre netestované oblasti.
+Pri prieskumnom testovaní sú testy súčasne navrhované, vykonávané a vyhodnocované, zatiaľ čo testeri získavajú znalosti o testovanom objekte. Testovanie sa (okrem iného) používa k získaniu ďalších informácií o testovanom objekte, na jeho hlbšie preskúmanie pomocou cielených testov a na vytvorenie testov pre netestované oblasti.
 
-Prieskumné testovanie sa niekedy vykonáva pomocou tzv. testovania v sedeniach, ktoré pomáhajú štruktúrovať testovanie. Testovanie sa vykonáva v rámci definovaného časového rámca. Tester používa testovaciu listinu obsahujúcu ciele testovania, ktorou sa testovanie riadi. Po testovacej relácii obvykle nasleduje tzv. debriefing s diskusiou medzi testerom  
-a zainteresovanými stranami, ktoré sa zaujímajú o výsledky testovacieho sedenia.
+Prieskumné testovanie sa niekedy vykonáva pomocou tzv. testovania v sedeniach, ktoré pomáhajú štruktúrovať testovanie. Testovanie sa vykonáva v rámci definovaného časového rámca. Tester používa testovaciu listinu obsahujúcu ciele testovania, ktorou sa testovanie riadi. Po testovacej relácii obvykle nasleduje tzv. debriefing s diskusiou medzi testerom a zainteresovanými stranami, ktoré sa zaujímajú o výsledky testovacieho sedenia.
 
 Všeobecnými testovacími podmienkami môžu byť pri prieskumnom testovaní ciele testovania. Jednotlivé položky pokrytia sú identifikované a preverované počas testovacieho sedenia a testeri môžu používať dokumenty pre testovacie sedenie (test session sheets) pre zdokumentovanie vykonávaných krokov a nových zistení.
 
-Prieskumné testovanie je najviac užitočné v prípadoch, keď je špecifikácia nedostatočná alebo úplne chýba, taktiež je vhodnou metódou v prípade výrazného časového tlaku na testovanie. Je tiež užitočné ako doplnok iných (formálnejších) testovacích techník. Všeobecne bude efektívnejšie v prípadoch, keď sú testeri skúsení, majú znalosti  
-z danej domény a vysokú úroveň základných zručností ako sú analytické schopnosti, zvedavosť a kreativita (pozri <#section:general-skills-needed-for-testing>).
+Prieskumné testovanie je najviac užitočné v prípadoch, keď je špecifikácia nedostatočná alebo úplne chýba, taktiež je vhodnou metódou v prípade výrazného časového tlaku na testovanie. Je tiež užitočné ako doplnok iných (formálnejších) testovacích techník. Všeobecne bude efektívnejšie v prípadoch, keď sú testeri skúsení, majú znalosti z danej domény a vysokú úroveň základných zručností ako sú analytické schopnosti, zvedavosť a kreativita (pozri <#section:general-skills-needed-for-testing>).
 
 Prieskumné testovanie môže využívať aj iné testovacie techniky (napr. rozdelenie tried ekvivalencie). Viac informácií o prieskumnom testovaní, pozri [@kaner1999testing], [@whittaker2003break] a [@hendrickson2013explore].
 
@@ -178,8 +169,7 @@ Pri testovaní založenom na kontrolných zoznamoch tester navrhuje, implementuj
 
 Položky kontrolného zoznamu sú často formulované vo forme otázky. Každú položku by malo byť možné priamo skontrolovať, a to oddelene (nezávisle od ostatných položiek). Tieto položky sa môžu týkať požiadaviek, vlastností grafického rozhrania (UI), kvalitatívnych charakteristík alebo iných foriem testovacích podmienok. Kontrolné zoznamy môžu byť taktiež vytvorené ako podpora rôznych typov testovania vrátane funkcionálneho a nefunkcionálneho testovania (napr. 10 princípov testovania použiteľnosti, pozri [@nielsen1994enhancing]).
 
-Niektoré položky kontrolného zoznamu môžu byť časom menej efektívne, pretože vývojári sa postupne naučia  
-vyhýbať rovnakým chybám. Kontrolné zoznamy by preto mali byť pravidelne aktualizované na základe analýzy defektov, typicky je možné do nich pridávať nové položky reflektujúce výskyt novo zistených defektov s vysokou závažnosťou. Treba však dbať na to, aby sa kontrolný zoznam nestal príliš dlhým [@gawande2011checklist].
+Niektoré položky kontrolného zoznamu môžu byť časom menej efektívne, pretože vývojári sa postupne naučia vyhýbať rovnakým chybám. Kontrolné zoznamy by preto mali byť pravidelne aktualizované na základe analýzy defektov, typicky je možné do nich pridávať nové položky reflektujúce výskyt novo zistených defektov s vysokou závažnosťou. Treba však dbať na to, aby sa kontrolný zoznam nestal príliš dlhým [@gawande2011checklist].
 
 Pri absencii podrobných testovacích prípadov môže testovanie založené na kontrolných zoznamoch poskytnúť vodítko a určitý stupeň konzistencie pre testovanie. Keďže ide o všeobecné zoznamy (high-level sheets), je pravdepodobné, že sa v testovaní môže objaviť variabilita, čo môže mať za následok väčšie pokrytie, ale menšiu opakovateľnosť testovania.
 
@@ -195,7 +185,7 @@ Používateľský scenár (user story) predstavuje funkcionalitu (feature), ktor
 * **konverzácia** (conversation) – vysvetlenie, ako sa bude softvér používať (môže byť dokumentovaná alebo byť iba verbálna),
 * **potvrdenie** (confirmation) – vo forme akceptačného kritéria (pozri <#section:acceptance-criteria>).
 
-Najbežnejším formátom používateľského scenára je formula „Ako \[ROLA\] chcem, aby \[CIEĽ, ktorý má byť splnený\], pretože \[výsledná biznisová HODNOTA pre rolu\]" doplnená akceptačnými kritériami.
+Najbežnejším formátom používateľského scenára je formula „Ako [ROLA] chcem, aby [CIEĽ, ktorý má byť splnený], pretože [výsledná biznisová HODNOTA pre rolu]" doplnená akceptačnými kritériami.
 
 Spoločné autorstvo používateľského scenára môže využívať techniky ako je brainstorming alebo tvorba myšlienkových máp (mind mapping). Spolupráca umožňuje tímu získať spoločnú víziu toho, čo by sa malo dodať, zohľadnením troch perspektív: (biznis, vývoj, testovanie).
 
@@ -227,8 +217,7 @@ ATDD je jeden z prístupov iniciovaných testami (test-first) (pozri <#section:t
 
 Prvým krokom je obvykle schôdzka nad špecifikáciami, kde členovia tímu analyzujú, diskutujú a dokumentujú používateľské scenáre a (ak ešte nie sú definované) ich akceptačné kritériá. Počas tohto procesu sú obvykle vyriešené neúplnosti, nejednoznačnosti alebo defekty v používateľskom scenári.
 
-Ďalším krokom je vytvorenie testovacích prípadov. Môže to urobiť tím ako celok alebo tester individuálne. Testovacie prípady sú založené na akceptačných kritériách a možno ich považovať za príklady toho, ako by mal softvér pracovať, čo pomôže tímu správne implementovať používateľský scenár. Keďže príklady a testy sú rovnaké, tieto pojmy sú zameniteľné. Prvé testovacie prípady sú zvyčajne pozitívne, potvrdzujú správne chovanie bez výnimiek alebo chybových stavov a obsahujú postupnosť vykonávaných činností v prípadoch, keď všetko prebieha podľa očakávania. Po dokončení pozitívnych testovacích prípadov by mal tím vykonať negatívne testovanie a nakoniec pokryť nefunkcionálne charakteristiky kvality (napr. výkonnostná efektivita alebo použiteľnosť). Pri návrhu testov je možné použiť techniky testovania popísané  
-v kapitolách <#section:black-box-testing-techniques>, <#section:white-box-testing-techniques> a <#section:experience-based-testing-techniques>.
+Ďalším krokom je vytvorenie testovacích prípadov. Môže to urobiť tím ako celok alebo tester individuálne. Testovacie prípady sú založené na akceptačných kritériách a možno ich považovať za príklady toho, ako by mal softvér pracovať, čo pomôže tímu správne implementovať používateľský scenár. Keďže príklady a testy sú rovnaké, tieto pojmy sú zameniteľné. Prvé testovacie prípady sú zvyčajne pozitívne, potvrdzujú správne chovanie bez výnimiek alebo chybových stavov a obsahujú postupnosť vykonávaných činností v prípadoch, keď všetko prebieha podľa očakávania. Po dokončení pozitívnych testovacích prípadov by mal tím vykonať negatívne testovanie a nakoniec pokryť nefunkcionálne charakteristiky kvality (napr. výkonnostná efektivita alebo použiteľnosť). Pri návrhu testov je možné použiť techniky testovania popísané v kapitolách <#section:black-box-testing-techniques>, <#section:white-box-testing-techniques> a <#section:experience-based-testing-techniques>.
 
 Testovacie prípady by mali byť vyjadrené spôsobom, ktorý je pre zainteresované strany zrozumiteľný. Obvykle obsahujú vety v prirodzenom jazyku zahŕňajúce nevyhnutné vstupné podmienky (pre-conditions – ak existujú), vstupy a výstupné podmienky (post-conditions). Musia pokrývať všetky charakteristiky používateľského scenára a nemali by presahovať jeho rámec. Žiadne dva testovacie prípady by nemali popisovať rovnaké charakteristiky používateľského scenára.
 

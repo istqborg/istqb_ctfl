@@ -1,7 +1,6 @@
 ## Základy statického testovania
 
-Na rozdiel od dynamického testovania nie je pri statickom testovaní nutné testovaný softvér spúšťať. Kód, špecifikácia procesu, špecifikácia architektúry systému alebo iné pracovné produkty sú hodnotené  
-a preverované buď manuálne (napr. revíziami) alebo pomocou nástroja (napr. statická analýza). Medzi ciele testovania patrí zlepšovanie kvality, odhaľovanie defektov a posudzovanie vlastností ako je čitateľnosť, úplnosť, správnosť, testovateľnosť a konzistencia. Statické testovanie je možné používať ako na verifikáciu, tak na validáciu.
+Na rozdiel od dynamického testovania nie je pri statickom testovaní nutné testovaný softvér spúšťať. Kód, špecifikácia procesu, špecifikácia architektúry systému alebo iné pracovné produkty sú hodnotené a preverované buď manuálne (napr. revíziami) alebo pomocou nástroja (napr. statická analýza). Medzi ciele testovania patrí zlepšovanie kvality, odhaľovanie defektov a posudzovanie vlastností ako je čitateľnosť, úplnosť, správnosť, testovateľnosť a konzistencia. Statické testovanie je možné používať ako na verifikáciu, tak na validáciu.
 
 Testeri, zástupcovia biznisu a vývojári počas popisu príkladov (napr. pri využití techniky špecifikácie pomocou príkladov), písaní používateľských scenárov a spresňovaní backlogu (backlog refinement) spolupracujú tak, aby používateľské scenáre a súvisiace pracovné produkty spĺňali definované kritériá, napr. definície pripravenosti (Definition of Ready) (pozri <#section:entry-and-exit-criteria>). Techniky revízií možno použiť na zabezpečenie toho, aby používateľské scenáre boli úplné a zrozumiteľné a obsahovali testovateľné akceptačné kritériá. Tým, že testeri kladú správne otázky vlastne skúmajú, konfrontujú a pomáhajú vylepšovať navrhované používateľské scenáre.
 
@@ -29,8 +28,7 @@ Niektoré defekty v kóde je možné odhaliť pomocou statickej analýzy oveľa 
 
 ### Rozdíly mezi statickým a dynamickým testováním
 
-Statické a dynamické testovacie postupy sa vzájomne dopĺňajú. Majú podobné ciele (napr. odhaľovanie defektov  
-v pracovných produktoch, pozri <#section:typical-testing-objectives>), ale existujú medzi nimi aj určité rozdiely, napríklad:
+Statické a dynamické testovacie postupy sa vzájomne dopĺňajú. Majú podobné ciele (napr. odhaľovanie defektov v pracovných produktoch, pozri <#section:typical-testing-objectives>), ale existujú medzi nimi aj určité rozdiely, napríklad:
 
 * Ako statické, tak aj dynamické testovanie (vrátane analýzy zlyhania) môže viesť k odhaleniu defektu, avšak existujú niektoré typy defektov, ktoré možno nájsť buď len statickým alebo iba dynamickým testovaním.
 * Statické testovanie nájde defekty priamo, zatiaľ čo dynamické testovanie hľadá zlyhanie, z ktorých sú príslušné defekty určené následnou analýzou.
@@ -54,8 +52,7 @@ Medzi typické defekty odhaliteľné ľahšie a lacnejšie statickým testovaní
 
 Včasná a častá spätná väzba pomáha s odhalením potenciálnych problémov s kvalitou. Pokiaľ sa zainteresované strany zapájajú do vývoja nedostatočne, vyvíjaný produkt nemusí spĺňať ich pôvodné alebo súčasné predstavy. Pokiaľ nie je tím schopný dodať to, čo zainteresovaná strana chce, hrozia neočakávané náklady na prepracovanie, zmeškaných termínov, vzájomného obviňovania, a dokonca môže dôjsť k úplnému zlyhaniu projektu.
 
-Častá spätná väzba zainteresovaných strán počas SDLC môže zabrániť nedorozumeniam pri definícii požiadaviek  
-a zabezpečiť, aby zmeny požiadaviek boli správne a včas pochopené a implementované. To pomáha vývojovému tímu lepšie porozumieť tomu, čo vyvíja. Umožňuje im tiež zamerať sa na tie funkcionality, ktoré prinášajú zainteresovaným stranám najvyššiu pridanú hodnotu, a ktoré majú najviac pozitívny vplyv na zistené riziká.
+Častá spätná väzba zainteresovaných strán počas SDLC môže zabrániť nedorozumeniam pri definícii požiadaviek a zabezpečiť, aby zmeny požiadaviek boli správne a včas pochopené a implementované. To pomáha vývojovému tímu lepšie porozumieť tomu, čo vyvíja. Umožňuje im tiež zamerať sa na tie funkcionality, ktoré prinášajú zainteresovaným stranám najvyššiu pridanú hodnotu, a ktoré majú najviac pozitívny vplyv na zistené riziká.
 
 ### Činnosti procesu revízie {#review-process-activities}
 
