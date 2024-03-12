@@ -155,7 +155,7 @@ Následující seznam uvádí některé (ale ne všechny) takové typické výst
 
 ### Trasovatelnost mezi testovací bází a pracovními produkty z testování
 
-Aby bylo možné efektivně monitorovat a řídit testování, je důležité vytvořit a následně udržovat v průběhu celého procesu testování trasovatelnost mezi každou položkou testovací báze, výstupními pracovními produkty vztaženým k této položce (testwarem − např. testovací podmínky, rizika nebo testovací případy), výsledky testů a nalezenými defekty.
+Aby bylo možné efektivně monitorovat a řídit testování, je důležité vytvořit a následně udržovat v průběhu celého procesu testování trasovatelnost mezi každou položkou testovací báze, výstupními pracovními produkty vztaženým k této položce (testwarem – např. testovací podmínky, rizika nebo testovací případy), výsledky testů a nalezenými defekty.
 
 Přesná trasovatelnost umožňuje vyhodnocovat pokrytí, takže je velmi užitečné, pokud jsou v testovací bázi pro toto pokrytí definována jeho měřitelná kritéria. Kritéria pokrytí mohou představovat jeden z klíčových ukazatelů výkonnosti (KPI – key performance indicator) pro řízení testovacích činností, která ukazují na míru dosažení cílů testování (viz <#section:typical-testing-objectives>). Například:
 
