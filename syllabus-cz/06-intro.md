@@ -1,4 +1,4 @@
-# Testovací nástroje – 20 minut {#testTools}
+# Testovací nástroje – 20 minut {#test-tools}
 
 #### Klíčová slova
 

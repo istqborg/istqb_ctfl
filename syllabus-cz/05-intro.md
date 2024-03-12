@@ -1,4 +1,5 @@
-# Management testování – 335 minut {#testPpocesses-strategy-in-a-value-driven-organization}
+# Management testování – 335 minut {#test-processes-strategy-in-a-value-driven-organization}
+
 #### Klíčová slova
 
 analýza rizik, identifikace rizik, management defektů, management rizik, monitoring rizik, monitoring testování, ohodnocení rizik, plán testování, plánování testování, produktové riziko, projektové riziko, přístup k testování, report o defektu, report o postupu prací při testování, riziko, řízení rizik, řízení testování, souhrnný report z testování, testovací kvadranty, testovací pyramida, testování založené na rizicích, úroveň rizika, vstupní kritéria, výstupní kritéria, zmírnění rizik
