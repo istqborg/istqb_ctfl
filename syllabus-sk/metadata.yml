@@ -7,6 +7,6 @@ type: Syllabus
 version: v4.0
 date: 15\. 3. 2024
 release: Beta
-provided-by:
-- name: Czech and Slovak Quality Board
-  logo: CaSQB_logo_horizontal_red
+# provided-by:
+# - name: Czech and Slovak Quality Board
+#   logo: CaSQB_logo_horizontal_red

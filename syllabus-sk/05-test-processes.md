@@ -264,7 +264,10 @@ Kontinuálna integrácia, kontinuálne dodávanie, kontinuálne nasadzovanie a s
 
 ## Manažment defektov {#defects-management}
 
-Vzhľadom na to, že jedným z hlavných cieľov testovania je nájdenie defektov, je zavedenie procesu manažmentu defektov nevyhnutné. Tento proces musia dodržiavať všetky zainteresované strany a zahŕňa minimálne definíciu pracovného postupu (workflow) pre spracovanie jednotlivých anomálií od ich odhalenia až po ich uzavretie a pravidlá pre ich klasifikáciu. Pracovný postup obvykle zahŕňa činnosti, ktorých cieľom je zaznamenávať nahlásené anomálie, analyzovať ich a klasifikovať, rozhodnúť o vhodnej reakcii (typicky opraviť alebo ponechať) a uzavretie reportu o defekte. Anomálie môžu byť hlásené v ktorejkoľvek fáze SDLC a ich forma často závisí od použitého SDLC.
+Keďže jedným z hlavných cieľov testovania je nájdenie defektov, zavedenie procesu manažmentu defekt je nevyhnutné. Napriek tomu, že sa hovorí o "defektoch", platí, že nahlásené anomálie môžu byť skutočné defekty alebo aj niečo iné (napr. chybné výsledky testov alebo zmenové požiadavky). Toto je vyhodnocované v rámci spracovania správy o defekte. Anomálie môžu byť hlásené v ktorejkoľvek fáze SDLC a forma ich hlásenia závisí od použitého SDLC.
+
+Ako základné minimum musí proces manažmentu defektov obsahovať pracovný postup (workflow) pre spracovanie jednotlivých anomálií od ich odhalenia až po ich uzavretie a pravidlá pre ich klasifikáciu.
+Tento pracovný postup obvykle pozostáva z činností, ktorých cieľom je zaznamenávať nahlásené anomálie, analyzovať ich a klasifikovať, rozhodnúť o vhodnej reakcii (typicky opraviť alebo neriešiť) a uzavretie správy o defekte. Tento proces musia dodržiavať všetky zúčastnené strany.
 
 Podobným spôsobom je vhodné riešiť aj defekty zistené statickým testovaním (najmä statickou analýzou).
 
