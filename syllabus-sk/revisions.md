@@ -1,4 +1,6 @@
-# História zmien (slovenská verzia) {- .revision-history}
+# História zmien {- .revision-history}
+
+## Slovenská verzia
 
 | **Verzia** | **Dátum** | **Poznámka** |
 | --- | --- | --- |
@@ -14,7 +16,7 @@
 | ISTQB® CTFL SK 2007 Beta 2 | 10. 3. 2008 | Certifikovaný tester základnej úrovne – slovenský preklad – Beta 2. |
 | ISTQB® CTFL SK 2007 Beta 1 | 1. 2. 2008 | Certifikovaný tester základnej úrovne – slovenský preklad – Beta 1. |
 
-# História zmien (anglická verzia) {- .revision-history}
+## Anglická verzia
 
 | **Verzia** | **Dátum** | **Poznámka** |
 | --- | --- | --- |
