@@ -6,22 +6,22 @@ akceptační kritéria, analýza hraničních hodnot, odhadování chyb, pokryt�
 
 #### Studijní cíle {.learning-objectives}
 
-**4.1. Přehled technik testování**
-FL-4.1.1 (K2) Rozlišit mezi technikami testování černé skříňky, bílé skříňky a technikami založenými na zkušenostech.
-**4.1. Techniky testování černé skříňky**
-FL-4.2.1 (K3) Použít techniku rozdělení tříd ekvivalence k odvození testovacích případů.
-FL-4.2.2 (K3) Použít techniku analýzy hraničních hodnot k odvození testovacích případů.
-FL-4.2.3 (K3) Použít techniku testování dle rozhodovací tabulky k odvození testovacích případů.
-FL-4.2.4 (K3) Použít techniku testování přechodů stavů k odvození testovacích případů.
-**4.3. Techniky testování bílé skříňky**
-FL-4.3.1 (K2) Vysvětlit techniku testování příkazů.
-FL-4.3.2 (K2) Vysvětlit techniku testování větví.
-FL-4.3.3 (K2) Vysvětlit přínos testování bílé skříňky.
-**4.4 Techniky testování založené na zkušenostech**
-FL-4.4.1 (K2) Vysvětlit techniku odhadování chyb.
-FL-4.4.2 (K2) Vysvětlit techniku průzkumného testování.
-FL-4.4.3 (K2) Vysvětlit techniku testování založenou na kontrolních seznamech.
-**4.5. Přístupy k testování založené na spolupráci**
-FL-4.5.1 (K2) Vysvětlit, jak psát uživatelské scénáře ve spolupráci s vývojáři a zástupci byznysu.
-FL-4.5.2 (K2) Kategorizovat různé možností psaní akceptačních kritérií.
-FL-4.5.3 (K3) Použít techniku vývoje řízeného akceptačními testy k odvození testovacích případů.
+1. Přehled technik testování
+    1. (K2) Rozlišit mezi technikami testování černé skříňky, bílé skříňky a technikami založenými na zkušenostech.
+2. Techniky testování černé skříňky
+    1. (K3) Použít techniku rozdělení tříd ekvivalence k odvození testovacích případů.
+    2. (K3) Použít techniku analýzy hraničních hodnot k odvození testovacích případů.
+    3. (K3) Použít techniku testování dle rozhodovací tabulky k odvození testovacích případů.
+    4. (K3) Použít techniku testování přechodů stavů k odvození testovacích případů.
+3. Techniky testování bílé skříňky
+    1. (K2) Vysvětlit techniku testování příkazů.
+    2. (K2) Vysvětlit techniku testování větví.
+    3. (K2) Vysvětlit přínos testování bílé skříňky.
+4. Techniky testování založené na zkušenostech
+    1. (K2) Vysvětlit techniku odhadování chyb.
+    2. (K2) Vysvětlit techniku průzkumného testování.
+    3. (K2) Vysvětlit techniku testování založenou na kontrolních seznamech.
+5. Přístupy k testování založené na spolupráci
+    1. (K2) Vysvětlit, jak psát uživatelské scénáře ve spolupráci s vývojáři a zástupci byznysu.
+    2. (K2) Kategorizovat různé možností psaní akceptačních kritérií.
+    3. (K3) Použít techniku vývoje řízeného akceptačními testy k odvození testovacích případů.
