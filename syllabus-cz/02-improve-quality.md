@@ -29,26 +29,26 @@ TDD, ATDD a BDD jsou podobné přístupy k vývoji, kdy jsou testy definovány j
 
 **Vývoj řízený testy (TDD)**
 
-* Psaní kódu je řízeno pomocí testovacích případů (místo rozsáhlého návrhu softwaru) (@beck2003test).
+* Psaní kódu je řízeno pomocí testovacích případů (místo rozsáhlého návrhu softwaru) [@beck2003test].
 * Nejprve jsou sepsány testy a až následně kód a to tak, aby těmto testům vyhovoval. Následně mohou (ale nemusí) být testy a kód refaktorovány.
 
 **Vývoj řízený akceptačními testy (ATDD)**
 
-* Odvozuje testy z akceptačních kritérií jako součást procesu návrhu systému (@gartner2012atdd).
+* Odvozuje testy z akceptačních kritérií jako součást procesu návrhu systému [@gartner2012atdd].
 * Daná část aplikace je vytvořena tak, aby vyhovovala testům napsaným před samotným vývojem.
 
-Více informací o ATDD lze nalézt v [kapitola 4.5.3](#section:{#atdd}).
+Více informací o ATDD lze nalézt v kapitole <#section:atdd>.
 
 **Vývoj řízený chováním (BDD)**
 
-* Požadované chování aplikace je popsáno testovacími případy napsanými v jednoduché formě přirozeného jazyka srozumitelného pro zúčastněné strany. Obvykle je využit formát Given/When/Then (Vstup/Podmínka/Akce) (@chelimsky2010rspec).
+* Požadované chování aplikace je popsáno testovacími případy napsanými v jednoduché formě přirozeného jazyka srozumitelného pro zúčastněné strany. Obvykle je využit formát Given/When/Then (Vstup/Podmínka/Akce) [@chelimsky2010rspec].
 * Testovací případy jsou následně automaticky přeloženy do spustitelných testů.
 
 Pro všechny výše uvedené přístupy mohou být testy automatizovány (ale nemusí) s cílem podpořit kvalitu při budoucích úpravách nebo refaktoringu.
 
 ### DevOps a testování {#devops-and-testing}
 
-DevOps je přístup k vývoji softwaru, který je postaven na synergii mezi odděleními vývoje (včetně testování) a provozu s cílem dosahovat definovaných společných cílů. DevOps vyžaduje změnu kultury v rámci organizace tak, aby se mezi těmito dvěma organizačními jednotkami překlenuly mezery a zároveň se k nim přistupovalo se stejnou důležitostí. DevOps podporuje autonomii týmu, rychlou zpětnou vazbu, integrované sady nástrojů a užití technických přístupů jako je průběžná integrace (CI – continuous integration) a průběžné nasazovaní (CD – continuous deployment). To umožňuje týmům vytvářet, testovat a vydávat kvalitní kód rychleji prostřednictvím definované DevOps pipeline (@kim2016devops).
+DevOps je přístup k vývoji softwaru, který je postaven na synergii mezi odděleními vývoje (včetně testování) a provozu s cílem dosahovat definovaných společných cílů. DevOps vyžaduje změnu kultury v rámci organizace tak, aby se mezi těmito dvěma organizačními jednotkami překlenuly mezery a zároveň se k nim přistupovalo se stejnou důležitostí. DevOps podporuje autonomii týmu, rychlou zpětnou vazbu, integrované sady nástrojů a užití technických přístupů jako je průběžná integrace (CI – continuous integration) a průběžné nasazovaní (CD – continuous deployment). To umožňuje týmům vytvářet, testovat a vydávat kvalitní kód rychleji prostřednictvím definované DevOps pipeline [@kim2016devops].
 
 Z pohledu testování má DevOps tyto výhody:
 
@@ -132,7 +132,7 @@ Existuje mnoho typů testů, které lze na projektech použít. Tyto učební os
 
 **Funkcionální testování** ověřuje funkcionality, které by komponenta nebo systém měl vykonávat. Funkcionality představují to, „co" by systém měl dělat. Hlavním cílem funkcionálního testování je kontrola funkcionální úplnosti, funkcionální správnosti a funkcionální vhodnosti.
 
-**Nefunkcionální testování** vyhodnocuje nefunkcionální charakteristiky komponenty nebo systému a dává tak odpověď na otázku „jak dobře se systém chová". Seznam nefunkcionálních charakteristik kvality softwaru lze nalézt v normě ISO/IEC 25010 (@ISO25010):
+**Nefunkcionální testování** vyhodnocuje nefunkcionální charakteristiky komponenty nebo systému a dává tak odpověď na otázku „jak dobře se systém chová". Seznam nefunkcionálních charakteristik kvality softwaru lze nalézt v normě ISO/IEC 25010 [@ISO25010]:
 
 * výkonnostní efektivita,
 * kompatibilita,
@@ -171,7 +171,7 @@ Konfirmační a/nebo regresní testování testovaného objektu je nutno použí
 
 ## Testování údržby
 
-Existují různé druhy údržby s různými cíli, např oprava, adaptace na změnu prostředí, zlepšení výkonu nebo zlepšení udržovatelnosti (viz norma ISO/IEC 14764 (@ISO14764)). Údržba může být jak plánovaná, tak neplánovaná (hotfix). Před provedením změny lze taktéž provést analýzu dopadu, která pomůže při rozhodování, zda by změna měla být provedena, a to na základě potenciálních důsledků v jiných oblastech systému. Testování změn systému, který je již v produkci zahrnuje jak vyhodnocení úspěšnosti implementace změny, tak kontrolu možné regrese v nezměněných částech systému (což je obvykle většina systému).
+Existují různé druhy údržby s různými cíli, např oprava, adaptace na změnu prostředí, zlepšení výkonu nebo zlepšení udržovatelnosti (viz norma ISO/IEC 14764 [@ISO14764]). Údržba může být jak plánovaná, tak neplánovaná (hotfix). Před provedením změny lze taktéž provést analýzu dopadu, která pomůže při rozhodování, zda by změna měla být provedena, a to na základě potenciálních důsledků v jiných oblastech systému. Testování změn systému, který je již v produkci zahrnuje jak vyhodnocení úspěšnosti implementace změny, tak kontrolu možné regrese v nezměněných částech systému (což je obvykle většina systému).
 
 Rozsah testování údržby závisí na těchto faktorech:
 

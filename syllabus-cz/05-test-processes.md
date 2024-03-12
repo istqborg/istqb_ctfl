@@ -20,7 +20,7 @@ Typický obsah plánu testování obsahuje:
 * přístup k testování (např. úrovně testů, typy testů, techniky testování, výstupy z testování, vstupní a výstupní kritéria, nezávislost testování, požadované metriky, požadavky na testovací data, požadavky na testovací prostředí, odchylky od politiky a strategie testování),
 * rozpočet a harmonogram.
 
-Další podrobnosti o plánu testování a jeho obsahu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 (@ISO29119-3).
+Další podrobnosti o plánu testování a jeho obsahu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3].
 
 ### Přínos testerů při plánování iterací a vydání
 V iterativních SDLC se obvykle vyskytují dva druhy plánování: plánování vydání a plánování iterace.
@@ -51,7 +51,7 @@ Odhad pracnosti testování reprezentuje očekávané množství práce, které 
 
 **Tříbodový odhad**. Při této technice založené na expertech provádějí experti tři odhady: nejoptimističtější odhad (a), nejpravděpodobnější odhad (m) a nejpesimističtější odhad (b). Výsledný odhad (E) je jejich vážený aritmetický průměr. V nejpoužívanější verzi této techniky se odhad vypočítá jako E = (a + 4 \* m + b) / 6. Výhodou této techniky je, že umožňuje expertům vypočítat chybu měření, obvykle ve formě směrodatné odchylky: SD = (b - a) / 6. Pokud jsou např. odhady (v člověko-hodinách): a = 6, m = 9 a b = 18, pak výsledný odhad je 10 ± 2 člověko-hodin (tj. mezi 8 a 12 člověko-hodinami), protože E = (6 + 4 \* 9 + 18) / 6 = 10 a SD = (18 - 6) / 6 = 2.
 
-Více informací o těchto a mnoha dalších technikách odhadování pracnosti testování lze nalézt v (@kan2003metrics), (@vroon2013tmap) a (@westfall2016certified).
+Více informací o těchto a mnoha dalších technikách odhadování pracnosti testování lze nalézt v [@kan2003metrics], [@vroon2013tmap] a [@westfall2016certified].
 
 ### Prioritizace testovacích případů {#test-cases-prioritization}
 Jakmile jsou testovací případy a testovací procedury vytvořeny a sestaveny do testovacích sad, lze tyto testovací sady řadit do harmonogramu provádění definující pořadí spouštění.
@@ -69,10 +69,10 @@ Pořadí provádění testů musí také zohledňovat dostupnost zdrojů, např.
 ### Testovací pyramida
 Testovací pyramida je model, který ukazuje, že různé testy mohou mít různou granularitu. Představuje pomůcku pro automatizaci testů, protože týmu názorně znázorňuje možnosti rozložení pracnosti v různých úrovních automatizace testování, zároveň ukazuje, že různé úrovně mají různé cíle.
 
-Vrstvy pyramidy představují skupiny testů. Čím vyšší vrstva, tím nižší granularita testu, menší izolace testu a delší doba provádění testu. Testy ve spodní vrstvě jsou malé, izolované, rychlé a ověřují malou část funkcionality, takže k dosažení rozumného pokrytí je jich obvykle potřeba velké množství. Horní vrstva představuje komplexní vysokoúrovňové E2E (end-to-end) testy. Ty jsou obecně pomalejší než testy z nižších vrstev a obvykle ověřují velkou část funkcionality, takže pro dosažení rozumného pokrytí je jich obvykle zapotřebí jen několik. Počet a pojmenování jednotlivých vrstev se může lišit, například původní model testovací pyramidy (@cohn2010succeeding) definuje tři vrstvy (testy komponent, testy služeb a testy uživatelského rozhraní). Jiné modely definují jednotkové testy (testy komponent), integrační testy komponent a end-to-end testy, obecně lze použít i jiné úrovně testování (viz <#section:testing-levels>).
+Vrstvy pyramidy představují skupiny testů. Čím vyšší vrstva, tím nižší granularita testu, menší izolace testu a delší doba provádění testu. Testy ve spodní vrstvě jsou malé, izolované, rychlé a ověřují malou část funkcionality, takže k dosažení rozumného pokrytí je jich obvykle potřeba velké množství. Horní vrstva představuje komplexní vysokoúrovňové E2E (end-to-end) testy. Ty jsou obecně pomalejší než testy z nižších vrstev a obvykle ověřují velkou část funkcionality, takže pro dosažení rozumného pokrytí je jich obvykle zapotřebí jen několik. Počet a pojmenování jednotlivých vrstev se může lišit, například původní model testovací pyramidy [@cohn2010succeeding] definuje tři vrstvy (testy komponent, testy služeb a testy uživatelského rozhraní). Jiné modely definují jednotkové testy (testy komponent), integrační testy komponent a end-to-end testy, obecně lze použít i jiné úrovně testování (viz <#section:testing-levels>).
 
 ### Testovací kvadranty
-Testovací kvadranty definované Brianem Marickem (@marick2003survey), (@crispin2009agile), dávají do souvislosti úrovně testování s příslušnými typy testů, činnostmi, technikami testování a pracovními produkty v agilním vývoji softwaru. Model je pomůckou pro management testování při vizualizaci těchto vztahů s cílem zajišťovat, že všechny vhodné typy a úrovně testů jsou zahrnuty do SDLC, a pro pochopení toho, že některé typy testů jsou pro určité úrovně testů relevantnější než jiné. Poskytuje způsob, jak od sebe rozlišit a popsat typy testů všem zúčastněným stranám včetně vývojářů, testerů a zástupců byznysu.
+Testovací kvadranty definované Brianem Marickem [@marick2003survey], [@crispin2009agile], dávají do souvislosti úrovně testování s příslušnými typy testů, činnostmi, technikami testování a pracovními produkty v agilním vývoji softwaru. Model je pomůckou pro management testování při vizualizaci těchto vztahů s cílem zajišťovat, že všechny vhodné typy a úrovně testů jsou zahrnuty do SDLC, a pro pochopení toho, že některé typy testů jsou pro určité úrovně testů relevantnější než jiné. Poskytuje způsob, jak od sebe rozlišit a popsat typy testů všem zúčastněným stranám včetně vývojářů, testerů a zástupců byznysu.
 
 V tomto modelu osa Y rozlišuje testy zaměřené na byznys nebo na technologii a osa X pak testy podporující tým (tj. ty, které pomáhají usměrňovat vývojové aktivity) nebo revidující produkt (tj. takové, které pomáhají měřit jeho chování proti očekáváním). Kombinace těchto dvou pohledů (os) určuje čtyři kvadranty:
 
@@ -82,7 +82,7 @@ V tomto modelu osa Y rozlišuje testy zaměřené na byznys nebo na technologii 
 * **Kvadrant Q4 (zaměřené na technologii, revidující produkt)**. Tento kvadrant obsahuje smoke testy a nefunkcionální testy (kromě testů použitelnosti). Tyto testy jsou často automatizované.
 
 ## Management rizik {#risk-management}
-Organizace čelí mnoha interním a externím faktorům přinášejícím nejistotu v tom, zda a kdy dosáhnou svých cílů (@ISO31000). Management rizik jim umožňuje zvýšit pravděpodobnost dosažení těchto cílů, zlepšit kvalitu jejich produktů a zvýšit důvěru zúčastněných stran.
+Organizace čelí mnoha interním a externím faktorům přinášejícím nejistotu v tom, zda a kdy dosáhnou svých cílů [@ISO31000]. Management rizik jim umožňuje zvýšit pravděpodobnost dosažení těchto cílů, zlepšit kvalitu jejich produktů a zvýšit důvěru zúčastněných stran.
 
 Hlavními činnostmi v oblasti managementu rizik jsou:
 
@@ -111,7 +111,7 @@ Při testování softwaru se obecně zabýváme dvěma typy rizik – projektov�
 
 Projektová rizika mohou mít dopad na harmonogram, rozpočet nebo rozsah projektu, což ovlivňuje schopnost projektu dosáhnout svých cílů.
 
-**Produktová rizika** souvisejí s kvalitativními charakteristikami produktu (např. popsanými v modelu kvality (@ISO25010)). Mezi příklady produktových rizik patří:
+**Produktová rizika** souvisejí s kvalitativními charakteristikami produktu (např. popsanými v modelu kvality [@ISO25010]). Mezi příklady produktových rizik patří:
 
 * chybějící nebo nesprávná funkcionalita,
 * nesprávné výpočty,
@@ -154,7 +154,7 @@ Analýza produktových rizik může ovlivnit důkladnost a rozsah testování. J
 ### Řízení produktových rizik {#product-risk-management}
 Řízení produktových rizik zahrnuje všechna opatření, která jsou přijata v reakci na identifikovaná a ohodnocená produktová rizika. Skládá se ze zmírňování rizik a monitoringu rizik.
 
-Obsahem **zmírňování rizik** je zavedení opatření navržených při ohodnocení rizik s cílem snížit úroveň rizika. Jakmile je riziko analyzováno, je možné na něj reagovat několika způsoby, např. jeho zmírněním pomocí testování, přijetím, přenosem nebo záložním plánem (@veenendaal2012prisma). Opatření, která lze přijmout ke zmírnění produktových rizik prostřednictvím testování, jsou následující:
+Obsahem **zmírňování rizik** je zavedení opatření navržených při ohodnocení rizik s cílem snížit úroveň rizika. Jakmile je riziko analyzováno, je možné na něj reagovat několika způsoby, např. jeho zmírněním pomocí testování, přijetím, přenosem nebo záložním plánem [@veenendaal2012prisma]. Opatření, která lze přijmout ke zmírnění produktových rizik prostřednictvím testování, jsou následující:
 
 * výběr testerů se zkušenostmi a dovednostmi vhodnými pro daný typ rizika,
 * použití vhodné úrovně nezávislosti testování,
@@ -214,7 +214,7 @@ Souhrnný report z testování se připravuje v průběhu fáze dokončení test
 
 Různé cílové skupiny potřebují v těchto reportech různé informace a ovlivňují tím míru formálnosti a četnost reportování. Podávání zpráv o postupu prací při testování ostatním členům stejného týmu je většinou časté a neformální, zatímco podávání souhrnných reportů z testování z ukončeného projektu se provádí typicky pouze jednou, a to dle definované šablony.
 
-V normě ČSN ISO/IEC/IEEE 29119-3 (@ISO29119-3) lze nalézt šablony a příklady reportů o postupu prací při testování (nazývané reporty o stavu testů) a souhrnných reportů z testování.
+V normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3] lze nalézt šablony a příklady reportů o postupu prací při testování (nazývané reporty o stavu testů) a souhrnných reportů z testování.
 
 ### Komunikování stavu testování
 Optimální způsob komunikování stavu testování se liší v závislosti na potřebách managementu testování, strategiích testování v organizaci, regulatorních normách nebo v případě samoorganizujících se týmů (viz <#section:team-approach>) na samotném týmu. Mezi možnosti komunikace patří:
@@ -266,4 +266,4 @@ Report o defektu zaznamenaný během dynamického testování obvykle obsahuje:
 * stav defektu (např. otevřený, odložený, duplicitní, čekající na opravu, čekající na konfirmační testování, znovu otevřený, uzavřený, zamítnutý),
 * odkazy (např. na testovací případ).
 
-Některé z těchto informací mohou být automaticky vkládány nástrojem pro management defektů (např. identifikátor, datum, autor a počáteční stav). Šablony dokumentů pro report o defektu a příklady reportů o defektu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 (@ISO29119-3) (norma však používá termín zpráva o incidentu).
+Některé z těchto informací mohou být automaticky vkládány nástrojem pro management defektů (např. identifikátor, datum, autor a počáteční stav). Šablony dokumentů pro report o defektu a příklady reportů o defektu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3] (norma však používá termín zpráva o incidentu).

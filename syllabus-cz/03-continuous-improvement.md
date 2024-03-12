@@ -53,7 +53,7 @@ Včasná a častá zpětná vazba pomáhá s odhalením potenciálních problém
 
 ### Činnosti procesu revize {#review-process-activities}
 
-Norma ISO/IEC 20246 (@ISO20246) definuje obecný proces revize a popisuje strukturovaný, ale flexibilní rámec, ze kterého může být daný proces revize přizpůsoben konkrétní situaci. Čím vyšší je požadovaný stupeň formálnosti revize, tím vyšší je počet úkolů během různých činností.
+Norma ISO/IEC 20246 [@ISO20246] definuje obecný proces revize a popisuje strukturovaný, ale flexibilní rámec, ze kterého může být daný proces revize přizpůsoben konkrétní situaci. Čím vyšší je požadovaný stupeň formálnosti revize, tím vyšší je počet úkolů během různých činností.
 
 Mnohé pracovní produkty jsou tak rozsáhlé, že je nelze pokryt pouze jedinou revizí a proces revize může být proveden opakovaně.
 
@@ -61,7 +61,7 @@ Mnohé pracovní produkty jsou tak rozsáhlé, že je nelze pokryt pouze jedinou
 
 * **Plánování**. Během fáze plánování se stanoví rozsah revize obsahující definici účelu a revidovaného pracovního produktu, kvalitativní charakteristiky pro vyhodnocení, oblasti zájmu, výstupní kritéria, doplňující informace (např. normy), pracnost a časový rámec celé revize.
 * **Zahájení revize**. Během zahájení revize je cílem zajistit, aby bylo všechno (včetně zúčastněných stran) připraveno k revizi. To mimo jiné vyžaduje, aby měl každý účastník přístup k revidovanému pracovnímu produktu, rozuměl své roli a odpovědnostem a obdržel vše potřebné k provedení revize.
-* **Individuální revize**. Každý revidující reviduje definovaný pracovní produkt individuálně s cílem posoudit jeho kvalitu a identifikovat anomálie, doporučení a otázky pomocí jedné nebo více technik revize (např. revize založená na kontrolním seznamu, revize založená na scénáři – viz norma ISO/IEC 20246 (@ISO20246)). Revidující zaznamenává všechny zjištěné anomálie, doporučení a otázky.
+* **Individuální revize**. Každý revidující reviduje definovaný pracovní produkt individuálně s cílem posoudit jeho kvalitu a identifikovat anomálie, doporučení a otázky pomocí jedné nebo více technik revize (např. revize založená na kontrolním seznamu, revize založená na scénáři – viz norma ISO/IEC 20246 [@ISO20246]). Revidující zaznamenává všechny zjištěné anomálie, doporučení a otázky.
 * **Komunikace a analýza**. Ne každá anomálie identifikovaná během revize musí být nutně defekt. Proto je nutné všechny takové anomálie analyzovat a prodiskutovat a u každé by mělo být rozhodnuto o jejím stavu, vlastnictví a požadovaných opatřeních. To se obvykle provádí při revizní schůzce, během níž účastníci také diskutují o úrovni kvality každého revidovaného pracovního produktu a jaká následná opatření jsou vyžadována. K uzavření opatření může být vyžadována další revize.
 * **Opravy a reportování**. Aby bylo možné provést nápravu, měl by být pro každý defekt vytvořen report o defektu. Při splnění daných výstupních kritérií může být pracovní produkt akceptován a výsledky revize jsou reportovány.
 
@@ -76,7 +76,7 @@ Revizi mohou provádět různí lidé a mohou zastávat různé role. Hlavní ro
 * **Revidující** – provádí revizi. Revidujícím může být někdo, kdo pracuje na projektu nebo je odborníkem na danou problematiku nebo i jakákoli jiná zúčastněná strana.
 * **Vedoucí revize** – přebírá celkovou odpovědnost za revizi (např. rozhodování o tom, kdo do ní bude zapojen) a organizaci toho, kdy a kde se bude revize konat.
 
-Popis dalších možných rolí lze nalézt v normě ISO/IEC 20246 (@ISO20246).
+Popis dalších možných rolí lze nalézt v normě ISO/IEC 20246 [@ISO20246].
 
 ### Typy revizí
 
