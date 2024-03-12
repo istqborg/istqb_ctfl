@@ -1,10 +1,12 @@
 ## Testování v kontextu životního cyklu vývoje softwaru {#testing-in-context-of-software-development-life-cycle}
+
 Model životního cyklu vývoje softwaru (SDLC) je zobecněný proces vývoje softwaru. Určuje, jak spolu logicky
 i chronologicky souvisí různé fáze vývoje a typy činností prováděných v rámci tohoto procesu. Mezi kategorie modelů SDLC patří sekvenční modely vývoje (např. vodopádový model, V-model), iterativní modely vývoje (např. spirálový model, prototypování) a inkrementální vývojové modely (např. Rational Unified Process).
 Některé činnosti v rámci procesů vývoje softwaru lze také popsat podrobnějšími metodami vývoje softwaru
 a agilními postupy. Mezi takové metody patří vývoj řízený akceptačními testy (ATDD – acceptance test driven development), vývoj řízený chováním (BDD – behavior driven development), návrh řízený doménou (DDD – domain driven development), extrémní programování (XP – extreme programming), vývoj řízený užitnými vlastnostmi (FDD – feature driven development), Kanban, Lean IT, Scrum a vývoj řízený testováním (TDD – test driven development).
 
 ### Vliv životního cyklu vývoje softwaru na testování
+
 Aby bylo testování úspěšné, musí být přizpůsobeno SDLC. Volba SDLC má dopad na:
 * rozsah a načasování testovacích činností (např. úrovně testování a typy testů),
 * úroveň detailu testovací dokumentace,
@@ -17,6 +19,7 @@ i dynamické testování, a to ve všech úrovních testování. Časté dodáv�
 Agilní vývoj softwaru (s využitím iterativních a inkrementálních modelů) předpokládá, že v průběhu projektu může dojít ke změně. Proto je v agilních projektech upřednostňována spíše stručnější dokumentace pracovních produktů, a naopak rozsáhlá automatizace testů, která usnadňuje regresní testování. Většina manuálních testů je často prováděna pomocí testovacích technik založených na zkušenostech (viz <#section:experience-based-testing-techniques>), u kterých není vyžadováno provedení rozsáhlé testovací analýzy a návrhu testů.
 
 ### Životní cyklus vývoje softwaru a osvědčené testovací postupy
+
 Mezi osvědčené testovací postupy, nezávisle na zvoleném modelu SDLC, patří:
 * Ke každé vývojové činnosti existuje odpovídající testovací činnost, takže všechny vývojové činnosti podléhají řízení kvality.
 * Existují různé úrovně testování (viz <#section:testing-levels>) a každá má své specifické (a někdy i odlišné) cíle. Tím je testování přiměřeně detailní a zároveň nedochází k nadbytečnostem.
@@ -67,6 +70,7 @@ DevOps má také některá rizika a nevýhody:
 * Přestože DevOps předpokládá vyšší rozsah automatizovaného testování, nelze opomíjet ani manuální testování, a to zejména z pohledu koncového uživatele.
 
 ###  Přístup shift-left {#shift-left-approach}
+
 Princip včasného testování (viz <#section:testing-principles>) je někdy označován jako shift-left (posun doleva ve smyslu časové osy), kdy je testování prováděno v dřívějších fázích SDLC. Shift-left doporučuje začít s testováním dříve (např. nečekat na implementaci kódu nebo na integraci komponent), ale neznamená to, že by testování v pozdějších fázích mělo být zanedbáváno.
 
 Existují některé osvědčené postupy, na kterých lze demonstrovat aplikaci tohoto přístupu:

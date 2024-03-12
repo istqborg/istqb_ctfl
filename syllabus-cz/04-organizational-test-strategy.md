@@ -1,4 +1,5 @@
 ## Přehled technik testování {#overview-of-testing-techniques}
+
 Techniky testování podporují testery při testovací analýze (ve smyslu „co testovat") a při návrhu testů (ve smyslu „jak testovat") a pomáhají systematicky definovat relativně malou, ale dostatečnou sadu testovacích případů. Pomáhají také testerům (opět během testovací analýzy a návrhu testů) definovat testovací podmínky, identifikovat položky pokrytí a identifikovat testovací data. Více informací o technikách testování lze nalézt v normě ISO/IEC/IEEE 29119-4 [@ISO29119-4] a v [@beizer1990software], [@craig2002systematic], [@copeland2004practitioner], [@vroon2013tmap], [@jorgensen2014software], [@ammann2016introduction], [@forgacs2019practical].
 
 V těchto učebních osnovách jsou popsány techniky testování černé skříňky, testování bílé skříňky a testování založené na zkušenostech.
@@ -10,6 +11,7 @@ V těchto učebních osnovách jsou popsány techniky testování černé skří
 **Techniky testování založené na zkušenostech** využívají znalosti a zkušenosti testerů pro návrh a implementaci testovacích případů. Efektivita těchto technik silně závisí na dovednostech testerů. Techniky testování založené na zkušenostech mohou odhalit defekty, které techniky testování černé a bílé skříňky neodhalí. Lze tedy říct, že techniky testování založené na zkušenostech jsou doplňkem technik testování černé a bílé skříňky.
 
 ## Techniky testování černé skříňky {#black-box-testing-techniques}
+
 Běžně používané techniky testování černé skříňky jsou popsány v následujících kapitolách:
 
 * rozdělení tříd ekvivalence,
@@ -18,6 +20,7 @@ Běžně používané techniky testování černé skříňky jsou popsány v n�
 * testování přechodů stavů.
 
 ### Rozdělení tříd ekvivalence
+
 Rozdělení tříd ekvivalence (EP – equivalence partitioning) je technika testování rozdělující data do tříd (označováných jako třídy ekvivalence), u kterých lze očekávat stejný způsob zpracování testovaným objektem. Teorie stojící za touto technikou spočívá v tom, že pokud testovací případ detekuje defekt pro jednu hodnotu z třídy ekvivalence, měl by tento případ odhalit defekt i pro jakoukoli jinou hodnotu téže třídy. Proto stačí jeden test pro každou třídu.
 
 Třídu ekvivalence lze identifikovat pro libovolný datový element související s testovaným objektem jako jsou např. vstupy, výstupy, konfigurační položky, interní hodnoty, hodnoty související s časem nebo parametry rozhraní. Třídy mohou být spojité nebo diskrétní, uspořádané nebo neuspořádané, konečné nebo nekonečné. Třídy se nesmí překrývat a musí se jednat o neprázdné množiny.
@@ -30,7 +33,8 @@ V EP jsou položkami pokrytí samotné třídy ekvivalence. Pro dosažení 100% 
 
 Mnoho testovaných objektů obsahuje více množin tříd ekvivalence (např. testované objekty s více vstupními parametry). V tomto případě může jeden testovací případ pokrývat třídy z různých množin tříd. Nejjednodušším kritériem pokrytí v takových případech je tzv. pokrytí každé volby (viz [@ammann2016introduction]). Toto kritérium vyžaduje, aby testovací případy pokryly každou třídu z každé množiny tříd alespoň jednou a zároveň nebere v úvahu kombinace tříd.
 
-### Analýza hraničních hodnot 
+### Analýza hraničních hodnot
+
 Analýza hraničních hodnot (BVA – boundary value analysis) je technika založená na pokrytí okrajových hodnot tříd ekvivalencí. Proto ji lze použít pouze pro uspořádané (seřazené) třídy, kdy minimální a maximální hodnoty každé třídy jsou její hraniční hodnoty. Pro tuto techniku platí, že pokud dva prvky patří do stejné třídy, musí do této třídy patřit také všechny prvky ležící mezi nimi.
 
 BVA se zaměřuje na hraniční hodnoty tříd, protože pravděpodobnost, že vývojáři udělají chybu právě na těchto hranicích, je vyšší. Typické defekty zjištěné technikou BVA se nacházejí v těch oblastech, kde jsou implementované (skutečné) hranice přesunuty na pozice nad nebo pod jejich specifikovanými (předpokládanými) hodnotami, případně kde jsou zcela vynechány.
@@ -44,6 +48,7 @@ V případě 3-hodnotové BVA [@vroon2013tmap], [@oregan2019concise] existují p
 3-hodnotová BVA je „přísnější" než 2-hodnotová BVA, s její pomocí lze odhalit defekty, které by mohly být s použitím 2-hodnotové BVA přehlédnuty. Pokud je např. podmínka "IF (x ≤ 10) ..." nesprávně implementována jako "IF (x = 10) ...", žádný z testovacích případů vytvořených pomocí 2-hodnotové BVA (x = 10, x = 11) nemůže tuto chybnou implementaci (a následný defekt) odhalit. Testovací případ x = 9 odvozený pomocí 3-hodnotové BVA tuto chybu pravděpodobně odhalí.
 
 ### Testování dle rozhodovací tabulky
+
 Rozhodovací tabulky jsou vhodné pro testování implementace systémových požadavků definujících, jakým způsobem vedou různé kombinace podmínek k různým výsledkům. Představují efektivní způsob zaznamenávání složité logiky jako jsou například byznysová pravidla.
 
 Při vytváření rozhodovacích tabulek se určí podmínky a výsledné akce systému, které tvoří dvě skupiny řádků tabulky. Každý sloupec odpovídá jednomu pravidlu rozhodování, které definuje jedinečnou kombinaci podmínek vedoucí k provedení akcí spojených s tímto pravidlem. V rozhodovacích tabulkách s omezeným počtem vstupů (limited-entry decision table) jsou všechny hodnoty podmínek a akcí (s výjimkou irelevantních nebo neproveditelných hodnot, viz níže) zobrazeny jako logické hodnoty (pravda / true nebo nepravda / false).
@@ -72,6 +77,7 @@ Význam testování dle rozhodovací tabulky spočívá v tom, že poskytuje sys
 V případě, že existuje mnoho podmínek, může být prověřování všech rozhodovacích pravidel časově náročné, protože počet pravidel roste exponenciálně s počtem podmínek. V takovém případě lze ke snížení počtu testovaných pravidel použít zjednodušenou rozhodovací tabulku nebo přístup založený na rizicích.
 
 ### Testování přechodů stavů
+
 Diagram přechodů stavů modeluje chování systému zobrazením jeho možných stavů a platných přechodů mezi nimi. Přechod je iniciován výskytem události a může být doplněn o podmínku přechodu (guard condition), jejíž splnění přechod podmiňuje. Předpokládá se, že přechody jsou prováděny okamžitě a někdy mohou vést k tomu, že software provede určitou akci. Běžná syntaxe označování přechodů je „událost [podmínka přechodu] / akce". Pokud podmínky přechodů nebo akce neexistují (příp. jsou pro testery irelevantní), mohou být vynechány.
 
 K diagramu přechodů stavů je ekvivalentní také tabulka přechodů stavů. Její řádky představují stavy a její sloupce události doplněné o podmínky přechodů (pokud existují). Jednotlivé položky tabulky (buňky) představují přechody a obsahují cílový stav spolu s podmínkami přechodů a výslednými akcemi (pokud jsou definovány). Na rozdíl od diagramu přechodů stavů zobrazuje tabulka přechodů stavů i neplatné přechody, které jsou reprezentovány prázdnými buňkami.
@@ -91,6 +97,7 @@ Kritérium pokrytí všech stavů je „slabší" než kritérium pokrytí platn
 Platí, že dosažení plného pokrytí platných přechodů garantuje také plné pokrytí všech stavů, dosažení plného pokrytí všech přechodů zaručuje jak plné pokrytí všech stavů, tak plné pokrytí platných přechodů.
 
 ## Techniky testování bílé skříňky {#white-box-testing-techniques}
+
 Tato kapitola se zaměřuje na dvě nejznámější techniky testování bílé skříňky, s jejichž pomocí lze otestovat kód:
 
 * testování příkazů,
@@ -104,6 +111,7 @@ Při testování příkazů jsou položkami pokrytí spustitelné příkazy. Cí
 V případě dosažení 100% pokrytí příkazů je zajištěno, že všechny spustitelné příkazy v kódu byly otestovány alespoň jednou. To znamená, že bude spuštěn každý příkaz, který může způsobit selhání indikující výskyt defektu. Opět ale platí, že otestování příkazu pomocí testovacího případu nemusí vždy odhalit defekt, technika například nemusí detekovat defekty související s daty (např. dělení nulou, které selže pouze při nulové hodnotě dělitele). 100% pokrytí příkazů také nezaručuje, že veškerá rozhodovací logika byla otestována, protože nemusí dojít ke spuštění všech větví v kódu (viz <#section:branch-testing-and-coverage>).
 
 ### Testování a pokrytí větví {#branch-testing-and-coverage}
+
 Větev je přenos řízení mezi dvěma uzly v grafu řídicího toku zobrazujícího možné sekvence, ve kterých jsou příkazy zdrojového kódu v testovacím objektu prováděny. Každý přenos řízení může být buď nepodmíněný (tj. lineární kód) nebo podmíněný (tj. výsledek rozhodnutí).
 
 Při testování větví jsou položkami pokrytí větve a cílem je navrhovat testovací případy tak, aby došlo k pokrytí větví v určité části kódu při definované akceptovatelné úrovni pokrytí. Pokrytí se měří jako počet větví pokrytých testy k celkovému počtu větví (obvykle vyjádřeno v procentech).
@@ -113,6 +121,7 @@ Při dosažení 100% pokrytí větví jsou všechny nepodmíněné a podmíněn�
 Pokrytí větví automaticky zaručuje pokrytí příkazů. To znamená, že jakákoliv sada testovacích případů, která dosáhne 100% pokrytí větví, dosáhne také 100% pokrytí příkazů (ale ne naopak).
 
 ### Význam testování bílé skříňky
+
 Silnou stránkou technik bílé skříňky je, že při testování je zohledněna samotná implementace softwaru, což usnadňuje detekci defektů v případech, kdy je jeho specifikace vágní, zastaralá nebo neúplná. Slabinou je fakt, že nemusí odhalit defekty při opomenutí implementace jednoho nebo více požadavků [@watson1996structured].
 
 Techniky bílé skříňky mohou být použity při statickém testování (např. během tzv. běhů kódu „nanečisto", dry-runs). Jsou také vhodné při revizi kódu, který ještě není připraven ke spuštění [@hetzel1988complete] stejně jako při revizi pseudokódu nebo jiného zápisu logiky vyšší nebo nižší úrovně, které mohou být modelovány pomocí grafu řídicího toku.
@@ -120,6 +129,7 @@ Techniky bílé skříňky mohou být použity při statickém testování (nap�
 Pouhé testování pomocí technik černé skříňky neposkytuje informace o míře skutečného pokrytí kódu. Naopak výsledky testování s využitím technik bílé skříňky poskytují objektivní měření pokrytí a poskytují také nezbytné informace umožňující vytváření dalších testů s cílem zvyšování tohoto pokrytí a tím i následné zvyšování důvěry v kód.
 
 ## Techniky testování založené na zkušenostech {#experience-based-testing-techniques}
+
 Nejznámější používané techniky testování založené na zkušenostech popsány v následujících kapitolách jsou:
 
 * odhadování chyb,
@@ -127,6 +137,7 @@ Nejznámější používané techniky testování založené na zkušenostech po
 * testování založené na kontrolním seznamu.
 
 ### Odhadování chyb
+
 Odhadování chyb je technika používaná k předvídání výskytu chyb, defektů a selhání, která je založená na znalostech testerů jako jsou např.:
 
 * jak fungovala aplikace v minulosti,
@@ -137,9 +148,10 @@ Obecně platí, že chyby, defekty a selhání mohou souviset se vstupem (např.
 
 Známým metodickým přístupem k implementaci odhadování chyb je útok na vady (fault attack). Při této technice je nutné, aby testeři vytvořili nebo získali seznam možných chyb, defektů a selhání a navrhli takové testy, které je identifikují, odhalí nebo způsobí. Tyto seznamy lze sestavit na základě zkušeností, údajů o defektech a selháních nebo z obecných znalostí o důvodech selhávání softwaru.
 
-Více informací o těchto technikách viz Whittaker 2002, Whittaker 2003 a Andrews 2006.
+Více informací o těchto technikách viz [@whittaker2003break], [@whittaker2009exploratory], [@andrews2006break].
 
 ### Průzkumné testování
+
 Při průzkumném testování jsou testy současně navrhovány, prováděny a vyhodnocovány, zatímco testeři získávají znalosti o testovaném objektu. Testování se (mimo jiné) používá k získání dalších informací o testovaném objektu, k jeho hlubšímu prozkoumání pomocí cílených testů a k vytvoření testů pro dosud neotestované oblasti.
 
 Průzkumné testování se někdy provádí pomocí tzv. testování v relacích s cílem lépe strukturovat testování, kdy se definuje časový rámec pro test. Jako vstup pro řízení celého testu používají testeři tzv. testovací listinu (test charter) s definicí cílů testování. Po testovací relaci obvykle následuje tzv. debriefing s diskusí testerů a zúčastněných stran, které se zajímají o výsledky testovací relace.
@@ -161,9 +173,11 @@ Některé položky kontrolního seznamu mohou být časem méně efektivní, pro
 V případech absence testovacích případů může testování založené na kontrolních seznamech poskytnout návod pro testování a zajistit určitý stupeň konzistence. Jelikož se jedná o obecné seznamy (high-level sheets), je pravděpodobné, že se v takovém testování může objevit určitá variabilita. To může přispět k většímu pokrytí, ale také k menší míře opakovatelnosti testování.
 
 ## Přístupy k testování založené na spolupráci {#collaborative-testing-approaches}
+
 Každá z výše uvedených technik (viz <#section:black-box-testing-techniques>, <#section:white-box-testing-techniques>, <#section:experience-based-testing-techniques>) má svůj specifický cíl ve vztahu k identifikaci defektů. Přístupy založené na spolupráci využívají odlišné principy a jsou zaměřeny spíše na prevenci výskytu defektů využitím spolupráce a komunikace.
 
 ### Společné psaní uživatelských scénářů {#co-writing-user-scenarios}
+
 Uživatelský scénář (user story) představuje užitnou vlastnost (feature), která má pro uživatele nebo pro budoucího majitele softwaru / systému určitou hodnotu. Uživatelské scénáře obsahují tři důležité části (viz [@jeffries2001extreme]) nazývané dohromady „3C":
 
 * **karta** (card) – médium popisující uživatelský scénář (např. barevné štítky na tabuli nebo digitální karta v online systému),
@@ -177,6 +191,7 @@ Společné autorství uživatelského scénáře může využívat techniky jako
 Správné uživatelské scénáře by měly být tzv. INVEST: nezávislé (Independent), schůdné (Negotiable), hodnotné (Valuable), odhadnutelné (Estimable), malé (Small) a testovatelné (Testable). V určitých situacích se může stát, že zástupce zúčastněné strany neví, jak otestovat daný uživatelský scénář. To může znamenat, že není dostatečně jasný nebo že neodráží něco, co je pro zúčastněné strany cenné, případně že pouze potřebují pomoc při testování [@wake2003invest].
 
 ### Akceptační kritéria {#acceptance-criteria}
+
 Akceptační kritéria pro uživatelský scénář jsou podmínky, které musí jeho implementace splňovat, aby byla přijata zúčastněnými stranami. Z tohoto hlediska lze na ně pohlížet jako na testovací podmínky, které by měly testy prověřit. Akceptační kritéria jsou obvykle výsledkem konverzace (viz <#section:co-writing-user-scenarios>).
 
 Akceptační kritéria se používají k:
@@ -195,11 +210,12 @@ Existuje několik způsobů, jak napsat akceptační kritéria pro uživatelský
 Ačkoliv lze většinu akceptačních kritérií dokumentovat v jednom z těchto dvou formátů, může tým použít libovolný jiný (i vlastní) formát za předpokladu, že jsou akceptační kritéria dobře definovaná a jednoznačná.
 
 ### Vývoj řízený akceptačními testy (ATDD) {#atdd}
+
 ATDD je jedním z přístupů iniciovaných testy (viz <#section:test-driven-software-development>), kdy jsou testovací případy vytvořeny před vlastní implementací uživatelského scénáře členy týmu s různými perspektivami, což jsou např. zákazníci, vývojáři a testeři (Adzic 2009). Testovací případy mohou být prováděny manuálně nebo automatizovaně.
 
 Prvním krokem je obvykle schůzka nad specifikacemi, kde členové týmu analyzují, diskutují a dokumentují uživatelské scénáře a (pokud ještě nejsou definována) jejich akceptační kritéria. Během tohoto procesu jsou obvykle vyřešeny neúplnosti, nejednoznačnosti nebo defekty v uživatelském scénáři.
 
-Dalším krokem je vytvoření testovacích případů, což může být provedeno jak celým týmem společně, tak pouze testery. Testovací případy jsou založeny na akceptačních kritériích a lze je považovat za příklady toho, jak by měl software pracovat, což pomůže týmu správně implementovat uživatelský scénář. Vzhledem k tomu, že příklady a testy jsou vlastně totožné, používají se oba termíny zaměnitelně. Obvykle jsou první testovací případy pozitivní a potvrzují správné chování bez výjimečných situací nebo chybových stavů, často obsahují posloupnost prováděných činností v případech, kdy vše probíhá podle očekávání. Po dokončení pozitivních testovacích případů by měl tým provést negativní testování, a nakonec pokrýt nefunkcionální kvalitativní charakteristiky (např. výkonnostní efektivita nebo použitelnost). Při návrhu testů je možné použít techniky testování popsané v kapitolách <#section:black-box-testing-techniques>,<#section:white-box-testing-techniques> a <#section:experience-based-testing-techniques.
+Dalším krokem je vytvoření testovacích případů, což může být provedeno jak celým týmem společně, tak pouze testery. Testovací případy jsou založeny na akceptačních kritériích a lze je považovat za příklady toho, jak by měl software pracovat, což pomůže týmu správně implementovat uživatelský scénář. Vzhledem k tomu, že příklady a testy jsou vlastně totožné, používají se oba termíny zaměnitelně. Obvykle jsou první testovací případy pozitivní a potvrzují správné chování bez výjimečných situací nebo chybových stavů, často obsahují posloupnost prováděných činností v případech, kdy vše probíhá podle očekávání. Po dokončení pozitivních testovacích případů by měl tým provést negativní testování, a nakonec pokrýt nefunkcionální kvalitativní charakteristiky (např. výkonnostní efektivita nebo použitelnost). Při návrhu testů je možné použít techniky testování popsané v kapitolách <#section:black-box-testing-techniques>,<#section:white-box-testing-techniques> a <#section:experience-based-testing-techniques>.
 
 Testovací případy by měly být vyjádřeny způsobem, který je pro zúčastněné strany srozumitelný. Obvykle obsahují věty v přirozeném jazyce zahrnující nezbytné vstupní podmínky (pre-conditions – pokud existují), vstupy a výstupní podmínky (post-conditions). Musí pokrývat všechny charakteristiky uživatelského scénáře a neměly by přesahovat jeho rámec. Žádné dva testovací případy by neměly popisovat stejné charakteristiky uživatelského scénáře.
 

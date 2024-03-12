@@ -7,6 +7,7 @@ Testeři, zástupci byznysu a vývojáři během popisu příkladů (např. při
 Statická analýza může upozornit na problémy ještě před provedením dynamického testování, přičemž často vyžaduje menší pracnost – nevyžaduje totiž tvorbu testovacích případů a lze u ní využít různých nástrojů (viz <#section:testTools>). Statická analýza je často začleněna do nástrojů průběžně integrace (viz <#section:devops-and-testing>). I když se z velké části používá k odhalování specifických defektů kódu, lze ji také použít k vyhodnocení udržovatelnosti a bezpečnosti. Dalšími příklady nástrojů statické analýzy jsou nástroje pro kontrolu pravopisu a čitelnosti.
 
 ### Pracovní produkty, které mohou být prověřeny statickým testováním
+
 Téměř každý pracovní produkt může být prozkoumán pomocí statického testování. Mezi takové produkty patří například specifikace požadavků, zdrojový kód, plány testování, testovací případy, položky produktového backlogu, testovací listiny, projektová dokumentace, smlouvy nebo modely.
 
 **Revizi** lze použít na jakýkoliv pracovní produkt, který lze přečíst a porozumět mu.
@@ -16,6 +17,7 @@ Pro **statickou analýzu** je nutné, aby měly zkoumané pracovní produkty for
 Pracovní produkty, které nejsou vhodné pro statické testování, jsou obvykle ty, které jsou obtížně interpretovatelné lidmi a současně by neměly být analyzovány nástroji (např. spustitelný kód třetí strany, který z právních důvodů nelze analyzovat s využitím nástrojů).
 
 ### Přínosy statického testování
+
 Statické testování může odhalit defekty v nejranějších fázích SDLC, čímž naplňuje princip včasného testování (viz <#section:testing-principles>). Může také odhalit defekty, které nelze zjistit dynamickým testováním (např. nedosažitelný kód, chybně implementované návrhové vzory, defekty v nespustitelných pracovních produktech).
 
 Statické testování vytváří důvěru v dané pracovní produkty a umožňuje vyhodnotit jejich kvalitu. Ověřením zdokumentovaných požadavků mohou zúčastněné strany také zajistit, aby tyto požadavky odrážely jejich skutečné potřeby. Vzhledem k tomu, že statické testování může být prováděno v raných fázích SDLC, je možné nastavit pravidla jednotného chápání (např. požadavků), čímž se také zlepší komunikace mezi zúčastněnými stranami. Z tohoto důvodu se doporučuje zapojit do statického testování různé typy účastníků.
@@ -25,6 +27,7 @@ I když může být provedení revizí nákladné, celkové náklady na projekt 
 Některé defekty v kódu lze odhalit pomocí statické analýzy mnohem efektivněji než při dynamickém testování, což obvykle vede k jejich menšímu počtu a tím i nižší celkové pracnosti při vývoji.
 
 ### Rozdíly mezi statickým a dynamickým testováním
+
 Statické a dynamické testovací postupy se vzájemně doplňují. Mají podobné cíle (např. odhalování defektů v pracovních produktech, viz <#section:typical-testing-objectives>), ale existují mezi nimi také určité rozdíly, například:
 
 * Jak statické, tak dynamické testování (včetně analýzy selhání) může vést k odhalení defektu, nicméně existují některé typy defektů, které lze nalézt buď jenom statickým nebo jenom dynamickým testováním.
@@ -82,7 +85,7 @@ Popis dalších možných rolí lze nalézt v normě ISO/IEC 20246 [@ISO20246].
 
 Existuje mnoho typů revizí, od neformálních až po velmi formální. Požadovaná úroveň formálnosti závisí na faktorech jako je použitý SDLC, vyspělost procesu vývoje, kritičnost a složitost revidovaného pracovního produktu, právní nebo regulatorní požadavky a potřeba doložení záznamů pro případný audit. Stejný pracovní produkt může být revidován různými typy revizí, např. nejprve neformální a později formálnější.
 
-Výběr správného typu revize je klíčový pro dosažení požadovaných cílů revize (viz kapitola 3.2.5). Výběr je ale založen na dalších faktorech jako jsou potřeby projektu, dostupné zdroje, typ pracovního produktu, typ rizika, byznysová doména a firemní kultura.
+Výběr správného typu revize je klíčový pro dosažení požadovaných cílů revize (viz<#section:success-factors-for-reviews>). Výběr je ale založen na dalších faktorech jako jsou potřeby projektu, dostupné zdroje, typ pracovního produktu, typ rizika, byznysová doména a firemní kultura.
 
 Mezi běžně používané typy revizí patří:
 
@@ -91,7 +94,7 @@ Mezi běžně používané typy revizí patří:
 * **Technická revize**. Technickou revizi provádějí odborně kvalifikovaní revidující a vede ji moderátor. Cílem technické revize je primárně dosáhnout shody a učinit rozhodnutí týkající se nějakého technického problému, ale také odhalit anomálie, vyhodnotit kvalitu, vybudovat důvěru v pracovní produkt, generovat nové nápady, motivovat autory a podpořit je ve zlepšování.
 * **Inspekce**. Vzhledem k tomu, že inspekce jsou nejformálnějším typem revize, řídí se komplexním obecným procesem (viz <#section:review-process-activities>). Hlavním cílem je nacházet maximální počet anomálií. Dalšími cíli jsou hodnocení kvality, budování důvěry v pracovní produkt, motivace a podpora autorů ve zlepšování. Jsou shromažďovány metriky, které se používají ke zlepšování celého SDLC včetně samotného procesu inspekce. Při inspekcích nemůže autor vystupovat jako vedoucí revize nebo zapisovatel.
 
-### Faktory úspěchu při revizi
+### Faktory úspěchu při revizi {#success-factors-for-reviews}
 
 Existuje několik faktorů klíčových pro úspěch procesu revize:
 

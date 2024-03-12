@@ -1,6 +1,7 @@
 ## Plánování testování {#planning-testing}
 
 ###  Účel a obsah plánu testování
+
 Plán testování popisuje cíle, zdroje a procesy testování v rámci projektu. Plán testování:
 
 * dokumentuje způsob dosažení cílů testování a harmonogram testování,
@@ -23,13 +24,15 @@ Typický obsah plánu testování obsahuje:
 Další podrobnosti o plánu testování a jeho obsahu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3].
 
 ### Přínos testerů při plánování iterací a vydání
+
 V iterativních SDLC se obvykle vyskytují dva druhy plánování: plánování vydání a plánování iterace.
 
-**Plánování vydání** vyhlíží vpřed směrem k vydání produktu, definuje a upravuje produktový backlog a může zahrnovat rozpracování větších uživatelských scénářů do sady menších. Zároveň slouží jako základ pro definici přístupu k testování a plánu testování napříč všemi iteracemi. Testeři zapojeni do plánování vydání se podílí na specifikaci testovatelných uživatelských scénářů a akceptačních kritérií (viz <#section:collaborative-testing-approaches>), podílí se na analýzách projektových a produktových rizik (viz <#section:risk-management>), provádí odhady pracnosti potřebné k testování uživatelských scénářů (viz kapitola 5.1.4), stanovují přístup k testování a plánují testování související s vydáním.
+**Plánování vydání** vyhlíží vpřed směrem k vydání produktu, definuje a upravuje produktový backlog a může zahrnovat rozpracování větších uživatelských scénářů do sady menších. Zároveň slouží jako základ pro definici přístupu k testování a plánu testování napříč všemi iteracemi. Testeři zapojeni do plánování vydání se podílí na specifikaci testovatelných uživatelských scénářů a akceptačních kritérií (viz <#section:collaborative-testing-approaches>), podílí se na analýzách projektových a produktových rizik (viz <#section:risk-management>), provádí odhady pracnosti potřebné k testování uživatelských scénářů (viz <#section:estimation-techniques>), stanovují přístup k testování a plánují testování související s vydáním.
 
 **Plánování iterace** vyhlíží směrem ke konci jedné iterace a pracuje s backlogem iterace. Testeři zapojení do plánování iterací se podílí na podrobné analýze rizik uživatelských scénářů, stanovují jejich testovatelnost, podílí se na jejich rozkladu do úkolů (zejména pro testovací činnosti), provádí odhady pracnosti testování pro všechny testovací činnosti a přispívají k identifikaci a zpřesňování funkcionálních a nefunkcionálních aspektů testovaného objektu.
 
 ### Vstupní kritéria a výstupní kritéria {#entry-and-exit-criteria}
+
 Vstupní kritéria určují předpoklady pro realizaci dané činnosti. Pokud nejsou splněna vstupní kritéria, bude provedení testovací činnosti pravděpodobně obtížnější, časově náročnější, nákladnější a více rizikové. Mezi typická vstupní kritéria patří dostupnost zdrojů (např. lidé, nástroje, prostředí, testovací data, rozpočet, čas), dostupnost testwaru (např. testovací báze, testovatelné požadavky, uživatelské scénáře, testovací případy) a počáteční úroveň kvality testovaného objektu (např. úspěšnost všech smoke testů).
 
 Výstupní kritéria určují podmínky, kterých musí být dosaženo, aby bylo možné prohlásit činnost za dokončenou. Mezi typická výstupní kritéria patří míra důkladnosti (např. dosažená úroveň pokrytí, počet nevyřešených defektů, hustota defektů, počet neúspěšných testovacích případů) a kritéria dokončení (např. provedení plánovaných testů, provedení statického testování, zaznamenání všech zjištěných defektů, automatizace všech regresních testů).
@@ -40,7 +43,8 @@ V agilním vývoji softwaru se výstupní kritéria často nazývají definice h
 
 Vstupní a výstupní kritéria by měla být definována pro každou úroveň testů a mohou se lišit v závislosti na stanovených cílech testování.
 
-### Techniky pro odhadování 
+### Techniky pro odhadování {#estimation-techniques}
+
 Odhad pracnosti testování reprezentuje očekávané množství práce, které bude zapotřebí k dosažení cílů testování v projektu. Je důležité zúčastněným stranám objasnit, že odhad vychází z momentálních předpokladů a vždy může být zatížen chybou odhadu, přičemž platí, že odhad pro malé úkoly je obvykle přesnější než pro velké úkoly. Proto je při odhadování vhodné rozložit rozsáhlý úkol na sadu menších a ty následně odhadnout. Tyto učební osnovy popisují čtyři techniky odhadování.
 
 **Odhad na základě poměrů**. Při této technice založené na metrikách se shromažďují údaje z předchozích projektů v rámci organizace, což umožňuje odvodit „standardizované" poměrové metriky (vzorce) pro podobné projekty. Takové metriky odvozené z vlastních projektů organizace (např. převzaté z historických dat) jsou obecně nejlepším zdrojem, který lze v procesu odhadování použít a lze je použít k odhadu pracnosti testování nového projektu. Pokud byla například v předchozím projektu pracnost vývoje a pracnost testování v poměru 3:2 a v současném projektu se očekává, že pracnost vývoje bude činit 600 člověko-dnů, lze pracnost testování odhadnout na 400 člověko-dnů.
@@ -54,11 +58,12 @@ Odhad pracnosti testování reprezentuje očekávané množství práce, které 
 Více informací o těchto a mnoha dalších technikách odhadování pracnosti testování lze nalézt v [@kan2003metrics], [@vroon2013tmap] a [@westfall2016certified].
 
 ### Prioritizace testovacích případů {#test-cases-prioritization}
+
 Jakmile jsou testovací případy a testovací procedury vytvořeny a sestaveny do testovacích sad, lze tyto testovací sady řadit do harmonogramu provádění definující pořadí spouštění.
 
 Při stanovení priorit testovacích případů lze zohlednit různé faktory. Nejčastěji používané strategie prioritizace testovacích případů jsou následující:
 
-* **Prioritizace na základě rizik** , kdy pořadí provádění testů vychází z výsledků analýzy rizik (viz kapitola 5.2.3). Nejprve se provedou testovací případy pokrývající nejdůležitější rizika.
+* **Prioritizace na základě rizik** , kdy pořadí provádění testů vychází z výsledků analýzy rizik (viz <#section:#product-risks-analysis>). Nejprve se provedou testovací případy pokrývající nejdůležitější rizika.
 * **Prioritizace na základě pokrytí** , kdy je pořadí provádění testů založeno na určitém pokrytí (např. pokrytí příkazů). Testovací případy dosahující nejvyššího pokrytí jsou provedeny jako první. V jiné variantě (nazývané prioritizace dodatečného pokrytí) se nejprve provede testovací případ s nejvyšším pokrytím. Každý následující testovací případ je ten, který dosáhne nejvyššího dodatečného pokrytí.
 * **Prioritizace na základě požadavků** , kdy pořadí provádění testů vychází z priorit požadavků trasovatelných zpět k odpovídajícím testovacím případům. Priority požadavků definují zúčastněné strany, testovací případy související s nejdůležitějšími požadavky jsou prováděny jako první.
 
@@ -67,11 +72,13 @@ V ideálním případě by měly být testovací případy seřazeny k provádě
 Pořadí provádění testů musí také zohledňovat dostupnost zdrojů, např. požadovaných testovacích nástrojů, testovacího prostředí nebo osob, které mohou být k dispozici pouze po určitou dobu.
 
 ### Testovací pyramida
+
 Testovací pyramida je model, který ukazuje, že různé testy mohou mít různou granularitu. Představuje pomůcku pro automatizaci testů, protože týmu názorně znázorňuje možnosti rozložení pracnosti v různých úrovních automatizace testování, zároveň ukazuje, že různé úrovně mají různé cíle.
 
 Vrstvy pyramidy představují skupiny testů. Čím vyšší vrstva, tím nižší granularita testu, menší izolace testu a delší doba provádění testu. Testy ve spodní vrstvě jsou malé, izolované, rychlé a ověřují malou část funkcionality, takže k dosažení rozumného pokrytí je jich obvykle potřeba velké množství. Horní vrstva představuje komplexní vysokoúrovňové E2E (end-to-end) testy. Ty jsou obecně pomalejší než testy z nižších vrstev a obvykle ověřují velkou část funkcionality, takže pro dosažení rozumného pokrytí je jich obvykle zapotřebí jen několik. Počet a pojmenování jednotlivých vrstev se může lišit, například původní model testovací pyramidy [@cohn2010succeeding] definuje tři vrstvy (testy komponent, testy služeb a testy uživatelského rozhraní). Jiné modely definují jednotkové testy (testy komponent), integrační testy komponent a end-to-end testy, obecně lze použít i jiné úrovně testování (viz <#section:testing-levels>).
 
 ### Testovací kvadranty
+
 Testovací kvadranty definované Brianem Marickem [@marick2003survey], [@crispin2009agile], dávají do souvislosti úrovně testování s příslušnými typy testů, činnostmi, technikami testování a pracovními produkty v agilním vývoji softwaru. Model je pomůckou pro management testování při vizualizaci těchto vztahů s cílem zajišťovat, že všechny vhodné typy a úrovně testů jsou zahrnuty do SDLC, a pro pochopení toho, že některé typy testů jsou pro určité úrovně testů relevantnější než jiné. Poskytuje způsob, jak od sebe rozlišit a popsat typy testů všem zúčastněným stranám včetně vývojářů, testerů a zástupců byznysu.
 
 V tomto modelu osa Y rozlišuje testy zaměřené na byznys nebo na technologii a osa X pak testy podporující tým (tj. ty, které pomáhají usměrňovat vývojové aktivity) nebo revidující produkt (tj. takové, které pomáhají měřit jeho chování proti očekáváním). Kombinace těchto dvou pohledů (os) určuje čtyři kvadranty:
@@ -82,6 +89,7 @@ V tomto modelu osa Y rozlišuje testy zaměřené na byznys nebo na technologii 
 * **Kvadrant Q4 (zaměřené na technologii, revidující produkt)**. Tento kvadrant obsahuje smoke testy a nefunkcionální testy (kromě testů použitelnosti). Tyto testy jsou často automatizované.
 
 ## Management rizik {#risk-management}
+
 Organizace čelí mnoha interním a externím faktorům přinášejícím nejistotu v tom, zda a kdy dosáhnou svých cílů [@ISO31000]. Management rizik jim umožňuje zvýšit pravděpodobnost dosažení těchto cílů, zlepšit kvalitu jejich produktů a zvýšit důvěru zúčastněných stran.
 
 Hlavními činnostmi v oblasti managementu rizik jsou:
@@ -92,6 +100,7 @@ Hlavními činnostmi v oblasti managementu rizik jsou:
 Přístup k testování, při kterém jsou testovací činnosti vybírány, prioritizovány a řízeny na základě analýzy rizik společně s řízením rizik, se nazývá testování založené na rizicích.
 
 ### Definice rizika a jeho atributy
+
 Riziko je možná událost, nebezpečí, hrozba nebo situace, jejíž výskyt má nepříznivý vliv. Riziko lze charakterizovat dvěma faktory:
 
 * pravděpodobnost rizika – pravděpodobnost vzniku rizika vyjádřená v procentech nebo v intervalu \<0;1\>,
@@ -100,6 +109,7 @@ Riziko je možná událost, nebezpečí, hrozba nebo situace, jejíž výskyt m�
 Tyto dva faktory vyjadřují úroveň rizika, která je jeho mírou (metrikou). Čím vyšší je úroveň rizika, tím důležitější je jeho ošetření.
 
 ### Projektová a produktová rizika
+
 Při testování softwaru se obecně zabýváme dvěma typy rizik – projektová rizika a produktová rizika.
 
 **Projektová rizika** se týkají managementu a řízení projektu. Mezi projektová rizika patří:
@@ -133,6 +143,7 @@ Produktová rizika mohou mít různé negativní důsledky, například:
 * fyzické poškození, zranění, v extrémních případech smrt.
 
 ### Analýza produktových rizik {#product-risks-analysis}
+
 Z hlediska testování je cílem analýzy produktových rizik poskytnout povědomí o produktových rizicích s cílem nasměrovat pracnost při testování tak, aby došlo k minimalizaci jejich reziduálních úrovní. V ideálním případě začíná analýza produktových rizik v rané fázi SDLC. Analýza produktových rizik se skládá z identifikace a ohodnocení rizik.
 
 **Identifikace rizik** spočívá ve vytvoření komplexního seznamu rizik. Zúčastněné strany mohou identifikovat rizika pomocí různých technik a nástrojů, např. brainstormingu, workshopů, rozhovorů nebo grafů příčin a následků.
@@ -152,6 +163,7 @@ Analýza produktových rizik může ovlivnit důkladnost a rozsah testování. J
 * určení, zda by mohly být ke snížení rizika použity i jiné činnosti (kromě testování).
 
 ### Řízení produktových rizik {#product-risk-management}
+
 Řízení produktových rizik zahrnuje všechna opatření, která jsou přijata v reakci na identifikovaná a ohodnocená produktová rizika. Skládá se ze zmírňování rizik a monitoringu rizik.
 
 Obsahem **zmírňování rizik** je zavedení opatření navržených při ohodnocení rizik s cílem snížit úroveň rizika. Jakmile je riziko analyzováno, je možné na něj reagovat několika způsoby, např. jeho zmírněním pomocí testování, přijetím, přenosem nebo záložním plánem [@veenendaal2012prisma]. Opatření, která lze přijmout ke zmírnění produktových rizik prostřednictvím testování, jsou následující:
@@ -166,6 +178,7 @@ Obsahem **zmírňování rizik** je zavedení opatření navržených při ohodn
 Cílem **monitoringu rizik** je zajištování efektivity zmírňujících opatření, získ dalších informací pro zlepšení ohodnocení rizik a identifikace nově vznikajících rizik.
 
 ## Monitoring, řízení a dokončení testování {#monitoring-management-completion-of-testing}
+
 **Monitoring testování** se zabývá shromažďováním informací o testování. Tyto informace se využívají k posouzení postupu prací při testování a ke stanovení, zda jsou naplněna výstupní kritéria testování nebo dokončeny testovací úkoly spojené s výstupními kritérii (jako např. splnění cílů pro pokrytí produktových rizik, požadavků nebo akceptačních kritérií).
 
 **Řízení testování** využívá informace z monitoringu testování k tomu, aby byly (ve formě nařízení nebo směrnic) poskytnuty pokyny a nezbytná nápravná opatření k dosažení co nejúčinnějšího a nejefektivnějšího testování. Mezi příklady takových nařízení patří:
@@ -178,6 +191,7 @@ Cílem **monitoringu rizik** je zajištování efektivity zmírňujících opat�
 **Při dokončení testů** se shromažďují data z dokončených testovacích činností za účelem konsolidace zkušeností, testwaru a dalších důležitých informací. K činnostem souvisejícím s dokončením testování dochází v rámci projektových milníků jako je dokončení úrovně testování, dokončení iterace při agilním vývoji, dokončení (nebo zrušení) testovacího projektu, vydání softwarového systému nebo dokončení servisního vydání (maintenance release).
 
 ### Metriky používané v testování {#metrics-in-testing}
+
 Testovací metriky jsou shromažďovány s cílem ukazovat postup proti plánovanému harmonogramu a rozpočtu, aktuální kvalitu testovaného objektu a efektivitu testovacích činností s ohledem na cíle projektu nebo iterace. Monitoring testování shromažďuje různé metriky pro podporu řízení a dokončení testování.
 
 Mezi typické testovací metriky patří:
@@ -191,6 +205,7 @@ Mezi typické testovací metriky patří:
 * metriky týkající se nákladů (např. náklady na testování, náklady na kvalitu v rámci organizace).
 
 ### Účel, obsah a cílové skupiny reportů z testování {#purpose-content-target-of-test-reports}
+
 Cílem reportování testů je shrnutí a komunikace informací z testování při jeho průběhu a po něm. Reporty o postupu prací při testování podporují průběžné řízení testování. Musí poskytovat dostatek informací pro provedení změn v harmonogramu testování, zdrojích nebo plánu testování, pokud jsou tyto změny nutné z důvodu odchylky od plánu nebo změny okolností. Souhrnné reporty z testování shrnují určitou fázi testování (např. úroveň testování, testovací cyklus, iteraci) a mohou poskytnout informace pro následné testování.
 
 Během monitoringu a řízení testování vytváří testovací tým reporty o postupu prací při testování s cílem poskytovat zúčastněným stranám informace. Reporty o postupu prací při testování jsou obvykle generovány pravidelně (např. denně, týdně atd.) a obsahují:
@@ -217,6 +232,7 @@ Různé cílové skupiny potřebují v těchto reportech různé informace a ovl
 V normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3] lze nalézt šablony a příklady reportů o postupu prací při testování (nazývané reporty o stavu testů) a souhrnných reportů z testování.
 
 ### Komunikování stavu testování
+
 Optimální způsob komunikování stavu testování se liší v závislosti na potřebách managementu testování, strategiích testování v organizaci, regulatorních normách nebo v případě samoorganizujících se týmů (viz <#section:team-approach>) na samotném týmu. Mezi možnosti komunikace patří:
 
 * verbální komunikace se členy týmu a dalšími zúčastněnými stranami,
@@ -228,6 +244,7 @@ Optimální způsob komunikování stavu testování se liší v závislosti na 
 Lze použít jednu nebo kombinaci několika možností, formálnější komunikace může být vhodnější pro distribuované týmy, kde není přímá osobní komunikace vždy možná kvůli geografické vzdálenosti nebo časovým rozdílům. Obvykle se různé zúčastněné strany zajímají o jiný typ informací, proto by měla být komunikace odpovídajícím způsobem přizpůsobena.
 
 ## Konfigurační management {#configuration-management}
+
 V oblasti testování je konfigurační management disciplína, která slouží pro identifikaci, řízení a sledování pracovních produktů. Konfiguračními položkami mohou být jakékoliv plány testování, strategie testování, testovací podmínky, testovací případy, skripty, výsledky testů, protokoly testů (test logs) a reporty z testování.
 
 V případě komplexní konfigurační položky (např. testovací prostředí) lze v rámci konfiguračního managementu zaznamenávat dílčí položky, ze kterých se tato komplexní položka skládá, jejich vztahy a verze. V momentě, kdy je konfigurační položka schválena pro testování, stává se součástí tzv. baseline a lze ji měnit pouze prostřednictvím formálního procesu pro řízení změn.
@@ -242,6 +259,7 @@ Konfigurační management jako podpůrná disciplína testování zajišťuje n�
 Průběžná integrace, průběžné dodávání, průběžné nasazování a s těmito procesy související testování jsou obvykle implementovány jako součást automatizované DevOps pipeline (viz <#section:devops-and-testing>), jejíž součástí je obvykle i automatizovaný konfigurační management.
 
 ## Management defektů {#defects-management}
+
 Vzhledem k tomu, že jedním z hlavních cílů testování je nalezení defektů, je zavedení procesu managementu defektů nezbytné. Tento proces musí dodržovat všechny zúčastněné strany a zahrnuje minimálně definici pracovního postupu (workflow) pro zpracování jednotlivých anomálií od jejich odhalení až po jejich uzavření a pravidla pro jejich klasifikaci. Pracovní postup obvykle zahrnuje činnosti, jejichž cílem je zaznamenávat nahlášené anomálie, analyzovat je a klasifikovat, rozhodnout o vhodné reakci (typicky opravit nebo ponechat) a uzavření reportu o defektu. Anomálie mohou být hlášeny v kterékoli fázi SDLC a jejich forma často závisí na použitém SDLC.
 
 Podobným způsobem je vhodné řešit i defekty zjištěné statickým testováním (zejména statickou analýzou).
