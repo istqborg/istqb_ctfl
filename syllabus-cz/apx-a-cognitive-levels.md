@@ -1,4 +1,4 @@
-# Příloha A – Studijní cíle a kognitivní úroveň znalostí
+# Studijní cíle a kognitivní úroveň znalostí
 
 Pro účely těchto učebních osnov jsou definovány studijní cíle. Každé téma v osnovách může být přezkoušeno dle odpovídajícího studijního cíle. Studijní cíle začínají vždy slovesem, které odpovídá jeho kognitivní úrovni znalostí, viz níže.
 

@@ -24,8 +24,7 @@ V této verzi došlo k následujícím změnám:
   * Podkapitola o nezávislosti testování byla přesunuta z kapitoly 5 do kapitoly 1.
 * Hlavní změny v kapitole 2 (Testování v rámci SDLC)
   * Podkapitoly 2.1.1 a 2.1.2 byly přepracovány a vylepšeny, zároveň byly upraveny odpovídající studijní cíle.
-  * Je kladen vyšší důraz na techniky vývoje iniciovaného testy (K1), přístupu shift-left (K2)
- a retrospektiv (K2).
+  * Je kladen vyšší důraz na techniky vývoje iniciovaného testy (K1), přístupu shift-left (K2) a retrospektiv (K2).
   * Přidána nová podkapitola o testování v kontextu DevOps (K2).
   * Úroveň integračního testování byla rozdělena do dvou samostatných testovacích úrovní (testování integrace komponent a testování integrace systému).
 * Hlavní změny v kapitole 3 (Statické testování)
