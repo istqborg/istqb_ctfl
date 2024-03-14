@@ -6,6 +6,6 @@ type: Učební osnova
 version: v4.0.2
 date: 1\. 2. 2024
 release: Release
-# provided-by:
-# - name: Czech and Slovak Quality Board
-#   logo: CaSQB_logo_horizontal_red
+provided-by:
+- name: Czech and Slovak Quality Board
+  logo: casqb-logo-horizontal-red
