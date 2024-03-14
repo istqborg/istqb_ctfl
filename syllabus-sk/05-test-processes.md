@@ -106,7 +106,7 @@ Prístup k testovaniu, pri ktorom sú testovacie činnosti vyberané, prioritizo
 
 Riziko je možná udalosť, nebezpečenstvo, hrozba alebo situácia, ktorej výskyt má nepriaznivý vplyv. Riziko je možné charakterizovať dvoma faktormi:
 
-* pravdepodobnosť rizika – pravdepodobnosť výskytu rizika vyjadrená v percentách alebo v intervale (0,1), t.j. hodnoty 0 a 1 nie sú súčasťou intervalu,
+* pravdepodobnosť rizika – pravdepodobnosť výskytu rizika vyjadrená v percentách alebo v intervale (0,1), t. j. hodnoty 0 a 1 nie sú súčasťou intervalu,
 * vplyv rizika (škoda) – dôsledky výskytu takejto udalosti.
 
 Tieto dva faktory vyjadrujú úroveň rizika, ktorá je jeho mierou (metrikou). Čím vyššia je úroveň rizika, tým dôležitejšie je jeho ošetrenie.

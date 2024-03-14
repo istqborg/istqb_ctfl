@@ -2,9 +2,9 @@
 
 Softvérové systémy sú neoddeliteľnou súčasťou nášho každodenného života. Väčšina ľudí má skúsenosti so softvérom, ktorý fungoval inak, než očakávali. Softvér, ktorý nefunguje správne, môže viesť k mnohým problémom, napr. strate peňazí, času alebo obchodnej povesti a v extrémnych prípadoch dokonca k zraneniu alebo smrti. Testovanie softvéru hodnotí kvalitu softvéru a pomáha znižovať riziko zlyhania softvéru v prevádzke.
 
-Testovanie softvéru je sada činností, ktorých cieľom je odhaľovanie defektov a vyhodnocovanie kvality softvérových artefaktov, ktoré sa pri testovaní označujú ako testované objekty. Bežná (a bohužiaľ mylná) predstava o testovaní je, že ide len o vykonávanie testov (t.j. spustenie softvéru a kontrola výsledkov testov). Testovanie softvéru ale zahŕňa aj ďalšie činnosti a musí byť v súlade so životným cyklom vývoja softvéru (pozri <#section:improve-quality-and-flow-in-a-value-driven-organization>).
+Testovanie softvéru je sada činností, ktorých cieľom je odhaľovanie defektov a vyhodnocovanie kvality softvérových artefaktov, ktoré sa pri testovaní označujú ako testované objekty. Bežná (a bohužiaľ mylná) predstava o testovaní je, že ide len o vykonávanie testov (t. j. spustenie softvéru a kontrola výsledkov testov). Testovanie softvéru ale zahŕňa aj ďalšie činnosti a musí byť v súlade so životným cyklom vývoja softvéru (pozri <#section:improve-quality-and-flow-in-a-value-driven-organization>).
 
-Ďalšou bežnou mylnou predstavou o testovaní je, že testovanie sa zameriava výhradne na verifikáciu testovaného objektu. Testovanie ale zahŕňa nielen verifikáciu (t.j. kontrolu, či systém spĺňa špecifikované požiadavky), ale aj validáciu (teda kontrolu, či systém spĺňa potreby používateľov a ďalších zainteresovaných strán v ich prevádzkovom prostredí).
+Ďalšou bežnou mylnou predstavou o testovaní je, že testovanie sa zameriava výhradne na verifikáciu testovaného objektu. Testovanie ale zahŕňa nielen verifikáciu (t. j. kontrolu, či systém spĺňa špecifikované požiadavky), ale aj validáciu (teda kontrolu, či systém spĺňa potreby používateľov a ďalších zainteresovaných strán v ich prevádzkovom prostredí).
 
 Testovanie môže byť dynamické alebo statické. Dynamické testovanie vyžaduje spustenie testovaného softvéru, zatiaľ čo statické testovanie spustenie nevyžaduje. Statické testovanie zahŕňa revízie (pozri <#section:static-testing>) a statickú analýzu. Dynamické testovanie používa rôzne techniky testovania a prístupy k testovaniu s cieľom definovať testovacie prípady (pozri <#section:organizational-test-strategy-in-a-value-driven-organization>).
 
@@ -36,7 +36,7 @@ Ciele testovania sa môžu líšiť v závislosti od kontextu, ktorý zahŕňa f
 
 Testovanie a ladenie (debugging) sú samostatné činnosti. Testovanie môže vyvolať zlyhania, ktoré sú spôsobené defektmi v softvéri (dynamické testovanie), alebo môže priamo odhaliť defekty v testovanom objekte (statické testovanie).
 
-Zatiaľ čo dynamické testovanie (pozri <#section:organizational-test-strategy-in-a-value-driven-organization>) sa snaží vyvolať zlyhanie, ladenie sa zaoberá hľadaním príčin takých zlyhaní (t.j. defektov), ich analýzou a ich odstránením. Typický proces ladenia v tomto prípade zahŕňa:
+Zatiaľ čo dynamické testovanie (pozri <#section:organizational-test-strategy-in-a-value-driven-organization>) sa snaží vyvolať zlyhanie, ladenie sa zaoberá hľadaním príčin takých zlyhaní (t. j. defektov), ich analýzou a ich odstránením. Typický proces ladenia v tomto prípade zahŕňa:
 
 * reprodukovanie zlyhania,
 * diagnostika (nájdenie koreňovej príčiny),

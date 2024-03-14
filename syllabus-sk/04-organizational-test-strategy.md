@@ -41,9 +41,9 @@ BVA sa zameriava na hraničné hodnoty tried, pretože vývojári sa pri týchto
 
 Tieto učebné osnovy sa zaoberajú dvoma variantmi: 2-hodnotová a 3-hodnotová BVA. Tieto dva varianty sa líšia v počte položiek pokrytia na danej hranici, potrebných na dosiahnutie 100% pokrytia.
 
-V prípade 2-hodnotovej BVA [@craig2002systematic], [@myers2011art] existujú pre každú hranicu dve položky pokrytia: hraničná hodnota a jej najbližší sused patriaci do susednej triedy. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia (t.j. pre všetky identifikované hraničné hodnoty). Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt k celkovému počtu identifikovaných hraničných hodnôt (obvykle vyjadrené v percentách).
+V prípade 2-hodnotovej BVA [@craig2002systematic], [@myers2011art] existujú pre každú hranicu dve položky pokrytia: hraničná hodnota a jej najbližší sused patriaci do susednej triedy. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia (t. j. pre všetky identifikované hraničné hodnoty). Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt k celkovému počtu identifikovaných hraničných hodnôt (obvykle vyjadrené v percentách).
 
-V trojhodnotovom BVA [@vroon2013tmap], [@oregan2019concise] sú pre každú hraničnú hodnotu tri položky pokrytia: táto hraničná hodnota a obe jej susedné hodnoty. Preto v 3-hodnotovej BVA niektoré z položiek pokrytia nemusia byť hraničnými hodnotami. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia, t.j. pre identifikované hraničné hodnoty aj pre všetkých susedov. Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt a ich susedných hodnôt vydelený k celkovému počtu identifikovaných hraničných hodnôt a ich susedných hodnôt (obvykle vyjadrené v percentách).
+V trojhodnotovom BVA [@vroon2013tmap], [@oregan2019concise] sú pre každú hraničnú hodnotu tri položky pokrytia: táto hraničná hodnota a obe jej susedné hodnoty. Preto v 3-hodnotovej BVA niektoré z položiek pokrytia nemusia byť hraničnými hodnotami. Na dosiahnutie 100 % pokrytia s týmto variantom musia byť testovacie prípady vykonané pre všetky položky pokrytia, t. j. pre identifikované hraničné hodnoty aj pre všetkých susedov. Pokrytie sa meria ako pomer počtu vykonaných hraničných hodnôt a ich susedných hodnôt vydelený k celkovému počtu identifikovaných hraničných hodnôt a ich susedných hodnôt (obvykle vyjadrené v percentách).
 
 3-hodnotová BVA je „prísnejšia“ ako 2-hodnotová BVA, s jej pomocou je možné odhaliť defekty, ktoré by mohli byť s použitím 2-hodnotové BVA prehliadnuté. napríklad, ak je podmienka "IF (x ≤ 10) ..." nesprávne implementovaná ako "IF (x = 10) ...", žiadny z testovacích prípadov vytvorených pomocou 2-hodnotovej BVA (x = 10, x = 11) nemôže túto chybnú implementáciu (a následný defekt) odhaliť. Testovací prípad x = 9 odvodený pomocou 3-hodnotovej BVA túto chybu pravdepodobne odhalí.
 
@@ -113,7 +113,7 @@ Ak sa dosiahne 100 % pokrytie príkazov, zabezpečí sa, že všetky vykonateľn
 
 ### Testovanie a pokrytie vetiev {#branch-testing-and-coverage}
 
-Vetva je prenos riadenia medzi dvoma uzlami v grafe riadiaceho toku zobrazujúceho možné sekvencie, v ktorých sú príkazy zdrojového kódu v testovacom objekte vykonávané. Každý prenos riadenia môže byť buď nepodmienený (t.j. lineárny kód) alebo podmienený (t.j. výsledok rozhodnutia).
+Vetva je prenos riadenia medzi dvoma uzlami v grafe riadiaceho toku zobrazujúceho možné sekvencie, v ktorých sú príkazy zdrojového kódu v testovacom objekte vykonávané. Každý prenos riadenia môže byť buď nepodmienený (t. j. lineárny kód) alebo podmienený (t. j. výsledok rozhodnutia).
 
 Pri testovaní vetiev sú položkami pokrytia vetvy a cieľom je navrhovať testovacie prípady tak, aby došlo k pokrytiu vetiev v kóde, kým sa nedosiahne akceptovateľná úroveň pokrytia. Pokrytie sa meria ako pomer počtu vetiev pokrytých testami k celkovému počtu vetiev (obvykle vyjadrené v percentách).
 

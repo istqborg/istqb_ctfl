@@ -16,7 +16,7 @@ The following rules apply to the accreditation of CTAL-ATLaS training material:
 1. Traceability and completeness: The Training Material to be accredited shall demonstrate coverage of all applicable learning objectives. Applications for accreditation shall include a traceability matrix showing coverage of the learning objectives in terms of presentation and supporting materials.
 2. Timing: For each module, all chapters shall be covered with at least as much time as required in the syllabus. Applications for accreditation shall include a timing matrix showing the time allocated per chapter.
 3. Content: The training material shall provide the student with the knowledge and skills of each chapter and section as outlined in the CTAL-ATLaS syllabus and body of knowledge (see section 2.1.1 Content below).
-4. Glossary: For any term defined, the Training Material shall be consistent with the definition of that term in the current version of the ISTQBâ Glossary.
+4. Glossary: For any term defined, the Training Material shall be consistent with the definition of that term in the current version of the ISTQB® Glossary.
 5. Examples: All K2, K3 and K4 learning objectives shall contain at least one realistic software or systems project example (see section 2.1.2 Examples below).
 6. Exercises and solutions: All K3 and K4 learning objectives shall have at least one practical, nontrivial exercise drawn from a realistic, software or systems project (see section 2.1.3 Exercises and Answers below).
 7. Hands-on Objectives: Exercises for HOs are mandatory (see chapter 3 Hands-On Objectives below).
