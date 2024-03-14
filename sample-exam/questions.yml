@@ -107,7 +107,7 @@ questions:
       d: Create the test plan
       e: Report on achieved coverage
     correct: a, e
-    explanation: 
+    explanation: |
       a) Is correct. This is done by the testers
       b) Is not correct. The product backlog is built and maintained by the product owner
       c) Is not correct. This is done by the development team
@@ -131,7 +131,7 @@ questions:
      c: i, ii and v are important
      d: iii and iv are important
     correct: b
-    explanation:
+    explanation: |
       i.  Is true. Having domain knowledge is an important tester skill
       ii. Is false. This is a task of the business analyst together with the business representative
       iii. Is true. Being a good team player is an important skill
@@ -148,7 +148,7 @@ questions:
      c: Business representatives are not part of the whole team approach
      d: Testers help business representatives to create suitable acceptance tests
    correct: d
-   explanation:
+   explanation: |
      a) Is not correct. The test automation approach is defined by testers with the help of developers and business representatives
      b) Is not correct. The test strategy is decided in collaboration with the developers
      c) Is not correct. Testers, developers, and business representatives are part of the whole team approach
@@ -165,7 +165,7 @@ questions:
      c: Only in iterative and incremental SDLC models
      d: In sequential, incremental, and iterative SDLC models
    correct:  d
-   explanation: 
+   explanation: |
      a) Is not correct
      b) Is not correct
      c) Is not correct
@@ -181,7 +181,7 @@ questions:
      c: In ATDD, tests are created, based on acceptance criteria to drive the development of the related software
      d: in ATDD, tests are based on the desired behavior of the software, which makes it easier for team members to understand them
    correct: c
-   explanation: 
+   explanation: |
      a) Is not correct. It is more often used in behavior-driven development(BDD)
      b) Is not correct. It is the description of test-driven development (TDD)
      c) Is correct. In acceptance test-driven development (ATDD) tests are written from acceptance criteria as part of the design process
