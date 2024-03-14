@@ -1,11 +1,10 @@
-schema: ISTQB® Certified Tester
+schema: Certified Tester
 level: Foundation Level
-title: Syllabus Template
-code: CT-TEMP
-prefix: TEMP
+code: CTFL
+prefix: FL
 type: Sample Exam
-version: v0.1
-compatibility: Compatible with Syllabus v0.1
-date: 1 Januray 2024
-release: For internal use only
+version: v1.4
+compatibility: Compatible with Syllabus v4.0
+date: 19 December, 2023
+release: Felease
 logo: istqb-logo-default
