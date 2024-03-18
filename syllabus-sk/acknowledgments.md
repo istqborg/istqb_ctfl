@@ -1,6 +1,4 @@
-# Poďakovanie {-}
-
-## Poďakovanie ISTQB® 
+# Poďakovanie ISTQB® {-}
 
 Tento dokument bol formálne vydaný Valným zhromaždením ISTQB® dňa 21. 4. 2023.
 
@@ -19,7 +17,8 @@ ISTQB® Working Group Foundation Level (verzia 2007): Thomas Müller (predseda),
 
 ISTQB® Working Group Foundation Level (verzia 2005): Thomas Müller (predseda), Rex Black, Sigrid Eldh, Dorothy Graham, Klaus Olsen, Maaret Pyhäjärvi, Geoff Thompson a Erik van Veenendaal. Tím ďakuje tímu revidujúcich a všetkým členským výborom za návrhy.
 
-## Poďakovanie CaSQB
+# Poďakovanie CaSQB {-}
+
 Preklad do slovenského jazyka, verzia v4.0: Daniel Poľan, Gabriela Spodniaková, Pavla Vaculková (preklad), Karol Frühauf, Roman Jurkech, Marek Majerník, Daniel Poľan, Juraj Žabka (revízie).
 
 Preklad do slovenského jazyka, verzia 2018 v3.1: Marek Majerník, Daniel Poľan, Filip Rechtoris (preklad), Robert Dankanin, Lenka Spodniaková (revízie).
