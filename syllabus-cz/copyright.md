@@ -6,11 +6,11 @@ Upozornění o ochraně autorských práv – Mezinárodní výbor pro kvalifika
 
 ISTQB® je registrovaná ochranná známka Mezinárodního výboru pro kvalifikaci testování softwaru – International Software Testing Qualifications Board.
 
-Copyright © 2023 autoři verze 4.0: Renzo Cerquozzi, Wim Decoutere, Klaudia Dussa-Zieger, Jean-François Riverin, Arnika Hryszko, Martin Klonk, Michaël Pilaeten, Meile Posthuma, Stuart Reid, Eric Riou du Cosquer (předseda), Adam Roman, Lucjan Stapp, Stephanie Ulrich (místopředseda), Eshraka Zakaria.
+Copyright © 2023, autoři verze 4.0: Renzo Cerquozzi, Wim Decoutere, Klaudia Dussa-Zieger, Jean-François Riverin, Arnika Hryszko, Martin Klonk, Michaël Pilaeten, Meile Posthuma, Stuart Reid, Eric Riou du Cosquer (předseda), Adam Roman, Lucjan Stapp, Stephanie Ulrich (místopředseda), Eshraka Zakaria.
 
 Copyright © 2019, autoři aktualizované verze 2018 V3.1 Klaus Olsen (předseda), Meile Posthuma a Stephanie Ulrich.
 
-Copyright © 2018 autoři aktualizované verze: Klaus Olsen (předseda), Tauhida Parveen (místopředseda), Rex Black (projektový manažer), Debra Friedenberg, Matthias Hamburg, Judy McKay, Meile Posthuma, Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms, Stephanie Ulrich, Marie Walsh a Eshraka Zakaria.
+Copyright © 2018, autoři aktualizované verze: Klaus Olsen (předseda), Tauhida Parveen (místopředseda), Rex Black (projektový manažer), Debra Friedenberg, Matthias Hamburg, Judy McKay, Meile Posthuma, Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms, Stephanie Ulrich, Marie Walsh a Eshraka Zakaria.
 
 Copyright © 2011, autoři aktualizované verze (Thomas Müller (předseda), Debra Friedenberg a Pracovní skupina ISTQB® pro základní stupeň).
 

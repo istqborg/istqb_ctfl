@@ -26,4 +26,4 @@ Překlad do českého jazyka, verze 2011: David Janota, Petr Neugebauer, Jana Po
 
 Překlad do českého jazyka, verze 2007: Alexandra Alvarová, Róbert Dankanin, Petr Neugebauer, Jana Podpěrová, Jana Zientková.
 
-Byť bylo snahou překladatelů docílit co nejvěrnějšího překladu původního anglického vydání, prostor pro zdokonalování v tak komplexním textu jistě je a stále bude. Postřehy a podněty čtenářů proto rádi uvítáme e-mailem na adrese [translation@castb.org](mailto:translation@castb.org).
+Byť bylo snahou překladatelů docílit co nejvěrnějšího překladu původního anglického vydání, prostor pro zdokonalování v tak komplexním textu jistě je a stále bude. Postřehy a podněty čtenářů proto rádi uvítáme e-mailem na adrese <translation@castb.org>.

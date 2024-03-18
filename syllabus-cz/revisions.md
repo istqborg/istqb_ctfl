@@ -1,9 +1,7 @@
 # Historie změn {- .revision-history}
 
-## Česká verze
-
-| **Verze** | **Datum** | **Poznámka** |
-| --- | --- | --- |
+| **Česká verze** | **Datum** | **Poznámka** |
+| :-------------- | --------: | :----------- |
 | ISTQB® CTFL CZ 4.0.1 | 1.11.2023 | Oprava překlepů. Sjednocení lexikální a stylistické úrovně. |
 | ISTQB® CTFL CZ 4.0.0 | 6.9.2023 | Oficiální veřejná verze. |
 | ISTQB® CTFL CZ 4.0.0 Beta | 10.8.2023 | Nová verze dle CTFL v4.0. Neveřejná beta verze. |
@@ -12,10 +10,9 @@
 | ISTQB® CTFL 2018 CZ 1.0.0 | 4.2.2019 | Oficiální vydání 1.0.0. |
 | ISTQB® CTFL 2018 CZ Beta | 9.1.2019 | Beta verze pro členy a partnery CaSTB. |
 
-## Anglická verze
 
-| **Verze** | **Datum** | **Poznámka** |
-| --- | --- | --- |
+| **Anglická verze** | **Datum** | **Poznámka** |
+| :----------------- | --------: | :----------- |
 | CTFL v4.0 | 21.4.2023 | CTFL v4.0 – General release version |
 | CTFL v3.1.1 | 01.07.2021 | CTFL v3.1.1 – Copyright and logo update |
 | CTFL v3.1 | 11.11.2019 | CTFL v3.1 – Maintenance release with minor updates |
