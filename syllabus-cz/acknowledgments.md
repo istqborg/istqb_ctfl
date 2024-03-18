@@ -1,4 +1,6 @@
-# Poděkování (ISTQB®) {-}
+# Poděkování {-}
+
+## Poděkování ISTQB®
 
 Tento dokument byl formálně vydán Valným shromážděním ISTQB® dne 21.4.2023. Byl sepsán společným týmem pracovních skupin ISTQB® Foundation Level a Agile Working Groups ve složení: Laura Albert, Renzo Cerquozzi (místopředseda), Wim Decoutere, Klaudia Dussa-Zieger, Chintaka Indikadahena, Arnika Hryszko, Martin Klonk, Kenji Onishi, Michaël Pilaeten (místopředseda), Meile Posthuma, Gandhinee Rajkomar, Stuart Reid, Eric Riou du Cosquer (místopředseda), Jean-François Riverin, Adam Roman, Lucjan Stapp, Stephanie Ulrich (místopředsedkyně), Eshraka Zakaria. Tým děkuje Stuartu Reidovi, Patricii McQuaidové a Leanne Howardové za technickou revizi a reviznímu týmu a lokálním výborům za jejich návrhy a příspěvky.
 
@@ -14,7 +16,7 @@ ISTQB® Working Group Foundation Level (verze 2007): Thomas Müller (předseda),
 
 ISTQB® Working Group Foundation Level (verze 2005): Thomas Müller (předseda), Rex Black, Sigrid Eldh, Dorothy Graham, Klaus Olsen, Maaret Pyhäjärvi, Geoff Thompson a Erik van Veendendal. Klíčový tým děkuje týmu revidujících a všem lokálním výborům za návrhy.
 
-# Poděkování (CaSQB) {-}
+## Poděkování CaSQB
 
 Překlad do českého jazyka, verze v4.0: David Janota, Petr Neugebauer a Lukáš Piška (překlad), Miroslav Renda a Pavel Herout (revize).
 

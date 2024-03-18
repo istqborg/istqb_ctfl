@@ -284,4 +284,4 @@ Report o defektu zaznamenaný během dynamického testování obvykle obsahuje:
 * stav defektu (např. otevřený, odložený, duplicitní, čekající na opravu, čekající na konfirmační testování, znovu otevřený, uzavřený, zamítnutý),
 * odkazy (např. na testovací případ).
 
-Některé z těchto informací mohou být automaticky vkládány nástrojem pro management defektů (např. identifikátor, datum, autor a počáteční stav). Šablony dokumentů pro report o defektu a příklady reportů o defektu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3] (norma však používá termín zpráva o incidentu).
+Některé z těchto informací mohou být automaticky vkládány nástrojem pro management defektů (např. identifikátor, datum, autor a počáteční stav). Šablony dokumentů pro report o defektu a příklady reportů o defektu lze nalézt v normě ČSN ISO/IEC/IEEE 29119-3 [@ISO29119-3]. Norma však používá termín zpráva o incidentu.
