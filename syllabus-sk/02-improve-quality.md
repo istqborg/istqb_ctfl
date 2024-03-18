@@ -1,6 +1,6 @@
 ## Testovanie v kontexte životného cyklu vývoja softvéru {#testing-in-context-of-software-development-life-cycle}
 
-Model životného cyklu vývoja softvéru (SDLC) je zovšeobecnený proces vývoja softvéru. Určuje, ako spolu logicky I chronologicky súvisia rôzne fázy vývoja a typy činností vykonávaných v rámci tohto procesu. Medzi kategórie modelov SDLC patria sekvenčné modely vývoja (napr. vodopádový model, V-model), iteratívne modely vývoja (napr. špirálový model, prototypovanie) a inkrementálne vývojové modely (napr. Rational Unified Process).
+Model životného cyklu vývoja softvéru (SDLC) je zovšeobecnený proces vývoja softvéru. Určuje, ako spolu logicky i chronologicky súvisia rôzne fázy vývoja a typy činností vykonávaných v rámci tohto procesu. Medzi kategórie modelov SDLC patria sekvenčné modely vývoja (napr. vodopádový model, V-model), iteratívne modely vývoja (napr. špirálový model, prototypovanie) a inkrementálne vývojové modely (napr. Rational Unified Process).
 
 Niektoré činnosti v rámci procesov vývoja softvéru je možné tiež popísať podrobnejšími metódami vývoja softvéru a agilnými postupmi. Medzi takéto metódy patrí vývoj riadený akceptačnými testami (ATDD – acceptance test-driven development), vývoj riadený správaním (BDD – behavior-driven development), návrh riadený doménou (DDD – domain-driven design), extrémne programovanie (XP – extreme programming), vývoj riadený funkcionalitou (FDD - feature-driven development), Kanban, Lean IT, Scrum a vývoj riadený testovaním (TDD – test-driven development).
 
@@ -114,7 +114,7 @@ Medzi typické prínosy retrospektív z pohľadu testovania patria:
 
 Úrovne testovania súvisia s ďalšími činnosťami v rámci životného cyklu vývoja softvéru. V sekvenčných modeloch SDLC sú úrovne testovania často definované tak, že výstupné kritériá jednej úrovne sú súčasťou vstupných kritérií ďalšej úrovne. To ale nemusí platiť v niektorých iteratívnych modeloch, kde sa úrovne testovania môžu v čase prekrývať a vývojové činnosti môžu preklenúť viac úrovní testovania.
 
-Typy testovania sú skupiny testovacích činností súvisiace so špecifickými kvalitatívnymi charakteristikami a väčšinu týchto činností možno vykonávať v ľubovoľnej úrovni testovania
+Typy testovania sú skupiny testovacích činností súvisiace so špecifickými kvalitatívnymi charakteristikami a väčšinu týchto činností možno vykonávať v ľubovoľnej úrovni testovania.
 
 ### Úrovne testovania {#testing-levels}
 
@@ -165,7 +165,7 @@ Všetky štyri vyššie uvedené typy testovania je možné aplikovať vo všetk
 
 Pokiaľ sa v komponente alebo systéme vykonávajú zmeny, je obvykle ich cieľom vylepšenie (pridaním novej funkcionality) alebo oprava (odstránením defektu). Následné testovanie by potom malo zahŕňať konfirmačné testovanie aj regresné testovanie.
 
-**Konfirmačné testovanie** overuje, či bol pôvodný defekt úspešne opravený. V závislosti na riziku je možné otestovať opravenú verziu softvéru niekoľkými rôznymi spôsobmi, napr.
+**Konfirmačné testovanie** overuje, či bol pôvodný defekt úspešne opravený. V závislosti na riziku je možné otestovať opravenú verziu softvéru niekoľkými rôznymi spôsobmi, napr.:
 
 * Vykonaním všetkých testovacích prípadov, ktoré predtým zlyhali kvôli defektu.
 * Pridaním nových testov s cieľom pokrývať všetky zmeny potrebné na opravu defektu.
@@ -192,4 +192,4 @@ Spúšťače (aktivačné udalosti) údržby a testovania údržby možno rozdel
 
 * Úpravy ako sú plánované vylepšenia (napr. v celom vydaní), opravné zmeny alebo hotfixy.
 * Aktualizácia alebo migrácia prevádzkového prostredia (napríklad z jednej platformy na inú), kedy je nutné vykonať testy spojené s novým prostredím a zmeneným softvérom, prípadne testy konverzie dát, kedy sú dáta z inej aplikácie migrované do systému, ktorý je udržiavaný.
-* Vyradenie aplikácie z prevádzky na konci jej životnosti. Pri vyradení aplikácie alebo systému môže byť vhodné vykonať testovanie archivácie dát, a to najmä pre také dáta, pre ktoré sú požadované dlhé lehoty archivácie. Pre prípad, kedy by bolo počas doby archivácie nutné načítať niektoré archivované dáta, je možné otestovať aj procesy obnovenia a načítania (po archivácii).*
+* Vyradenie aplikácie z prevádzky na konci jej životnosti. Pri vyradení aplikácie alebo systému môže byť vhodné vykonať testovanie archivácie dát, a to najmä pre také dáta, pre ktoré sú požadované dlhé lehoty archivácie. Pre prípad, kedy by bolo počas doby archivácie nutné načítať niektoré archivované dáta, je možné otestovať aj procesy obnovenia a načítania (po archivácii).

@@ -82,7 +82,7 @@ Obsahom osnov nie je vyčerpávajúci popis všetkých znalostí v oblasti testo
 Súčasťou učebných osnov je celkom šesť kapitol, ktorých obsah môže byť súčasťou skúšky. Najvyššia úroveň nadpisu pre každú kapitolu uvádza celkovú dobu výučby pre danú kapitolu, časovanie pre nižšie úrovne kapitoly nie je definované. Celkom je tak pri akreditovaných vzdelávacích kurzoch vyžadovaný rozsah najmenej 1135 minút (18 hodín a 55 minút) rozdelených do šiestich kapitol a to takto:
 
 *	Kapitola 1: Základy testovania (180 minút)
-  *	Študenti sa zoznámia so základnými princípmi súvisiacimi s testovaním, dôvodmi, prečo je testovanie vyžadované, a s popisom cieľov testovania.
+  *	Študenti sa zoznámia so základnými princípmi súvisiacimi s testovaním, dôvodmi, prečo je testovanie vyžadované a s popisom cieľov testovania.
   *	Študenti porozumejú pojmom proces testovania, hlavné testovacie činnosti a testvér.
   *	Študenti sa zoznámia so základnými zručnosťami potrebnými na testovanie.
 *	Kapitola 2: Testovanie v priebehu životného cyklu vývoja softvéru (130 minút)

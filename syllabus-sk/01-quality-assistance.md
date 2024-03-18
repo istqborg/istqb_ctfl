@@ -12,8 +12,6 @@ Testovanie nie je len technická činnosť. Rovnako je potrebné ho riadne plán
 
 Testeri síce používajú pri testovaní nástroje (pozri <#section:test-tools>), ale je dôležité si uvedomiť, že testovanie je hlavne intelektuálna činnosť. Pri nej je potrebné, aby testeri mali špecializované znalosti, používali analytické zručnosti a aplikovali kritické a systémové myslenie ([@myers2011art],[@roman2018thinking]).
 
-Testeři sice používají při testování nástroje (viz), ale je důležité si uvědomit, že testování je hlavně intelektuální činnost. Při ní je potřebné, aby testeři měli specializované znalosti, používali analytické dovednosti a aplikovali kritické a systémové myšlení ([@myers2011art],[@roman2018thinking]).
-
 Ďalšie informácie o konceptoch testovania softvéru možno nájsť v norme ČSN ISO/IEC/IEEE 29119-1 [@ISO29119-1].
 
 ### Typické ciele testovania {#typical-testing-objectives}

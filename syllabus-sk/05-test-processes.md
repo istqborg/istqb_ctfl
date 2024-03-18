@@ -147,7 +147,7 @@ Produktové riziká, ak sa vyskytnú, môžu mať rôzne negatívne dôsledky, n
 
 ### Analýza produktových rizík {#product-risks-analysis}
 
- hľadiska testovania je cieľom analýzy produktových rizík poskytnúť povedomie o produktových rizikách so zámerom nasmerovať testovacie úsilie tak, aby došlo k minimalizácii miery zostávajúcich rizík. V ideálnom prípade začína analýza produktových rizík v ranej fáze SDLC. Analýza produktových rizík sa skladá z identifikácie a ohodnotenie rizík.
+ hľadiska testovania je cieľom analýzy produktových rizík poskytnúť povedomie o produktových rizikách so zámerom nasmerovať testovacie úsilie tak, aby došlo k minimalizácii miery zostávajúcich rizík. V ideálnom prípade začína analýza produktových rizík v ranej fáze SDLC. Analýza produktových rizík sa skladá z identifikácie a ohodnotenia rizík.
 
 **Identifikácia rizík** spočíva vo vytvorení komplexného zoznamu rizík. Zainteresované strany môžu identifikovať riziká pomocou rôznych techník a nástrojov, napr. brainstormingu, workshopov, rozhovorov alebo diagramov príčin a následkov.
 
@@ -202,7 +202,7 @@ Medzi typické testovacie metriky patria:
 * metriky o postupe projektu (napr. dokončenie úlohy, využitie zdrojov, úsilie potrebné na testovanie),
 * metriky o postupe testovania (napr. postup implementácie testovacích prípadov, postup prípravy testovacích prostredí, počet spustených / nespustených testovacích prípadov, počet vykonaných testov, ktoré prešli / zlyhali, doba vykonania testu),
 * metriky týkajúce sa kvality produktu (napr. dostupnosť, doba odozvy, stredná doba medzi poruchami),
-* metriky nad defektmi (napr. počet a priority zistených / opravených defektov, hustota defektov - defect density , percento odhalených defektov – defect detection percentage, DPP),
+* metriky nad defektmi (napr. počet a priority zistených / opravených defektov, hustota defektov - defect density, percento odhalených defektov – defect detection percentage, DPP),
 * metriky nad rizikami (napr. miera zostávajúcich rizík),
 * metriky pokrytia (napr. pokrytie požiadaviek, pokrytie kódu),
 * metriky týkajúce sa nákladov (napr. náklady na testovanie, náklady na kvalitu v rámci organizácie).
@@ -291,4 +291,4 @@ Report o defekte zaznamenaná počas dynamického testovania obvykle obsahuje:
 * stav defektu (napr. otvorený, odložený, duplicitný, čakajúci na opravu, čakajúci na konfirmačné testovanie, znovu otvorený, uzavretý, zamietnutý),
 * odkazy (napr. na testovací prípad).
 
-Niektoré z týchto informácií môžu byť automaticky vkladané nástrojom pre manažment defektov (napr. identifikátor, dátum, autor a počiatočný stav). Šablóny dokumentov pre report o defekte a príklady reportov o defekte možno nájsť v norme STN ISO/IEC/IEEE 29119-3 [@ISO29119-3] (norma však používa termín správa o incidente).
+Niektoré z týchto informácií môžu byť automaticky vkladané nástrojom pre manažment defektov (napr. identifikátor, dátum, autor a počiatočný stav). Šablóny dokumentov pre report o defekte a príklady reportov o defekte možno nájsť v norme STN ISO/IEC/IEEE 29119-3 [@ISO29119-3]. Norma však používa termín správa o incidente.

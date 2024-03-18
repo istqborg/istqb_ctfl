@@ -26,7 +26,7 @@ Aj keď môže byť vykonanie revízií nákladné, celkové náklady na projekt
 
 Niektoré defekty v kóde je možné odhaliť pomocou statickej analýzy oveľa efektívnejšie ako pri dynamickom testovaní, čo obvykle vedie k ich menšiemu počtu a tým aj nižšej celkovej náročnosti pri vývoji.
 
-### Rozdíly mezi statickým a dynamickým testováním
+### Rozdiely medzi statickým a dynamickým testovaním
 
 Statické a dynamické testovacie postupy sa vzájomne dopĺňajú. Majú podobné ciele (napr. odhaľovanie defektov v pracovných produktoch, pozri <#section:typical-testing-objectives>), ale existujú medzi nimi aj určité rozdiely, napríklad:
 
@@ -64,7 +64,7 @@ Mnohé pracovné produkty sú tak rozsiahle, že ich nemožno pokryť iba jedino
 
 * **Plánovanie**. Počas fázy plánovania sa stanoví rozsah revízie obsahujúci definíciu účelu a revidovaného pracovného produktu, kvalitatívne charakteristiky pre vyhodnotenie, oblasti záujmu, výstupné kritériá, doplňujúce informácie (napr. normy), potrebné úsilie a časový rámec celej revízie.
 * **Začatie revízie**. Počas začatia revízie je cieľom zabezpečiť, aby bolo všetko (vrátane zainteresovaných strán) pripravené na revíziu. To okrem iného vyžaduje, aby mal každý účastník prístup k revidovanému pracovnému produktu, rozumel svojej úlohe a zodpovednostiam a dostal všetko potrebné na vykonanie revízie.
-* **Individuálna revízia**. Každý revidujúci reviduje definovaný pracovný produkt individuálne s cieľom posúdiť jeho kvalitu a identifikovať anomálie, odporúčania a otázky pomocou jednej alebo viacerých techník revízie (napr. revízia založená na kontrolnom zozname, revízia podľa scenárov– pozri norma ISO/IEC 20246 [@ISO20246]). Revidujúci zaznamenáva všetky zistené anomálie, odporúčania a otázky.
+* **Individuálna revízia**. Každý revidujúci reviduje definovaný pracovný produkt individuálne s cieľom posúdiť jeho kvalitu a identifikovať anomálie, odporúčania a otázky pomocou jednej alebo viacerých techník revízie (napr. revízia založená na kontrolnom zozname, revízia podľa scenárov – pozri normu ISO/IEC 20246 [@ISO20246]). Revidujúci zaznamenáva všetky zistené anomálie, odporúčania a otázky.
 * **Komunikácia a analýza**. Nie každá anomália identifikovaná počas revízie musí byť nutne defekt. Preto je nutné všetky takéto anomálie analyzovať a prediskutovať a pri každej by sa malo rozhodnúť o jej stave, vlastníctve a požadovaných opatreniach. To sa zvyčajne vykonáva pri revíznej schôdzke, počas ktorej účastníci tiež diskutujú o úrovni kvality každého revidovaného pracovného produktu a aké následné opatrenia sú vyžadované. Na uzatvorenie opatrení môže byť vyžadovaná ďalšia revízia.
 * **Opravy a reportovanie**. Aby bolo možné vykonať nápravu, mala by byť pre každý defekt vytvorený report o defekte. Pri splnení daných výstupných kritérií môže byť pracovný produkt akceptovaný a výsledky revízie sú podané v správe.
 
