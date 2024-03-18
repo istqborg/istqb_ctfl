@@ -391,10 +391,10 @@ questions:
       Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests.
       What is the minimal number of test cases to achieve 100% EP coverage?
     answers:
-      a: 3
-      b: 4
-      c: 5
-      d: 6
+      a: '3'
+      b: '4'
+      c: '5'
+      d: '6'
     correct: b
     explanation: |
       “Small garden” and “large garden” can go only with “ground floor”, so we need two test cases with “ground floor” which cover these two “garden type” partitions. We need two more test cases to cover the two other “floor” partitions and a remaining ”garden type” partition of “no garden”. 
@@ -474,10 +474,10 @@ questions:
       <TBD IMAGE>
       What is the MINIMAL number of test cases to achieve valid transitions coverage?    
     answers:
-      a: 4
-      b: 2
-      c: 7
-      d: 3
+      a: '4'
+      b: '2'
+      c: '7'
+      d: '3'
     correct: d
     explanation: |
       “test” and “error” transitions cannot occur in one test case. Neither can both “done” transitions. This means we need at least three test cases to achieve transition coverage. For example:
