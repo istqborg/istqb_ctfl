@@ -1,0 +1,64 @@
+\documentclass{istqb}
+\usepackage{markdown}
+\markdownSetup{
+  import = {
+    istqb/syllabus = metadata
+  }
+}
+
+% Metadata
+\markdownInput[snippet=metadata]{syllabus-sk/metadata.yml}
+
+% References
+\addbibresource{syllabus-sk/bibliography.bib}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright Notice
+\markdownInput{syllabus-sk/copyright.md}
+
+% Revision History
+\markdownInput[texComments]{syllabus-sk/revisions.md}
+
+% Table of Contents
+\istqbtableofcontents
+
+% Document Text
+\markdownInput{syllabus-sk/acknowledgments.md}
+\markdownInput{syllabus-sk/00-introduction.md}
+\markdownInput{syllabus-sk/01-intro.md}
+\markdownInput{syllabus-sk/01-quality-assistance.md}
+\markdownInput{syllabus-sk/02-intro.md}
+\markdownInput{syllabus-sk/02-improve-quality.md}
+\markdownInput{syllabus-sk/03-intro.md}
+\markdownInput{syllabus-sk/03-continuous-improvement.md}
+\markdownInput{syllabus-sk/04-intro.md}
+\markdownInput{syllabus-sk/04-organizational-test-strategy.md}
+\markdownInput{syllabus-sk/05-intro.md}
+\markdownInput{syllabus-sk/05-test-processes.md}
+\markdownInput{syllabus-sk/06-intro.md}
+\markdownInput{syllabus-sk/06-testing-tools.md}
+
+% Appendices
+% \begin{istqbappendices}
+%   \markdownInput{syllabus-sk/apx-a-example.md}
+% \end{istqbappendices}
+
+
+% Bibliography
+\nocite{*}  % Include references that are not cited in the text
+\printistqbbibliography
+
+% List of Tables
+% \listoftables
+
+% List of Figures
+% \listoffigures
+
+% Index
+% \printindex
+
+\end{document}
