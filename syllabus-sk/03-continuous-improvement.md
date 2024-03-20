@@ -18,7 +18,7 @@ Pracovné produkty, ktoré nie sú vhodné na statické testovanie, sú obvykle 
 
 ### Prínosy statického testovania
 
-Statické testovanie môže odhaliť defekty v najskorších fázach SDLC, čím napĺňa princíp včasného testovania (pozri <#section:testing-principles). Môže tiež odhaliť defekty, ktoré nemožno zistiť dynamickým testovaním (napr. nedosiahnuteľný kód, chybne implementované návrhové vzory, defekty v nespustiteľných pracovných produktoch).
+Statické testovanie môže odhaliť defekty v najskorších fázach SDLC, čím napĺňa princíp včasného testovania (pozri <#section:testing-principles>). Môže tiež odhaliť defekty, ktoré nemožno zistiť dynamickým testovaním (napr. nedosiahnuteľný kód, chybne implementované návrhové vzory, defekty v nespustiteľných pracovných produktoch).
 
 Statické testovanie vytvára dôveru v dané pracovné produkty a umožňuje vyhodnotiť ich kvalitu. Verifikáciou zdokumentovaných požiadaviek môžu zainteresované strany tiež zabezpečiť, že tieto požiadavky odrážajú ich skutočné potreby. Vzhľadom na to, že statické testovanie môže byť vykonávané v raných fázach SDLC, je možné nastaviť pravidlá jednotného chápania (napr. požiadaviek), čím sa tiež zlepší komunikácia medzi zainteresovanými stranami. Z tohto dôvodu sa odporúča zapojiť do statického testovania rôzne typy účastníkov.
 

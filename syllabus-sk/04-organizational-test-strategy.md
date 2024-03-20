@@ -151,7 +151,7 @@ Známym metodickým prístupom k implementácii odhadovania chýb je útok na va
 
 Viac informácií o odhadovaní chýb a útokoch na vady nájdete v [@whittaker2003break], [@whittaker2009exploratory], [@andrews2006break].
 
-### #### Prieskumné testovanie
+### Prieskumné testovanie
 
 Pri prieskumnom testovaní sú testy súčasne navrhované, vykonávané a vyhodnocované, zatiaľ čo testeri získavajú znalosti o testovanom objekte. Testovanie sa (okrem iného) používa k získaniu ďalších informácií o testovanom objekte, na jeho hlbšie preskúmanie pomocou cielených testov a na vytvorenie testov pre netestované oblasti.
 
